@@ -17,17 +17,9 @@ Since we only have a short time together in class, I have prepared some pre-work
 	- This may take a few hours to complete. Knowing programming **is not** a prerequisite for this course, but having experience with some of the basic concepts will help things move a little more smoothly. Please set aside some time to complete the first five lessons of this tutorial before coming to class.
 	- You don't have to purchase a "pro" subscription (which unlocks quizzes in the lesson). If you think the quizzes will help you better understand the content, feel free to get a one month subscription. I won't be looking at or grading the quizzes though, they are purely optional.
 
-### Additional  Instructions for Windows Users
+### Additional Instructions for Windows Users
 
-This course will require us to use a Unix shell which is included in the Linux and Mac operating systems. Fortunately, Microsoft has included the bash shell in the latest version of Windows 10.
-
-* Enable Bash for Windows 10 [[instructions](http://www.windowscentral.com/how-install-bash-shell-command-line-windows-10)]
-
-If you are an advanced user, there are a few other optional setups that will work just as well. I would only recommend these if you have time to fiddle with your computer settings and find joy in teaching your computer new tricks. You can:
-
-1. If your computer is fast enough, run Ubuntu [inside a virtual machine](http://www.psychocats.net/ubuntu/virtualbox).
-2. Run Ubuntu [off of a flash drive](https://unetbootin.github.io/).
-3. [Dual boot](https://help.ubuntu.com/community/WindowsDualBoot) Linux and Windows on your computer.
+This course will require us to use a Unix shell which is included in the Linux and Mac operating systems. Since it can be hard to debug many different computers with different configurations, I ask that all Windows users please come with Ubuntu installed. There are a few different options for installing Ubuntu, please see the guide here: [windows.md](windows.md)
 
 ## Suggested Readings
 The suggested pre-readings for the course are on the topics of scrum and agile software development. During the course, we will discuss the benefits of agile and its adoption in delivering government services. We will also experiment with adopting some of the principles of "scrum", one of many agile and iterative software development strategies, to our learning over the course of the week of in-class instruction and into the project.

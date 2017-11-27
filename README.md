@@ -16,4 +16,5 @@ file | description
 -----|------------
 [syllabus.pdf](syllabus.pdf) | Syllabus
 [precoursework.md](precoursework.md) | Pre-work
+[windows.md](windows.md) | Special instructions for Windows users.
 [setup.md](setup.md) | Setup
