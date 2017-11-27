@@ -11,7 +11,7 @@ Since we only have a short time together in class, I have prepared some pre-work
 * Fill out the [pre-course survey](https://docs.google.com/forms/d/e/1FAIpQLSdSCZS-Hs4oD6yvFxUipPiEVmNv-dCM5RuZKsqKdLXWII9ZZQ/viewform?usp=sf_link) if you haven't already.
 * Make a [github account](https://github.com/join)
 * Make a [trello account](https://trello.com/invite/hkstech/68e9ac67073bcad9ad75137048ab3b2b)
-* Join Slack. You should have recieved an invitation via email to join the slack team. We will use slack to communicate during the course. I will be available on Slack at least once a day until the course to answer any questions you might have with the pre-work. If you have not received the email invite, please email me.
+* Join Slack. You should have recieved an invitation via email to join the slack team. We will use slack to communicate during the course. I will be available on Slack at least a few times a week until the course to answer any questions you might have with the pre-work. If you have not received the email invite, please email me.
 	* Introduce yourself to the class in the `#general` channel in slack. Please also include your github username and trello username in your introduction as well as a little bit about yourself and your interest in technology.
 * Do first five lessons of the CodeCademy Python Tutorial [[Lesson 1-5](https://www.codecademy.com/learn/learn-python)]
 	- This may take a few hours to complete. Knowing programming **is not** a prerequisite for this course, but having experience with some of the basic concepts will help things move a little more smoothly. Please set aside some time to complete the first five lessons of this tutorial before coming to class.
