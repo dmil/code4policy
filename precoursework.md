@@ -21,7 +21,7 @@ Since we only have a short time together in class, I have prepared some pre-work
 This course will require us to use a Unix shell which is included in the Linux and Mac operating systems. Since it can be hard to debug many different computers with different configurations, I ask that all Windows users please come with Ubuntu installed. There are a few different options for installing Ubuntu, please see the guide here: [windows.md](windows.md)
 
 ## Optional Readings
-The suggested pre-readings for the course are on the topics of scrum and agile software development. During the course, we will discuss the benefits of agile and its adoption in delivering government services. We will also experiment with adopting some of the principles of "scrum", one of many agile and iterative software development strategies, to our learning over the course of the week of in-class instruction and into the project.
+The optional pre-readings for the course are on the topics of scrum and agile software development. During the course, we will discuss the benefits of agile and its adoption in delivering government services. We will also experiment with adopting some of the principles of "scrum", one of many agile and iterative software development strategies, to our learning over the course of the week of in-class instruction and into the project.
 
 * SCRUM: A Breathtaking Brief and Agile Introduction - Chris sims and Hillary Louise Johnson] [[~20 minute read](https://www.amazon.com/Scrum-Breathtakingly-Brief-Agile-Introduction/dp/193796504X)]
 * The Agile Manifesto [[~1 minute read](http://agilemanifesto.org/)]
