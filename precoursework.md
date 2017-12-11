@@ -20,8 +20,8 @@ This course will require us to use a Unix shell which is included in the Linux a
 ## Optional Readings
 The optional pre-readings for the course are on the topics of scrum and agile software development. During the course, we will discuss the benefits of agile and its adoption in delivering government services. We will also experiment with adopting some of the principles of "scrum", one of many agile and iterative software development strategies, to our learning over the course of the week of in-class instruction and into the project.
 
-* SCRUM: A Breathtaking Brief and Agile Introduction - Chris sims and Hillary Louise Johnson] [[~20 minute read](https://www.amazon.com/Scrum-Breathtakingly-Brief-Agile-Introduction/dp/193796504X)]
+* SCRUM: A Breathtaking Brief and Agile Introduction - Chris Sims and Hillary Louise Johnson] [[~20 minute read](https://www.amazon.com/Scrum-Breathtakingly-Brief-Agile-Introduction/dp/193796504X)]
 * The Agile Manifesto [[~1 minute read](http://agilemanifesto.org/)]
-* Elements of Scrum [[full book](https://www.amazon.com/gp/product/B004O0U74Q/ref=oh_aui_d_detailpage_o00_?ie=UTF8&psc=1)]	- This reading is very optional. I would recommend the first four chapters through "Agile Values and Principles". If you're interested in knowing more about scrum though, feel free to read on and learn through google and/or youtube videos.
+* Elements of Scrum [[full book](https://www.amazon.com/gp/product/B004O0U74Q/ref=oh_aui_d_detailpage_o00_?ie=UTF8&psc=1)]	- This reading is very optional. I would recommend the first four chapters through "Agile Values and Principles". If you're interested in knowing more about scrum though, feel free to read on and learn through Google and/or Youtube videos.
 
 The kindle editions of these books are cheaper and can be read electronically on your browser through the [kindle cloud reader](https://read.amazon.com/) even if you don't own a kindle.
