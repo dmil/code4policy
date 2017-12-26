@@ -3,14 +3,14 @@
 ## Mac
 
 1. Install the Homebrew package manager from: [http://brew.sh/](http://brew.sh/)
-2. In the terminal run the following command to update your package manager. 
+2. In the terminal run the following command to update your package manager.
 
 	`brew update`
 
-2. Install the "tree" command
+3. Install the "tree" command
 
 	`brew install tree`
-	
+
 4. Install git
 
 	`brew install git`
@@ -41,7 +41,7 @@
 	sudo apt-get install python
 	sudo apt-get install python-pip
 	```
-	
+
 ## Windows
 
 Please see instructions to boot Ubuntu on Windows ([windows.md](windows.md)). Once you've loaded and run Ubuntu, please follow the Ubuntu instructions above.
