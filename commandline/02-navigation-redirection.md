@@ -52,6 +52,8 @@ In the same example above, the absolute path to the Documents folder would be `/
 
 ### Navigating
 
+#### `cd`
+
 To navigate to different directories within your filesystem, you can use the `cd` (**c**hange **d**irectory) command. `cd` takes one positional argument, the absolute or relative path to the destination directory.
 
 ```
@@ -60,20 +62,24 @@ cd <target_directory>
 
 `cd ..` will move you "up" one directory (to the parent directory) and `cd ~` will move you back to the "home" directory.
 
-## Manipulating
+#### `ls`
 
-The command line not only lets you navigate the file system but also manipulate it by listing directories (`ls`), viewing files (`cat`), creating new files (`touch`), creating directories (`mkdir`), deleting files and directories (`rm -i`, `rm -ir`), copying files and directories (`cp -v`, `cp -vR`), move/rename files and directories (`mv`), and more...
+In order to **l**i**s**t the contents of the current directory you can use `ls`. 
 
-##### `ls`
-* **l**i**s**ts files and subdirectories in your working directory
 * `ls -a` lists **a**ll files, including hidden files
 * `ls -l` lists the files in a **l**ong format with extra information (permissions, size, last modified date, etc.)
 * `ls *` also lists the contents of subdirectories (one level deep) in your working directory
 * `ls <path>` lists files in a specific directory (without changing your working directory)
 
-### `cat`
-* print to screen the contents of a file
+#### `cat`
+
+You can view the contents of an individual file by using `cat`. `cat` will print contents of a file to the screen.
+
 * usage: `cat <filename>`
+
+## Manipulating
+
+The command line not only lets you navigate the file system but also manipulate it by creating new files (`touch`), creating directories (`mkdir`), deleting files and directories (`rm -i`, `rm -ir`), copying files and directories (`cp -v`, `cp -vR`), move/rename files and directories (`mv`), and more...
 
 ### `touch`
 * `touch <filename>` creates an empty file called `<filename>`
