@@ -169,7 +169,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * prints your computer's name to the terminal
 
 ### `echo`
-* example usage: `echo "Hello, World!"`
+* example usage: `echo "Hello, World"`
 * prints a text string (denoted by quotes) to the terminal
 
 ### `man`
@@ -180,3 +180,9 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 ### `uname`
 * example usage: `uname -a`
 * shows you the operating system name
+
+### `curl`
+* example usage 1: `curl 'https://api.ipify.org'`
+* example usage 2: `curl 'http://dhrumilmehta.com'`
+* downloads and shows you the source code of a website
+
