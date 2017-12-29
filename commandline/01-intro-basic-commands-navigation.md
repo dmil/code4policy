@@ -144,10 +144,9 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * press `q` to quit
 * usage: `man <name_of_command>`
 
-* shows you the operating system name### `uname`
-
+### `uname`
+* shows you the operating system name
 * usage: `uname -a`
-
 
 ### `curl`
 * downloads and shows you the source code of a website

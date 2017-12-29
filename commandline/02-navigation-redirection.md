@@ -94,7 +94,7 @@ The command line not only lets you navigate the file system but also manipulate 
 
 #### `cp -v`
 * `cp -v <filename> <new_path>` **c**o**p**ies a *file* from its current location to `<newpath>`, leaving the original file unchanged. The `-v` is for verbose mode
-* `cp -vR <dirname> <new_path>?` copies a *directory* **r**ecursively to `<newpath>`
+* `cp -vR <dirname> <new_path>` copies a *directory* **r**ecursively to `<newpath>`
 
 #### `mv`
 * `mv <filename> <new path>` **m**o**v**es a file from its current location to `<new path>`
