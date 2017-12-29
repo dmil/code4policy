@@ -14,7 +14,12 @@ This command gives the *absolute* path to your current working directory.
 
 ### File paths
 
-A **relative path** specifies the path to a file or folder, taking into account your current working directory. For example, if you were to give someone "relative" directions to your house, you would give them directions from their current location (the relative path from where they are to where you are). In the context of your filesystem, the current directory is referred to as `.`. The parent directory is referred to as `..`.
+A **relative path** specifies the path to a file or folder, taking into account your current working directory. For example, if you were to give someone "relative" directions to your house, you would give them directions from their current location (the relative path from where they are to where you are).
+
+A few directories have special symbols:
+- `.` current directory
+- `..` parent directory
+- `~` home directory
 
 ```
 .
