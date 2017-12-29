@@ -97,19 +97,24 @@ This command will keep going on forever sending packets of data to google.com an
 ping -c 5 google.com
 ```
 
-The output should look similar to:
+Another option on `ping` is `-a` which makes each ping audible.
 
 ```
-PING google.com (172.217.7.14): 56 data bytes
-64 bytes from 172.217.7.14: icmp_seq=0 ttl=55 time=15.656 ms
-64 bytes from 172.217.7.14: icmp_seq=1 ttl=55 time=13.808 ms
-64 bytes from 172.217.7.14: icmp_seq=2 ttl=55 time=12.510 ms
-64 bytes from 172.217.7.14: icmp_seq=3 ttl=55 time=12.845 ms
-64 bytes from 172.217.7.14: icmp_seq=4 ttl=55 time=10.901 ms
+ping -a google.com
+```
 
---- google.com ping statistics ---
-5 packets transmitted, 5 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 10.901/13.144/15.656/1.567 ms
+You can also have multiple options at the same time.
+
+```
+ping -a -c 5 google.com
+```
+
+This command can also be written as `ping -ac 5 google.com` as a shorthand, but make sure the 5 comes after the `-c`.
+
+Another option that can be used with `ping` is the `-i` (interval) option. This will cause ping to wait some number of seconds between each iteration.
+
+```
+ping -ai 2 -c 5 google.com
 ```
 
 You can use the `man` command to understand all the different options that can be used with `ping`.
@@ -119,44 +124,6 @@ man ping
 ```
 
 Use your arrow keys to move up and down and press `q` to exit the man page.
-
-The output should look like:
-
-```man
-PING(8)                   BSD System Manager's Manual                  PING(8)
-
-NAME
-     ping -- send ICMP ECHO_REQUEST packets to network hosts
-
-SYNOPSIS
-     ping [-AaCDdfnoQqRrv] [-b boundif] [-c count] [-G sweepmaxsize] [-g sweepminsize] [-h sweepincrsize] [-i wait]
-          [-k trafficclass] [-K netservicetype] [-l preload] [-M mask | time] [-m ttl] [-P policy] [-p pattern]
-          [-S src_addr] [-s packetsize] [-t timeout] [-W waittime] [-z tos] [--apple-connect] [--apple-time] host
-     ping [-AaDdfLnoQqRrv] [-b boundif] [-c count] [-I iface] [-i wait] [-k trafficclass] [-K netservicetype] [-l preload]
-          [-M mask | time] [-m ttl] [-P policy] [-p pattern] [-S src_addr] [-s packetsize] [-T ttl] [-t timeout]
-          [-W waittime] [-z tos] [--apple-connect] [--apple-time] mcast-group
-
-DESCRIPTION
-     The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host
-     or gateway.  ECHO_REQUEST datagrams (``pings'') have an IP and ICMP header, followed by a ``struct timeval'' and then
-     an arbitrary number of ``pad'' bytes used to fill out the packet.  The options are as follows:
-
-     -A      Audible.  Output a bell (ASCII 0x07) character when no packet is received before the next packet is transmit-
-             ted.  To cater for round-trip times that are longer than the interval between transmissions, further missing
-             packets cause a bell only if the maximum number of unreceived packets has increased.
-
-     -a      Audible.  Include a bell (ASCII 0x07) character in the output when any packet is received.  This option is
-             ignored if other format options are present.
-...
-```
-
-As we can see from reading the documentation above, if we use the `-a` flag, `ping` will beep on each iteration.
-
-```
-ping -a google.com
-```
-
-Sure enough, running the command will make your computer start beeping.
 
 Now that you have an understanding of option/flags vs. positional arguments, let's check out some other basic commands you can use on the command line.
 
@@ -169,20 +136,22 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * prints your computer's name to the terminal
 
 ### `echo`
-* example usage: `echo "Hello, World"`
 * prints a text string (denoted by quotes) to the terminal
+* usage: `echo "Hello, World"`
 
 ### `man`
-* example usage: `man <name_of_command>`
 * shows you the **man**ual page - get help on how to use any command
 * press `q` to quit
+* usage: `man <name_of_command>`
 
-### `uname`
-* example usage: `uname -a`
-* shows you the operating system name
+* shows you the operating system name### `uname`
+
+* usage: `uname -a`
+
 
 ### `curl`
-* example usage 1: `curl 'https://api.ipify.org'`
-* example usage 2: `curl 'http://dhrumilmehta.com'`
 * downloads and shows you the source code of a website
+* usage 1: `curl 'https://api.ipify.org'`
+# usage 2: `curl 'http://example.org'`
+* usage 3: `curl 'http://dhrumilmehta.com'`
 
