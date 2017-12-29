@@ -29,38 +29,12 @@ Parallels to [Design Thinking](https://dschool.stanford.edu/groups/k12/wiki/17cf
 
 **Responding to change** over following a plan
 
-<!--
-2. Review Software Development Lifecyle & Iterative Development
-3. Agile vs Scrum
-4. Review Agile Mainfesto
-5. Review Scrum
-	- roles
-		- product owner
-		- scrum master
-		- team member
-	- artifacts
-		- product backlog
-		- sprint backlog
-		- burn chart
-		- task board
-		- definition of done
-	- meetings
-		- daily scrum
-		- storytime
-		- sprint review
-		- retrospective
-6. Introduce the Scrummy Class
-	- User Stories for the Class
-	- Agile Activity
--->
-
-
 ### Agile Principles
 [12 principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 
 ### An Agile J-Term
 Split up into 4 teams:
-	
+
 - 5 minutes of research on your topic
 - 10 minutes of discussion about how that might apply to the course
 - share that with the rest of the class
@@ -70,15 +44,15 @@ Split up into 4 teams:
 
 Much of government traditionally operates in the waterfall style.
 
-> Policy --> 
-> Requirements Gathering/Design --> 
-> Procurement/Contracts/etc --> 
-> Development --> 
+> Policy -->
+> Requirements Gathering/Design -->
+> Procurement/Contracts/etc -->
+> Development -->
 > Press release
 
 Some agencies are pushing for more agile development.
 
-Agile is still nacent, but gaining momemtum. Like a baby holding onto the railing and learning to walk. -
+Its still nacent, but gaining momemtum. Like a baby holding onto the railing and learning to walk. -
 [David Zvenyach](https://www.linkedin.com/in/vdavez) (Executive
 Director of 18F)
 
@@ -95,18 +69,37 @@ A toolset for Agile Software Development
 ### Meetings / Ceremonies
 
 - Sprint Planning
+	- What will we do?
+		- Product owner proposes user stories to tackle
+		- Team decides on which stories they'll commit to in this sprint
+	- How will we do it?
+		- User stories split up into tasks
+		- Tasks are placed in sprint backlog
 - Daily Scrum
+	- Daily, max 15 mins
+	- 3 simple questions
+		- What have you been working on since the last meeting?
+		- What are you working on between now and the next meeting?
+		- What are your blockers?
 - Story Time
+	- "Grooming" your backlog
+	- Stories "values" for burndown decided upon (planning poker)
+	- Larger, abstract, further away stories are split and hashed out
+	- Acceptance criteria are defined and refined
 - Sprint Review
+	- Demonstrate the stories that got done during the sprint to all stakeholders
 - Retrospective
+	- Identify 1 or 2 strategic changes for the next sprint, quick + and Δ
 
 ### Artifacts
 
-- Product Backlog
+- Product Backlog (List of User Stories)
 - Sprint Backlog
-- Task Board
+- Task Board (trello)
+	- ICEBOX, TODO, DOING, BLOCKED, DONE
+	- can customize based on your definition of done (multiple stages of done?)
 - Burn Chart
-- Definition of Done 
+- Definition of Done
 
 ### Scrum Teams
 
@@ -124,14 +117,11 @@ https://read.amazon.com/
 2. Come up with user stories
 
 	http://agileforall.com/new-to-agile-invest-in-good-user-stories/
-	
+
 	* 2 as yourself
 	* 1 as other "users" (in our case stakeholders)
 
 3. Come up with a definition of "Done" on the back of each card
-
-
-
 
 
 ## While you wait
