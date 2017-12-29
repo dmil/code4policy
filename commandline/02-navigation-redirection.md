@@ -110,38 +110,38 @@ In your home directory, make a folder called `Development`. This is where we wil
 
 1. In the `Development` folder, create a new folder called `universe` and create the following structure of files and folders.
 
-	```
-		solar_system/
-			planets/
-				mercury.txt
-				venus.txt
-				earth/
-					continents/
-						africa.txt
-						asia.txt
-						australia.txt
-						europe.txt
-						north_america/
-							countries/
-								united_states.txt
-								canada.txt
-								mexico.txt
-						south_america.txt
-						antarctica.txt
-				mars.txt
-				asteroid_belt.txt
-				jupiter.txt
-				saturn.txt
-				uranus.txt
-				neptune.txt
-				pluto.txt
-			stars/
-				sun.txt
-	```
+    ```
+    solar_system/
+        planets/
+            mercury.txt
+            venus.txt
+            earth/
+                continents/
+                    africa.txt
+                    asia.txt
+                    australia.txt
+                    europe.txt
+                    north_america/
+                        countries/
+                            united_states.txt
+                            canada.txt
+                            mexico.txt
+                    south_america.txt
+                    antarctica.txt
+            mars.txt
+            asteroid_belt.txt
+            jupiter.txt
+            saturn.txt
+            uranus.txt
+            neptune.txt
+            pluto.txt
+        stars/
+            sun.txt
+    ```
 
 2. Delete asteroid belt, since that isn't a planet.
 
-3. Move pluto to a folder called "other"
+3. Move pluto to a folder called "other".
 
 ## Redirection and Piping
 
