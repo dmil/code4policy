@@ -85,18 +85,18 @@ The command line not only lets you navigate the file system but also manipulate 
 * `touch <filename>` creates an empty file called `<filename>`
 * This is useful for creating empty files to be edited at a later time.
 
-##### `mkdir`
+### `mkdir`
 * `mkdir <dirname>` **m**a**k**es a new **dir**ectory called `<dirname>`
 
-##### `rm -i`
+### `rm -i`
 * `rm -i <filename>` removes files in **i**nteractive mode, in which you are prompted to confirm that you really want to delete the file. It's best to always use `rm -i`
 * `rm -ir <dirname>` removes a directory and **r**ecursively deletes all of its contents
 
-##### `cp -v`
+### `cp -v`
 * `cp -v <filename> <new_path>` **c**o**p**ies a *file* from its current location to `<newpath>`, leaving the original file unchanged. The `-v` is for verbose mode
 * `cp -vR <dirname> <new_path>?` copies a *directory* **r**ecursively to `<newpath>`
 
-##### `mv`
+### `mv`
 * `mv <filename> <new path>` **m**o**v**es a file from its current location to `<new path>`
 * `mv <filename> <new filename>` renames a file without changing its location
 
