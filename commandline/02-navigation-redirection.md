@@ -1,4 +1,4 @@
-# Command Line 2
+# Command Line 2 
 
 ## Navigating File Structure
 
@@ -77,34 +77,34 @@ You can view the contents of an individual file by using `cat`. `cat` will print
 
 * usage: `cat <filename>`
 
-## Manipulating
+### Manipulating
 
 The command line not only lets you navigate the file system but also manipulate it by creating new files (`touch`), creating directories (`mkdir`), deleting files and directories (`rm -i`, `rm -ir`), copying files and directories (`cp -v`, `cp -vR`), move/rename files and directories (`mv`), and more...
 
-### `touch`
+#### `touch`
 * `touch <filename>` creates an empty file called `<filename>`
 * This is useful for creating empty files to be edited at a later time.
 
-### `mkdir`
+#### `mkdir`
 * `mkdir <dirname>` **m**a**k**es a new **dir**ectory called `<dirname>`
 
-### `rm -i`
+#### `rm -i`
 * `rm -i <filename>` removes files in **i**nteractive mode, in which you are prompted to confirm that you really want to delete the file. It's best to always use `rm -i`
 * `rm -ir <dirname>` removes a directory and **r**ecursively deletes all of its contents
 
-### `cp -v`
+#### `cp -v`
 * `cp -v <filename> <new_path>` **c**o**p**ies a *file* from its current location to `<newpath>`, leaving the original file unchanged. The `-v` is for verbose mode
 * `cp -vR <dirname> <new_path>?` copies a *directory* **r**ecursively to `<newpath>`
 
-### `mv`
+#### `mv`
 * `mv <filename> <new path>` **m**o**v**es a file from its current location to `<new path>`
 * `mv <filename> <new filename>` renames a file without changing its location
 
-## Try It
+### Try It
 
 Take some time to cd around and explore your filesystem. See what is at the root, see if you can find some of the files you use daily.
 
-## Try It
+### Try It
 
 In your home directory, make a folder called `Development`. This is where we will keep all of the code for the class.
 
