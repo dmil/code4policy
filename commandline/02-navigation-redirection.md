@@ -38,7 +38,13 @@ A few directories have special symbols:
 
 In the example above, if I was in the Downloads folder and I wanted the relative path to the Documents folder, that would be `../Documents`.
 
-**Pop Quiz**: If you are in the Downloads folder, what folder is: `../../mehtad/./Downloads/../Documents`?
+**Pop Quiz**: If you are in the Downloads folder, what folder is:
+
+- `../`
+- `../../`
+- `../../mehtad/`
+- `../../mehtad/./`
+- `../../mehtad/./Downloads/../Documents`
 
 An **absolute path** specifies the complete path to a file or folder, ignoring your current working directory. For example, if you were to give someone "absolute" directions to your house, you would start by telling them to be on earth, then go to your continent, then go to your country, then go to your region, etc. The root of the filesystem is referred to as `/`.
 
