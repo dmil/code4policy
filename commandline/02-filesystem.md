@@ -120,18 +120,18 @@ Last, when reading long files page by page (like when using `man`), you can use 
 * `less <filename>` allows you to page or scroll through the file
 * Hit the spacebar to go down a page, use the arrow keys to scroll up and down, and hit `q` to exit.
 
-##### `subl`
+#### `subl`
 
 If you don't have Sublime Text installed, run `brew cask install sublime-text` on macOS and on ubuntu follow [these](http://tipsonubuntu.com/2017/05/30/install-sublime-text-3-ubuntu-16-04-official-way/) instructions.
 
 * `subl <folder>` **open**s the folder in sublime
 * `subl <filepath>` **open**s the file in sublime
 
-##### `open` (mac only)
+#### `open` (mac only)
 * `open <folder>` **open**s the Finder in the folder specified
 * `open <filepath>` **open**s a url or file in the default mac program
 
-##### `wc`
+#### `wc`
 * count the number of lines and characters in a file
 * `wc <path>` **w**ord**c**ount
 * `wc -l <path>` only counts lines
@@ -218,14 +218,14 @@ In your home directory, make a folder called `Development`. This is where we wil
 
 ### Finding Files and Folders
 
-##### `find`
+#### `find`
 * `find <path> -name <name>` will recursively search the specified path (and its subdirectories) and **find** files and directories with a given `<name>`
     * Use `.` for the `<path>` to refer to the working directory.
 * For the `<name>`, you can search for an exact match, or use wildcard characters to search for a partial match:
     * `*` specifies any number of any characters, such as `find . -name *.py` or `find . -name *data*.*`
     * `?` specifies one character, such as `find . -name ??_*.*`
 
-##### `grep`
+#### `grep`
 * `grep <pattern> <filename>` searches a file for a **r**egular **e**xpression **p**attern and prints the matching lines
     * The pattern should be in quotation marks to allow for multiple words.
     * The pattern is case-sensitive by default, but you can use the `-i` option to **i**gnore case.
