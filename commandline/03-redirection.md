@@ -31,13 +31,13 @@ Pipes the results from `command1` as input to `command2`, and then the results o
 1. Redirect a fact about planet mars into the mars.txt.
 
 ```
-echo "Mars has an 80 day year." > ~/Development/universe/solar_system/planets/mars.txt
+echo "Mars is red." > ~/Development/universe/solar_system/planets/mars.txt
 ```
 
 2. Add another mars fact to mars.txt.
 
 ```
-echo "Mars is red." >> ~/Development/universe/solar_system/planets/mars.txt
+echo "Mars has an 687 day year." >> ~/Development/universe/solar_system/planets/mars.txt
 ```
 
 3. Cat the contents of mars.txt.
