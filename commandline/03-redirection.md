@@ -122,7 +122,9 @@ Configure slackcat by running this command and following the instructions in you
 slackcat --configure
 ```
 
-Now let's use slackchat to send a simple message to the #section-a or #section-b channel.
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+
+Let's use slackchat to send a simple message to the #section-a or #section-b channel.
 
 ```
 echo "hello world" | slackcat -c section-a
