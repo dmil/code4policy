@@ -154,6 +154,10 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * usage 2: `curl 'http://example.org'`
 * usage 3: `curl 'http://dhrumilmehta.com'`
 
+### `clear`
+* **clear**s all output from your console
+* on macOS, you can also press `Ctrl+L` to clear your console while retaining history or `Cmd-K` to clear console while deleting the history. `Ctrl+L` should work on Ubuntu as well.
+
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. print your username to the command line using `whoami`

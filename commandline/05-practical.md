@@ -1,16 +1,5 @@
 # Command Line 4
 
-## Downloading and manipulating data
-
-TODO
-
-##### `clear`
-* **clear**s all output from your console
-* on macOS, you can also press `Ctrl+L` to clear your console while retaining history or `Cmd-K` to clear console while deleting the history. `Ctrl+L` should work on Ubuntu as well.
-
-##### `tar`
-* example usage 1: `tar -cvf temp.tar `
-
 ## CSVKit, Sed, Awk, Data Manipulation
 
 For the future, there is CSVKit: [https://csvkit.readthedocs.io/en/1.0.1/](https://csvkit.readthedocs.io/en/1.0.1/)
