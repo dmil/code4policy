@@ -42,7 +42,7 @@ for row in reader:
 2. Redirect the output to a file called `output.csv`.
 3. Write a short description. It can be as short as two sentences.
 4. Put it in a file called `description.txt`.
-5. Slackcat the contents of `descrption.txt` as **NOT** a snippet to the `#assignments` slack channel:
+5. Slackcat the contents of `descrption.txt` to the `#assignments` slack channel:
 
 	```
 	cat description.txt | slackcat -s -c assignments
