@@ -6,33 +6,27 @@
 * `<command> > <filename>` takes the output of `<command>` and saves it in `<filename>`
 * This will overwrite the file if it already exists.
 
-
 ##### `>>` Redirecting Input
-* `<command> >> <filename>` takes the output of `<command>` and appends it to `<filename>`
+* `<command> >> <filename>` takes the output of `<command>` and appends it to the end of the content of `<filename>`
 * This will create the file if it does not yet exist.
 
-
 ##### `|` Piping
-* `<command 1> | <command 2>` pipes the results from `<command 1>` into `<command 2>`, and then the results of `<command 2>` are printed to the console
-
+* `<command 1> | <command 2>` pipes the results from `<command 1>` as input to `<command 2>`, and then the results of `<command 2>` are printed to the console
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Congress's Expenditures 2015 Q4
-> http://assets.sunlightfoundation.com.s3.amazonaws.com/expenditures/house/2015Q4-detail.csv
-
-Mirror for 2015 data only
+Congress's Expenditures 2015
 
 >https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q1-detail.csv
 >https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q2-detail.csv
 >https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q3-detail.csv
 >https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q4-detail.csv
 
-1. Find the headers in one of these files
-2. Look at the bottom of the file
-3. Count the number of rows in the file
-4. Count the number of rows in the file containing the word "Water"
-5. Return only the congressional spending rows containing the word "Water" and redirect the output into a file
+1. Print just the header in one of these files
+2. Look at the bottom 5 lines of one of these files
+3. Count the number of rows in one of these files
+4. Count the number of rows in one of the files containing the word "Water"
+5. Return only the congressional spending rows containing the word "Water" in one of the files and redirect the output into a file
 6. Select an office or a member of congress. Grab all 4 quarters of 2015 spending for that person and combine them into one file.
 
 ### Bonus
@@ -99,7 +93,6 @@ curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q4-
 ```
 
 Notice that use of `>>` allows us to keep appending to the same file.
-
 
 Super Duper Bonus
 

@@ -95,9 +95,10 @@ If you don't have `tree` installed, on macOS run `brew install tree` and on ubun
 
 #### `cat`
 
-You can view the contents of an individual file by using `cat`. `cat` will print the entire content of a file to the screen.
+You can view the contents of an individual file (or files) by using `cat`. `cat` will print the entire content of a file to the screen.
 
 * usage: `cat <filename>`
+* usage: `cat <filename1> <filename2> ...`
 
 #### `head`
 
