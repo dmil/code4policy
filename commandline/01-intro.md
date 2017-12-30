@@ -183,3 +183,8 @@ for a given command, its usually either
 [http://stackoverflow.com/](http://stackoverflow.com/)
 ### also, know when to reach out to someone...
 don't go down rabbit holes trying to figure something out if there is someone who knows better nearby and you've already tried the three things above, they might be able to save you a lot of stress. I'm always happy to help out.
+
+## Dangers
+
+The terminal is a powerful tool (especially in linux)
+[http://www.howtogeek.com/125157/8-deadly-commands-you-should-never-run-on-linux/](http://www.howtogeek.com/125157/8-deadly-commands-you-should-never-run-on-linux/)
