@@ -11,6 +11,18 @@ Many Unix-like operating systems have arisen over the years, of which Linux is t
 * [https://en.wikipedia.org/wiki/History_of_Unix](https://en.wikipedia.org/wiki/History_of_Unix)
 * [http://www.howtogeek.com/182649/htg-explains-what-is-unix/](http://www.howtogeek.com/182649/htg-explains-what-is-unix/)
 
+## Stdin & Stdout (& Stderr)
+Originally I/O happened via a physically connected system console (input via keyboard, output via monitor), but standard streams abstract this. When a command is executed via an interactive shell, the streams are typically connected to the text terminal on which the shell is running, but can be changed with redirection, e.g. via a pipeline. - [https://en.wikipedia.org/wiki/Standard_streams](https://en.wikipedia.org/wiki/Standard_streams)
+
+![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig02.jpg)
+
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+
+![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig03.jpg)
+
+Figure 5-3 By default, standard input comes from the keyboard, and standard output goes to the screen
+
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
 
 ## Operating System Concepts
 
@@ -96,3 +108,34 @@ Error Codes other than 1 and 0 are more rare, but here are some examples: http:/
 2. Use `ps aux` to see all processes
 3. Grep for the name of your web browser to see how much memory it is using up. To see the column headers, you can pipe the processes into `head`, to filter the data use `grep`
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Discuss what this is doing with a fellow mac user, then do it
+
+First run this in the terminal: ```touch ~/.bash_profile```
+
+Then open your `~/.bash_profile` file and place the following snippet at the bottom
+
+```
+PS1='\[\033[01;32m\]\h\[\033[01;34m\] \w #\[\033[00m\] '
+```
+
+This exports the environment variable `PS1` which controls how your terminal display looks. All of the code inside your `~/.bash_profile` file is run every time you open a terminal.
+
+Modifying the `PS1` environment variable as you just did creates this nice prompt that tells you where you are as you move around directories:
+
+![](https://www.evernote.com/shard/s150/sh/3d3a8926-0860-4ccc-9577-1d75647e775c/eb541349138e8ca7/res/9fbf1858-d65c-46bc-a655-b0e2543e5154/skitch.png?resizeSmall&width=832)
