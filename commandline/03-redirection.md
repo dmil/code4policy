@@ -15,19 +15,19 @@
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: redirection
 
-2. Redirect a fact about planet mars into the mars.txt.
+1. Redirect a fact about planet mars into the mars.txt.
 
 ```
 echo "Mars has an 80 day year." > ~/Development/universe/solar_system/planets/mars.txt
 ```
 
-3. Add another mars fact to mars.txt.
+2. Add another mars fact to mars.txt.
 
 ```
 echo "Mars is red." >> ~/Development/universe/solar_system/planets/mars.txt
 ```
 
-4. Cat the contents of mars.txt.
+3. Cat the contents of mars.txt.
 
 ```
 cat ~/Development/universe/solar_system/planets/mars.txt
@@ -38,7 +38,7 @@ cat ~/Development/universe/solar_system/planets/mars.txt
 Count the number of characters in the string "hello world" using `wc`.
 
 ```
-echo -n "hello world" | wc -c
+echo "hello world" | wc -c
 ```
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
