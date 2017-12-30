@@ -154,7 +154,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 
 1. Make a file called `sayhello.py` in a new folder called `assignments` within `~/Development`.
 
-	```
+	```bash
 	cd ~/Development/
 	mkdir assignments
 	cd assignments
@@ -187,7 +187,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 
 This program below will add 1 to the input on STDIN.
 
-```
+```python
 #!/usr/bin/env python2
 import sys
 input_number = sys.stdin.read()
