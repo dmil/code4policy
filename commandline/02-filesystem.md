@@ -142,9 +142,8 @@ If you don't have Sublime Text installed, run `brew cask install sublime-text` o
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. Take some time to cd around and explore your filesystem. See what is at the root, see if you can find some of the files you use daily.
-2. Navigate to your desktop and run the `tree` command
-3. Navigate to your downloads folder and run the `ls -l` command to see information about every item in that folder.
-4. Navigate to your applications folder and run the `ls -a` command to see every app you have on your mac.
+2. Navigate to `~/Desktop` and run both `ls -a` and `tree` 
+3. Navigate to `~/Downloads` and run the `ls -l` command to see information about every item in that folder
 
 hint! - are you lost? don't know what to type next?
 
@@ -237,7 +236,13 @@ In your home directory, make a folder called `Development`. This is where we wil
     * Hit `Ctrl + c` if you want to cancel the search.
 * Much more complex string-matching patterns can be used (which we will cover in a future class).
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Exercise
 
 1. `cd` into the `universe` folder
-2. `grep` all files with a particular extension (for example `*.txt`)
+2. `find` all files with a particular extension (for example `*.txt`)
+
+#### Solution
+
+```
+find . -name "*.txt"
+```

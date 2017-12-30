@@ -13,14 +13,18 @@
 ##### `|` Piping
 * `<command 1> | <command 2>` pipes the results from `<command 1>` as input to `<command 2>`, and then the results of `<command 2>` are printed to the console
 
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Exercise
+
+count number of files in a folder
+
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Congress's Expenditures 2015
+House Office Expenditure Data: https://projects.propublica.org/represent/expenditures
 
->https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q1-detail.csv
->https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q2-detail.csv
->https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q3-detail.csv
->https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q4-detail.csv
+Download the 2017 Q2 expenditure data
+
+https://projects.propublica.org/congress/assets/staffers/2017Q2-house-disburse-detail.csv
+
 
 1. Print just the header in one of these files
 2. Look at the bottom 5 lines of one of these files
@@ -34,6 +38,7 @@ Bonus points if you can do it all without creating four files. (Creating only on
 
 Super duper bonus points if you can do it all in one line.
 
+<!--
 ### Solutions
 
 Create a new folder called `congress` and download the data:
@@ -102,6 +107,8 @@ curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q{1
 
 Some more advance usage of curl, downloads from all URLs matching the pattern.
 
+-->
+
 ## Slackcat
 
 Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page [http://slackcat.chat/](http://slackcat.chat/) for instructions.
@@ -112,13 +119,20 @@ Configure slackcat by running this command and following the instructions in you
 slackcat --configure
 ```
 
-when you're done, the browser will display something like this (except with a real token), go ahead and run that command.
-
-```
-echo "your-token-goes-here" > ~/.slackcat
-```
-
 lets stop there and discuss what just happened
+
+
+
+```
+echo "hello" | slackcat -c testing
+```
+
+```
+echo "hello" | slackcat -t -s -c testing
+```
+
+
+figure out how to not snippet
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
