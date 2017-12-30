@@ -151,7 +151,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 ### `curl`
 * downloads and shows you the source code of a website
 * usage 1: `curl 'https://api.ipify.org'`
-# usage 2: `curl 'http://example.org'`
+* usage 2: `curl 'http://example.org'`
 * usage 3: `curl 'http://dhrumilmehta.com'`
 
 ## Try It
