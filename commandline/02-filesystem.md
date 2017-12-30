@@ -84,7 +84,7 @@ In order to **l**i**s**t the contents of the current directory you can use `ls`.
 * `ls *` also lists the contents of subdirectories (one level deep) in your working directory
 * `ls <path>` lists files in a specific directory (without changing your working directory)
 
-##### `tree`
+#### `tree`
 
 If you don't have `tree` installed, on macOS run `brew install tree` and on ubuntu run `sudo apt-get install tree`.
 
