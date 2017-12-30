@@ -49,7 +49,8 @@ Check out all of your environment variables
 
 * `which echo` for example, will tell you where the echo command is located, it will be within one of the folders specified in `$PATH` otherwise you would have to call it explicitly every time as `/bin/echo`
 
-### Try It (together)
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: permanently setting an environment variable
+
 Lets modify an environment variable in side your your `~/.bash_profile` (macOS) or `~/.bashrc` (Ubuntu).
 
 1. First `touch ~/.bash_profile` (macOS) or `touch ~/.bashrc` (Ubuntu) in the terminal. This will create an empty file in your home folder if one doesn't already exist. If the file does exist, the touch command won't modify it's contents.
@@ -148,7 +149,7 @@ ls -l
 
 source: [http://linuxcommand.org/lts0070.php](http://linuxcommand.org/lts0070.php)
 
-1. Look at permissions inside `~/code/solar_system/planets`
+1. Look at permissions inside `~/Development/universe/solar_system/planets`
 2. Look at permissions inside `/Applications` - notice how those are executable while the planets files are not.
 
 #### Changing a file's permissions
@@ -167,3 +168,49 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 [http://unix.stackexchange.com/questions/3063/how-do-i-run-a-command-as-the-system-administrator-root](http://unix.stackexchange.com/questions/3063/how-do-i-run-a-command-as-the-system-administrator-root)
 
 ![](https://imgs.xkcd.com/comics/sandwich.png)
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+
+1. Make a file called `sayhello.py` in a new folder called `assignments` within `~/Development`.
+
+	```
+	cd ~/Development/
+	mkdir assignments
+	cd assignments
+	touch sayhello.py
+	```
+
+2. Open `sayhello.py` and type the following python program:
+
+	```python
+	#!/usr/bin/env python
+	import sys
+	name = sys.stdin.read()
+	print "Hello " + name + "!"
+	```
+
+3. Make sayhello.py executable.
+
+	```
+	chmod +x sayhello.py
+	```
+
+4. Run this program.
+
+	```
+	echo -n "John" | ./sayhello.py
+	```
+
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+This program below will add 1 to the input on STDIN.
+
+```
+#!/usr/bin/env python2
+import sys
+input_number = sys.stdin.read()
+print int(input_number) + 1
+```
+
+Save this program as a file called `add1.py`, chmod it, and execute it.
