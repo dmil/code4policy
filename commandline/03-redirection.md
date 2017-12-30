@@ -63,6 +63,48 @@ cd ~/Development/universe
 find . -type f | wc -l
 ```
 
+## Slackcat
+
+Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page [http://slackcat.chat/](http://slackcat.chat/) for instructions.
+
+Configure slackcat by running this command and following the instructions in your web browser:
+
+```
+slackcat --configure
+```
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+
+Let's use slackchat to send a simple message to the `#scratchwork` channel.
+
+```
+echo "hello world" | slackcat -c scratchwork
+```
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Notice how the message is being sent as a snippet. Figure out how to send a normal, non-snippet, message using slackcat.
+
+<!--
+echo "hello" | slackcat -t -s -c scratchwork
+-->
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. Count the number of files and folders in the `~/Development/universe/solar_system/planets` directory and send this to the person sitting next to you using slackcat. Use only one line and piping. You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message.
+
+<!--
+cd ~/Development/universe/solar_system/planets
+ls | wc -l | slackcat -s -c scratchwork
+-->
+
+2. In the `~/Development/universe` directory, run `ls`, pipe the output of that into slackcat and send it to the `#scratchwork` channel. This time, make sure to send it as a snippet.
+
+<!-- 
+cd ~/Development/universe/solar_system
+tree | slackcat -c scratchwork
+-->
+
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping and redirection
 
 House Office Expenditure Data: https://projects.propublica.org/represent/expenditures
@@ -112,46 +154,8 @@ House Office Expenditure Data: https://projects.propublica.org/represent/expendi
     cat 2017Q2-house-disburse-detail.csv | grep -i technology >> technology.csv
     ```
 
-## Slackcat
+10. Grep a word of your choice and send the first 5 lines to #scratchwork channel on slack.
 
-Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page [http://slackcat.chat/](http://slackcat.chat/) for instructions.
-
-Configure slackcat by running this command and following the instructions in your web browser:
-
-```
-slackcat --configure
-```
-
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
-
-Let's use slackchat to send a simple message to the `#section-a` or `#section-b` channel.
-
-```
-echo "hello world" | slackcat -c section-a
-```
-
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
-
-Notice how the message is being sent as a snippet. Figure out how to send a normal, non-snippet, message using slackcat.
-
-<!--
-echo "hello" | slackcat -t -s -c testing
--->
-
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
-
-Count the number of files and folders in the `~/Development/universe/solar_system/planets` directory and send this to the person sitting next to you using slackcat. Use only one line and piping.
-
-You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message.
-
-<!--
-cd ~/Development/universe/solar_system/planets
-ls | wc -l | slackcat -t -s -c dhrumil
--->
-
-2. In the `~/Development/universe` directory, run the `tree` command, pipe the output of that into slackcat and send it to the `#section-a` or `#section-b` channel. Make sure to not send it a snippet, but rather as a stream.
-
-<!-- 
-cd ~/Development/universe/solar_system
-tree | slackcat -t -s -c dhrumil
--->
+    ```
+    cat 2017Q2-house-disburse-detail.csv | grep -i technology | head -n 5 | slackcat --filename technology.csv -c scratchwork
+    ```
