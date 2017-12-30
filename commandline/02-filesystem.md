@@ -236,13 +236,25 @@ In your home directory, make a folder called `Development`. This is where we wil
     * Hit `Ctrl + c` if you want to cancel the search.
 * Much more complex string-matching patterns can be used (which we will cover in a future class).
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Exercise
+### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. `cd` into the `universe` folder
-2. `find` all files with a particular extension (for example `*.txt`)
+`find` all files in the `universe` folder with a particular extension (for example `*.txt`)
 
 #### Solution
 
 ```
+cd ~/Development/universe
 find . -name "*.txt"
 ```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+`find` all **folders** in the `universe` folder. use `man find` to figure out how to get folders only.
+
+<!--
+    
+Solution
+
+find . -type d
+
+-->
