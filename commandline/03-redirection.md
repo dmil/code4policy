@@ -3,15 +3,28 @@
 ## Redirection & Piping
 
 ##### `>` Redirecting output to file
-* `<command> > <filename>` takes the output of `<command>` and saves it in `<filename>`
-* This will overwrite the file if it already exists.
+
+```
+<command> > <filename>
+```
+
+Takes the output of `<command>` and saves it in `<filename>`. This will overwrite the file if it already exists.
 
 ##### `>>` Redirecting output and appending to file
-* `<command> >> <filename>` takes the output of `<command>` and appends it to the end of the content of `<filename>`
-* This will create the file if it does not yet exist.
+
+```
+<command> >> <filename>
+```
+
+Takes the output of `<command>` and appends it to the end of the content of `<filename>`. This will create the file if it does not yet exist.
 
 ##### `|` Piping
-* `<command 1> | <command 2>` pipes the results from `<command 1>` as input to `<command 2>`, and then the results of `<command 2>` are printed to the console
+
+```
+<command 1> | <command 2>
+```
+
+Pipes the results from `<command 1>` as input to `<command 2>`, and then the results of `<command 2>` are printed to the console.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: redirection
 
