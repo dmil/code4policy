@@ -46,4 +46,5 @@ for row in reader:
 	```
 	cat description.txt | slackcat -s -c assignments
 	```
-6. You will learn how to submit the output csv via github tomorrow.
+6. Pipe `output.csv` into `csvstat` and redirect that into a file called `summary.txt`.
+7. You will learn how to submit summary.txt and output.csv via github tomorrow.
