@@ -56,7 +56,7 @@ Lets modify an environment variable in side your your `~/.bash_profile` (macOS) 
 
 2. Then open your `~/.bash_profile` (macOS) or `~/.bashrc` (Ubuntu) file and place the following snippet at the bottom. This exports the environment variable PS1 which controls how your terminal display looks. All of the code inside this file is run every time you open a terminal.
 
-	```
+	```bash
 	# Define a function that returns your current git branch
 	parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
