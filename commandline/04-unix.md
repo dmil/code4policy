@@ -39,8 +39,7 @@ echo $MY_VAR
 
 Note how the environment variable is no longer defined once you exit out of the shell and reopen it. The `~/.bash_profile` file is run every time you open a shell. You can store variables that you would like to persist in there.
 
-Check out all of your environment variables
-`printenv | less`
+Check out all of your environment variables: `printenv`
 
 * some basic ones [http://www.ee.surrey.ac.uk/Teaching/Unix/unix8.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unix8.html)
 
@@ -68,8 +67,7 @@ Lets modify an environment variable in side your your `~/.bash_profile` (macOS) 
 	```
 
 3. Close and reopen the terminal to see the change. Modifying the PS1 environment variable as you just did creates this nice prompt that tells you where you are as you move around directories:
-
-![](https://www.evernote.com/shard/s150/sh/d72e8c94-7e02-4185-b098-d89be0fbbe62/67e7c7d6f27a7790/res/0ba8eb13-4413-4ee0-8f9f-f1d211f5968a/skitch.png?resizeSmall&width=832)
+	![](https://www.evernote.com/shard/s150/sh/d72e8c94-7e02-4185-b098-d89be0fbbe62/67e7c7d6f27a7790/res/0ba8eb13-4413-4ee0-8f9f-f1d211f5968a/skitch.png?resizeSmall&width=832)
 
 4. Modify PS1 within the existing shell (instead of in the bashrc/bash_profile). Notice that since we didn't add this to the bashrc/bash_profile it doesn't persist when we open a new tab.
 
