@@ -50,7 +50,7 @@ cd ~/Development/universe
 find . -type f | wc -l
 ```
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping and redirection
 
 House Office Expenditure Data: https://projects.propublica.org/represent/expenditures
 

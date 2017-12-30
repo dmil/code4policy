@@ -238,7 +238,7 @@ In your home directory, make a folder called `Development`. This is where we wil
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-`find` all files in the `universe` folder with the `.txt` extension.
+`find` all items in the `universe` folder with the `.txt` extension.
 
 ```
 cd ~/Development/universe
