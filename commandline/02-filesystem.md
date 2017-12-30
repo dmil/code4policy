@@ -53,7 +53,7 @@ In the example above, if I was in the Downloads folder and I wanted the relative
 
 In the same example above, the absolute path to the Documents folder would be `/Users/mehtad/Documents`.
 
-#### Pop Quiz
+#### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Pop Quiz
 
 If you are in the Downloads folder, what folder is:
 
