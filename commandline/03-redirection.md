@@ -2,7 +2,7 @@
 
 ## Redirection & Piping
 
-##### `>` Redirecting output to file
+##### Redirecting output to file: `>`
 
 ```
 command > filename
@@ -10,7 +10,7 @@ command > filename
 
 Takes the output of `command` and saves it in `filename`. This will overwrite the file if it already exists.
 
-##### `>>` Redirecting output and appending to file
+##### Redirecting output and appending to file: `>>`
 
 ```
 command >> filename
@@ -18,7 +18,7 @@ command >> filename
 
 Takes the output of `command` and appends it to the end of the content of `filename`. This will create the file if it does not yet exist.
 
-##### `|` Piping
+##### Piping: `|`
 
 ```
 command1 | command2
