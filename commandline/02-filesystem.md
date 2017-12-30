@@ -239,6 +239,5 @@ In your home directory, make a folder called `Development`. This is where we wil
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. `cd` into a folder with some files in it
-2. Count the number of files by piping the output of `ls` into `wc` with the correct flags
-3. search for all files with a particular extension using grep (for example `*.txt`)
+1. `cd` into the `universe` folder
+2. `grep` all files with a particular extension (for example `*.txt`)
