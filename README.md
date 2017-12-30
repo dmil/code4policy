@@ -25,21 +25,22 @@ file | description
 -----|------------
 [welcome.md](welcome.md) | Introduction
 [agilescrum.md](agilescrum.md) | Agile & Scrum
-[commandline.md](commandline.md) | Command Line and Unix
-[github.md](github.md) | Intro to Git & GitHub
+[commandline](commandline) | Command Line and Unix
 
 ## Homework
 
 file | description
 -----|------------
-[python_homework.md](python_homework.md) | Python Homework
-[github_homework.md](github_homework.md) | GitHub Homework
+[agilescrumreading.md](agilescrumreading.md) | Agile Reading
 [projectplanning.md](projectplanning.md) | Project Planning Guide
 [Project Group Form](https://goo.gl/forms/oAqhlJBltIi2oAYA3) | Project Group Form
+[commandline_homework.md](commandline_homework.md) | Command Line Homework
+[Try Git](https://try.github.io) | Get a Taste of Git
 
 # Day 2
 file | description
 -----|------------
+[github.md](github.md) | Intro to Git & GitHub
 	 | Recap command line
 	 | Recap GitHub
 	 | Intro to the Web
@@ -50,6 +51,7 @@ file | description
 
 file | description
 -----|------------
+[github_homework.md](github_homework.md) | GitHub Homework
 	 | API Readings
 	 | Open Source Readings
 	 | JS For Cats
