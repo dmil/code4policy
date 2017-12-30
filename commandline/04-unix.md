@@ -115,23 +115,6 @@ Additional resource on exit codes:
 
 [http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/](http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/)
 
-Example Bash Script testing exit code (and example of if statement in the shell)
-
-```bash
-#!/bin/bash
-
-# An Invalid Command
-touch /root/test 2> /dev/null
-
-# An if Statement checking the validity of a command
-if [ $? -eq 0 ]
-then
-  echo "Successfully created file"
-else
-  echo "Could not create file"
-fi
-```
-
 
 ## Permissions and `chmod`
 
