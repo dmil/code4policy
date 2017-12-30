@@ -41,6 +41,7 @@ file | description
 file | description
 -----|------------
 [github.md](github.md) | Intro to Git & GitHub
+
 	 | Recap command line
 	 | Recap GitHub
 	 | Intro to the Web
