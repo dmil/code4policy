@@ -34,6 +34,7 @@ for row in reader:
 3. make the script executable (hint: chmod)
 4. `curl` the 2017 quarter 1 expenditure file from https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv and pipe it into `./filter.py`
 5. redirect the output into a file `expensive_water.csv`
+6. pipe `expensive_water.csv` into `csvstat` and redirect that into a file called `expensive_water_summary.txt`
 
 ### Part 2
 
@@ -48,3 +49,11 @@ for row in reader:
 	```
 6. Pipe `output.csv` into `csvstat` and redirect that into a file called `summary.txt`.
 7. You will learn how to submit summary.txt and output.csv via github tomorrow.
+
+### Hints
+
+- in order to pipe an existing file into csvstat, use `cat` to send the contents of the file to stdout first
+- use `./filter.py` to run the program
+	- remember the `.` refers to the current directory, so `./filter.py` means run the `filter.py` script that is located in the current directory
+- make sure filter.py has a shebang on top. the shebang is `#!/usr/bin/env python2`. without the shebang, the shell won't know how to execute your script
+- use the 2017 quarter 1 file, quarter 2 might have some issues
