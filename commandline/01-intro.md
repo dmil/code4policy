@@ -154,3 +154,12 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 # usage 2: `curl 'http://example.org'`
 * usage 3: `curl 'http://dhrumilmehta.com'`
 
+## Try It
+
+1. print your username to the command line using `whoami`
+2. print your hostname to the command line using `hostname`
+3. take a look at the manual page for the `hostname` command
+4. print your hostname without the domain information, then again with the domain information
+5. print "I did it! I'm so cool!" to the terminal using `echo`
+
+**Protip**: Use the ↑ and ↓ arrow keys to navigate previously entered commands.
