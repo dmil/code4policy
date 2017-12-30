@@ -124,7 +124,7 @@ slackcat --configure
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-Let's use slackchat to send a simple message to the #section-a or #section-b channel.
+Let's use slackchat to send a simple message to the `#section-a` or `#section-b` channel.
 
 ```
 echo "hello world" | slackcat -c section-a
@@ -140,14 +140,16 @@ echo "hello" | slackcat -t -s -c testing
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. cd into your planets directory, count the number of files by piping the output of `ls` into `wc`, then pipe the ouptut of that into slackcat and send it as a message to the person sitting next to you. You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message.
+Count the number of files and folders in the `~/Development/universe/solar_system/planets` directory and send this to the person sitting next to you using slackcat. Use only one line and piping.
+
+You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message.
 
 <!--
 cd ~/Development/universe/solar_system/planets
 ls | wc -l | slackcat -t -s -c dhrumil
 -->
 
-2. In the `universe` directory, run the `tree` command, pipe the output of that into slackcat and send it to the #section-a or #section-b channel. Make sure to not send it a snippet, but rather as a stream.
+2. In the `~/Development/universe` directory, run the `tree` command, pipe the output of that into slackcat and send it to the `#section-a` or `#section-b` channel. Make sure to not send it a snippet, but rather as a stream.
 
 <!-- 
 cd ~/Development/universe/solar_system
