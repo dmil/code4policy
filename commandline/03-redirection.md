@@ -101,3 +101,36 @@ curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q{1
 ```
 
 Some more advance usage of curl, downloads from all URLs matching the pattern.
+
+## Slackcat
+
+Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page [http://slackcat.chat/](http://slackcat.chat/) for instructions.
+
+Configure slackcat by running this command and following the instructions in your web browser:
+
+```
+slackcat --configure
+```
+
+when you're done, the browser will display something like this (except with a real token), go ahead and run that command.
+
+```
+echo "your-token-goes-here" > ~/.slackcat
+```
+
+lets stop there and discuss what just happened
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. cd into your planets directory, count the number of files by piping the output of `ls` into `wc`, then pipe the ouptut of that into slackcat and send it as a message to the person sitting next to you. You can use the --noop flag to first test it out without sending the message, then you can remove it to send the message.
+
+	hint:
+
+	```
+	cd ~/Development/universe/solar_system/planets
+	ls | wc -l | slackcat -t -s -p -c dhrumil --noop
+	```
+
+	talk to the person sitting next to you about what this is doing.
+
+2. in the `solar_system` directory, run the `tree` command, pipe the output of that into slackcat and send it to the #r-learning-group channel on slack. Make sure to not send it a snippet, but rather as a stream. You can test this out first by slacking yourself.

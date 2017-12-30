@@ -163,3 +163,19 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 5. print "I did it! I'm so cool!" to the terminal using `echo`
 
 **Protip**: Use the ↑ and ↓ arrow keys to navigate previously entered commands.
+
+## Figuring out New Commands
+
+### You can always check the manual page for complete documentation
+for a given command, its usually either
+
+- `man <command>`
+- `<command> --help`
+- or `<command> -h`
+
+### if its not easy to figure out from there, try Google
+[https://www.google.com/](https://www.google.com/)
+### ...StackOverflow is also your friend
+[http://stackoverflow.com/](http://stackoverflow.com/)
+### also, know when to reach out to someone...
+don't go down rabbit holes trying to figure something out if there is someone who knows better nearby and you've already tried the three things above, they might be able to save you a lot of stress. I'm always happy to help out.
