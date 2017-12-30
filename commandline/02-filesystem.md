@@ -138,7 +138,7 @@ If you don't have Sublime Text installed, run `brew cask install sublime-text` o
 * `wc -w <path>` only counts words. A "word" is defined as any set of characters delimited by a space.
 * `wc -c <path>` only counts characters
 
-### Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. Take some time to cd around and explore your filesystem. See what is at the root, see if you can find some of the files you use daily.
 2. Navigate to your desktop and run the `tree` command
@@ -174,7 +174,7 @@ The command line not only lets you navigate the file system but also manipulate 
 * `mv <filename> <new path>` **m**o**v**es a file from its current location to `<new path>`
 * `mv <filename> <new filename>` renames a file without changing its location
 
-### Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 In your home directory, make a folder called `Development`. This is where we will keep all of the code for the class.
 
@@ -236,7 +236,7 @@ In your home directory, make a folder called `Development`. This is where we wil
     * Hit `Ctrl + c` if you want to cancel the search.
 * Much more complex string-matching patterns can be used (which we will cover in a future class).
 
-### Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. `cd` into a folder with some files in it
 2. Count the number of files by piping the output of `ls` into `wc` with the correct flags

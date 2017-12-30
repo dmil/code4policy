@@ -16,9 +16,7 @@
 * `<command 1> | <command 2>` pipes the results from `<command 1>` into `<command 2>`, and then the results of `<command 2>` are printed to the console
 
 
-
-
-## Try It
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Congress's Expenditures 2015 Q4
 > http://assets.sunlightfoundation.com.s3.amazonaws.com/expenditures/house/2015Q4-detail.csv
