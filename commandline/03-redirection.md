@@ -2,112 +2,102 @@
 
 ## Redirection & Piping
 
-##### `>` Redirecting Output
+##### `>` Redirecting output to file
 * `<command> > <filename>` takes the output of `<command>` and saves it in `<filename>`
 * This will overwrite the file if it already exists.
 
-##### `>>` Redirecting Input
+##### `>>` Redirecting output and appending to file
 * `<command> >> <filename>` takes the output of `<command>` and appends it to the end of the content of `<filename>`
 * This will create the file if it does not yet exist.
 
 ##### `|` Piping
 * `<command 1> | <command 2>` pipes the results from `<command 1>` as input to `<command 2>`, and then the results of `<command 2>` are printed to the console
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Exercise
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: redirection
 
-count number of files in a folder
+2. Redirect a fact about planet mars into the mars.txt.
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+```
+echo "Mars has an 80 day year." > ~/Development/universe/solar_system/planets/mars.txt
+```
+
+3. Add another mars fact to mars.txt.
+
+```
+echo "Mars is red." >> ~/Development/universe/solar_system/planets/mars.txt
+```
+
+4. Cat the contents of mars.txt.
+
+```
+cat ~/Development/universe/solar_system/planets/mars.txt
+```
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
+
+Count the number of characters in the string "hello world" using `wc`.
+
+```
+echo -n "hello world" | wc -c
+```
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
+
+Count number of **files** in the `universe` folder.
+
+```
+cd ~/Development/universe
+find . -type f | wc -l
+```
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
 House Office Expenditure Data: https://projects.propublica.org/represent/expenditures
 
-Download the 2017 Q2 expenditure data
+1. Let's start a new directory for the house expenditure data.
 
-https://projects.propublica.org/congress/assets/staffers/2017Q2-house-disburse-detail.csv
+    ```
+    cd ~/Development
+    mkdir house-expenditure
+    cd house-expenditure
+    ```
 
+4. Download the Q2 2017 expenditure detail data and pipe it into a file.
 
-1. Print just the header in one of these files
-2. Look at the bottom 5 lines of one of these files
-3. Count the number of rows in one of these files
-4. Count the number of rows in one of the files containing the word "Water"
-5. Return only the congressional spending rows containing the word "Water" in one of the files and redirect the output into a file
-6. Select an office or a member of congress. Grab all 4 quarters of 2015 spending for that person and combine them into one file.
+    ```
+    curl "https://projects.propublica.org/congress/assets/staffers/2017Q2-house-disburse-detail.csv" > 2017Q2-house-disburse-detail.csv
+    ```
 
-### Bonus
-Bonus points if you can do it all without creating four files. (Creating only one file)
+5. Print the header (first line) of this file.
 
-Super duper bonus points if you can do it all in one line.
+    ```
+    head -n 1 2017Q2-house-disburse-detail.csv
+    ```
 
-<!--
-### Solutions
+6. Print the last 12 lines of this file.
 
-Create a new folder called `congress` and download the data:
+    ```
+    tail -n 12 2017Q2-house-disburse-detail.csv
+    ```
 
-```
-mkdir ~/Development/congress
-cd ~/Development/congress
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q1-detail.csv > 2015Q1-detail.csv
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q2-detail.csv > 2015Q2-detail.csv
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q3-detail.csv > 2015Q3-detail.csv
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q4-detail.csv > 2015Q4-detail.csv
-```
+7. Count the number of lines in this file.
 
-1. Find the headers in one of these files
+    ```
+    cat 2017Q2-house-disburse-detail.csv | wc -l
+    ```
 
-	```
-	head -n1 2015Q1-detail.csv
-	```
+8. Count the number of rows in this file that contains the word "technology" (case insensitive)
 
-2. Look at the bottom of the file
+    ```
+    cat 2017Q2-house-disburse-detail.csv | grep -i technology | wc -l
+    ```
 
-	```
-	tail 2015Q1-detail.csv
-	```
-
-3. Count the number of rows in the file
-
-	```
-	2015Q1-detail.csv | wc -l
-	```
-
-4. Count the number of rows in the file containing the word "Water"
-
-	```
-	cat 2015Q1-detail.csv | grep "WATER" | wc -l
-	```
-
-5. Return only the congressional spending rows containing the word "Water" and redirect the output into a file
-
-	```
-	cat 2015Q1-detail.csv | grep "WATER" > water.csv
-	```
-
-6. Select an office or a member of congress. Grab all 4 quarters of 2015 spending for that person and combine them into one file.
-
-	```
-	cat 2015Q1-detail.csv 2015Q2-detail.csv 2015Q3-detail.csv 2015Q4-detail.csv | grep "PAUL RYAN" > paulryan.csv
-	```
-
-Bonus
-
-```
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q1-detail.csv >> 2015spending.csv
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q2-detail.csv >> 2015spending.csv
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q3-detail.csv >> 2015spending.csv
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q4-detail.csv >> 2015spending.csv
-```
-
-Notice that use of `>>` allows us to keep appending to the same file.
-
-Super Duper Bonus
-
-```
-curl https://raw.githubusercontent.com/AlJohri/house-expenditures/master/2015Q{1,2,3,4}}-detail.csv > 2015spending.csv
-```
-
-Some more advance usage of curl, downloads from all URLs matching the pattern.
-
--->
+9. Return only the rows containing the word "technology" and redirect the output into a file. Keep the header.
+    
+    ```
+    head -1 2017Q2-house-disburse-detail.csv > technology.csv
+    cat 2017Q2-house-disburse-detail.csv | grep -i technology >> technology.csv
+    ```
 
 ## Slackcat
 
@@ -119,32 +109,32 @@ Configure slackcat by running this command and following the instructions in you
 slackcat --configure
 ```
 
-lets stop there and discuss what just happened
-
-
+Now let's use slackchat to send a simple message to the #section-a or #section-b channel.
 
 ```
-echo "hello" | slackcat -c testing
+echo "hello world" | slackcat -c section-a
 ```
-
-```
-echo "hello" | slackcat -t -s -c testing
-```
-
-
-figure out how to not snippet
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. cd into your planets directory, count the number of files by piping the output of `ls` into `wc`, then pipe the ouptut of that into slackcat and send it as a message to the person sitting next to you. You can use the --noop flag to first test it out without sending the message, then you can remove it to send the message.
+Notice how the message is being sent as a snippet. Figure out how to send a normal, non-snippet, message using slackcat.
 
-	hint:
+<!--
+echo "hello" | slackcat -t -s -c testing
+-->
 
-	```
-	cd ~/Development/universe/solar_system/planets
-	ls | wc -l | slackcat -t -s -p -c dhrumil --noop
-	```
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-	talk to the person sitting next to you about what this is doing.
+1. cd into your planets directory, count the number of files by piping the output of `ls` into `wc`, then pipe the ouptut of that into slackcat and send it as a message to the person sitting next to you. You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message.
 
-2. in the `solar_system` directory, run the `tree` command, pipe the output of that into slackcat and send it to the #r-learning-group channel on slack. Make sure to not send it a snippet, but rather as a stream. You can test this out first by slacking yourself.
+<!--
+cd ~/Development/universe/solar_system/planets
+ls | wc -l | slackcat -t -s -c dhrumil
+-->
+
+2. In the `universe` directory, run the `tree` command, pipe the output of that into slackcat and send it to the #section-a or #section-b channel. Make sure to not send it a snippet, but rather as a stream.
+
+<!-- 
+cd ~/Development/universe/solar_system
+tree | slackcat -t -s -c dhrumil
+-->

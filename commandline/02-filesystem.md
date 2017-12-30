@@ -185,19 +185,19 @@ In your home directory, make a folder called `Development`. This is where we wil
     └── solar_system
         ├── planets
         │   ├── asteroid_belt.txt
-        │   ├── continents
-        │   │   ├── africa.txt
-        │   │   ├── antarctica.txt
-        │   │   ├── asia.txt
-        │   │   ├── australia.txt
-        │   │   ├── europe.txt
-        │   │   ├── north_america
-        │   │   │   └── countries
-        │   │   │       ├── canada.txt
-        │   │   │       ├── mexico.txt
-        │   │   │       └── united_states.txt
-        │   │   └── south_america.txt
         │   ├── earth
+        │   │   └── continents
+        │   │       ├── africa.txt
+        │   │       ├── antarctica.txt
+        │   │       ├── asia.txt
+        │   │       ├── australia.txt
+        │   │       ├── europe.txt
+        │   │       ├── north_america
+        │   │       │   └── countries
+        │   │       │       ├── canada.txt
+        │   │       │       ├── mexico.txt
+        │   │       │       └── united_states.txt
+        │   │       └── south_america.txt
         │   ├── jupiter.txt
         │   ├── mars.txt
         │   ├── mercury.txt
@@ -238,9 +238,7 @@ In your home directory, make a folder called `Development`. This is where we wil
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-`find` all files in the `universe` folder with a particular extension (for example `*.txt`)
-
-#### Solution
+`find` all files in the `universe` folder with the `.txt` extension.
 
 ```
 cd ~/Development/universe
@@ -252,9 +250,6 @@ find . -name "*.txt"
 `find` all **folders** in the `universe` folder. use `man find` to figure out how to get folders only.
 
 <!--
-    
-Solution
-
+cd ~/Development/universe
 find . -type d
-
 -->
