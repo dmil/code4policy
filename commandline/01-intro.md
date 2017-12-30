@@ -154,7 +154,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * usage 2: `curl 'http://example.org'`
 * usage 3: `curl 'http://dhrumilmehta.com'`
 
-## Try It
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. print your username to the command line using `whoami`
 2. print your hostname to the command line using `hostname`
