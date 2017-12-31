@@ -84,3 +84,28 @@ For example #471, 468, 461 in #general-forecast
 	```
 
 3. commit the change to the branch
+
+## Collaboration with Branches on GitHub
+
+### Try It
+
+1. Clone my simple website
+2. Checkout a branch for yourself
+	
+	```
+	git checkout -b dhrumils-branch
+	```
+
+3. Inside that branch, convert your name into a link to your github
+
+	so for example instead of 
+	```
+	<li> Mehta, Dhrumil </li>
+	```
+	
+	I would write
+	```
+	<li> <a href="http://github.com/dmil"> Mehta, Dhrumil </a> </li>
+	```
+4. Commit that change
+5. Issue a pull request back to the `master` branch with your change.

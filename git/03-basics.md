@@ -96,3 +96,51 @@ Section borrowed from [AlJohri](https://github.com/AlJohri/DAT-DC-12/blob/master
 	```
 7. Commit this with a meaningful commit message.
 8. Show me the git log
+
+## Tour of Github.com
+
+http://github.com/dmil/
+
+* Your Github Page
+* Social Features
+
+#### Key Terms
+* **github** - a service that hosts git remote repositories, and provides a web app to interact / collaborate on them
+* **remote** - another repository that can be syncronized with a remote
+* **upstream** - the name for a remote read-only repository
+* **origin** - the name for a remote read-and-write repository
+* **clone**  - download an entire remote repository, to be used as a local repository
+* **fetch**  - downloading the set of changes (commits) from a remote repository
+* **pull**   - fetching changes and merging them into the current branch
+
+## Try It (together)
+1. Create a blank github repo for your `python-playground`
+2. Set the remote on your local repo to this new repo on github
+3. Push your repo up to github
+
+## Try It
+1. Create a [blank github repo](https://github.com/new) for your `dhrumil-simple-website` if you haven't already.
+2. Set the remote on your local repo to this new repo on github
+3. Push your repo up to github
+
+## Try It (optional)
+1. cd into your directory `~/Development/universe`
+2. run `pwd` and `ls` to remind yourself where you are and what is there
+3. intitialize a git repository in the folder
+
+	```
+	git init
+	```
+4. add all of the files in this folder to the staging area. The way to add all the files rather than one at a time is:
+	```
+	git add .
+	```
+5. commit this data with the commit message "create a folder structure that represents the universe"
+	```
+	git commit -m "create a folder structure that represents the universe"
+	```
+6. do a `git log` to make sure you committed properly and a `git status` to make sure there are no new changes
+7. Create a [blank github repo](https://github.com/new) called "universe"
+8. set your remotes (follow the instructions in the new github repository)  
+9. check out your repository by refereshing the page in github
+

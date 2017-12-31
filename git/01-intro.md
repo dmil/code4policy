@@ -36,3 +36,10 @@ In developing software, we often want to experiment in adding a feature or
 refactoring (rewriting) existing code. Because git makes it easy to go back to a
 known good state, we can experiment without worrying that we'll be unable to
 undo the experimental work.
+
+### Git, for things other than code
+
+* Auditing system for changes on a file
+* For collaboratively editing a text document
+* [For drafting government web design standards!](https://github.com/18F/web-design-standards)
+* [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
