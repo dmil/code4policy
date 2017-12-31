@@ -43,4 +43,3 @@ sudo apt-get install git
 2. Follow these instructions for connecting to Github via SSH.
 
 https://help.github.com/articles/connecting-to-github-with-ssh/ 
-

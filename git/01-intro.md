@@ -5,7 +5,7 @@
 Keeping track of file versions is hard.
 ![](http://petapixel.com/assets/uploads/2015/07/psdrevisioning.jpg)
 
-#### So what is Git, and why does it help us?
+### So what is Git, and why does it help us?
 Above all else, Git is a fast and **distributed** version control system, that allows you to efficiently handle projects large and small.
 
 Here are some problems we face as developers, and how git solves them:
