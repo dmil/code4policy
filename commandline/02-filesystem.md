@@ -65,6 +65,9 @@ If you are in the Downloads folder, what folder is:
 
 ### Navigating Directories
 
+##### `pwd`
+**p**rints **w**orking **d**irectory (the directory you are currently in)
+
 #### `cd`
 
 To navigate to different directories within your filesystem, you can use the `cd` (**c**hange **d**irectory) command. `cd` takes one positional argument, the absolute or relative path to the destination directory.
