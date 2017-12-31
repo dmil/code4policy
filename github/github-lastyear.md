@@ -1,36 +1,5 @@
 # Git and Github
 
-## Install Git
-
-### Windows 10
-1. Enable [Bash on Ubuntu on Windows](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
-2. Open the "Bash on Ubuntu on Windows"
-3. Follow Ubuntu instructions
-
-### Mac
-1. Install the [Homebrew](http://brew.sh/) Package Manager
-2. Open Terminal, update brew and install git
-
-```
-brew update
-brew install git
-```
-
-### Ubuntu
-
-1. Install Git
-
-```
-sudo apt-get install git
-```
-
-## Set up git
-
-```
-git config --global user.name "YOUR NAME"
-git config --global user.email "YOUR EMAIL ADDRESS"
-```
-
 ## What is Git?
 
 Keeping track of file versions is hard.
