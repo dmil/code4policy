@@ -1,4 +1,4 @@
-# Git 6: Open Source
+# Git 8: Open Source
 
 ## Github and Open Source
 
