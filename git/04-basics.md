@@ -1,7 +1,5 @@
 # Git 4: Basics
 
-## Git
-
 ## Some Vocabulary
 
 * **Git** - version control software
@@ -17,8 +15,7 @@ Within a Repository you have
 * **Staging Area** - a place where you can put files before you commit them. Once files are in the staging area, git is paying attention to them.
 * **Commit Log** (aka Git History) - all of the commits (previous changes) to all of the files in your repository.
 
-
-#### Components of a Git Repository
+## Components of a Git Repository
 
 ![](https://www.evernote.com/shard/s150/sh/3a1357b6-6250-432c-b5be-6bc0a895b97f/0a90b7cfc659e426/res/930e27c8-7194-484b-84f5-d411e15c2bc5/skitch.jpg?resizeSmall&width=832)
 
