@@ -44,3 +44,4 @@
 
 ![](https://i.imgur.com/8EhdwWM.png)
 
+11. Go to username.github.io/myname-simple-website and you should see the HTML page we created
