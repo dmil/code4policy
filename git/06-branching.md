@@ -24,7 +24,7 @@ More on Branches
 
 http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/13
 
-### Try It (Together)
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 1. Look at the branches in your git repo
 
 	```

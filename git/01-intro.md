@@ -37,9 +37,14 @@ refactoring (rewriting) existing code. Because git makes it easy to go back to a
 known good state, we can experiment without worrying that we'll be unable to
 undo the experimental work.
 
-### Git, for things other than code
-
+## Git, for things other than code
 * Auditing system for changes on a file
 * For collaboratively editing a text document
 * [For drafting government web design standards!](https://github.com/18F/web-design-standards)
+* Open [comment period](https://github.com/whitehouse/source-code-policy/issues?q=is%3Aissue+is%3Aclosed) for policy
 * [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
+* Open journalsim showcase
+	* 	https://github.com/showcases/open-journalism
+* Github for Government
+	* https://government.github.com/
+	* https://government.github.com/community/
