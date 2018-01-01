@@ -76,14 +76,18 @@ Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Lea
 
 A dynamic web server might do a lot of things. Check to see if you're logged in, get personalized information, communicate with a database, communicate with other web applications etc.
 
-#### Web Frameworks
+#### Serve Side (backend) Frameworks
 
 Web frameworks are often used to organize code on a dynamic server. Some examples include: 
 
 * **Ruby**: Ruby on Rails, Sinatra
 * **Python**: Django, Flask
-* **JavaScript (nodeJS)**: Angular, React, Backbone, Ember ...
+* **JavaScript (NodeJS)**: Express, Koa, ...
 * Others you may have heard of (like ASP.NET) https://en.wikipedia.org/wiki/Comparison_of_web_frameworks
+
+#### Client Side (frontend) Frameworks
+
+* **Javascript**: React, Angular, Backbone, Ember ...
 
 #### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
