@@ -30,7 +30,7 @@ Navigate to `http://localhost:8000/` in your web browser
 
 #### Localhost
 
-* `127.0.0.1` or `localhost` resolves to *This Computer*
+* `127.0.0.1` or `localhost` resolves to *This Computer* (try running `cat /etc/hosts` in terminal)
 * `0.0.0.0` will also work. It means something slightly different, but we won't get into that. If you want to know, do some googling! There are some decent explanations on stackoverflow.
 
 
