@@ -1,5 +1,11 @@
 # Git 4: SSH and Security
 
+## Setup
+
+Follow these instructions for connecting to Github via SSH.
+
+https://help.github.com/articles/connecting-to-github-with-ssh/ 
+
 ## What is SSH?
 
 Videos:

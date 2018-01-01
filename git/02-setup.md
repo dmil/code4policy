@@ -40,6 +40,3 @@ sudo apt-get install git
 	git config --global user.email "YOUR EMAIL ADDRESS"
 	```
 
-2. Follow these instructions for connecting to Github via SSH.
-
-https://help.github.com/articles/connecting-to-github-with-ssh/ 
