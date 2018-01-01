@@ -2,16 +2,25 @@
 
 ## Git
 
+## Some Vocabulary
+
+* **Git** - version control software
+* **Repository** - a folder containing your files and also containing a structure that helps keep track of changes in those files. When you intialize a repository, git creates a hidden folder (`.git` folder) that stores the changes to those files.
+* **GitHub** - a place to host git repositories and collaborate
+* **Local Repository** - the version of a git repository on your local computer
+* **Remote Repository** - the version of a git repository stored somewhere else that your local repository is connected to (frequently on GitHub)
+* **Commit** - the basic unit of a git repository is a commit. It is a set of changes to a file. A commit usually comes with an id as well as a **commit message** that describes the change.
+
+Within a Repository you have
+
+* **Untracked Changes** - files that are in your folder but that git doesn't pay attention to.
+* **Staging Area** - a place where you can put files before you commit them. Once files are in the staging area, git is paying attention to them.
+* **Commit Log** (aka Git History) - all of the commits (previous changes) to all of the files in your repository.
+
+
 #### Components of a Git Repository
 
 ![](https://www.evernote.com/shard/s150/sh/3a1357b6-6250-432c-b5be-6bc0a895b97f/0a90b7cfc659e426/res/930e27c8-7194-484b-84f5-d411e15c2bc5/skitch.jpg?resizeSmall&width=832)
-
-#### Key Terms
-* **working directory** - the current local directory in which you are working
-* **staging area** - the files that are ready to be committed (saved)
-* **commit** - a saved snapshot of files (or the changes thereof)
-
-![](https://git-scm.com/book/en/v2/images/areas.png)
 
 1. The working directory
   - `git init` creates a git repo inside current working directory
