@@ -12,7 +12,7 @@
 	<html>
 	<body>
 
-	<h1>Hello,World</h1>
+	<h1>Hello World</h1>
 
 	</body>
 	</html>
@@ -22,7 +22,7 @@
 
 5. Commit to github what you have so far.
 
-6. Add a heading and paragraph tag
+6. Add a heading (h1, h2) and paragraph (p) tag
 
 	```
 	<!DOCTYPE html>
@@ -39,5 +39,8 @@
 	```
 
 7. Commit this with a meaningful commit message.
-8. Show me the git log
+8. Push the code to github.
+9. Go to the github repo's settings and under Github Pages choose "master" branch as the source.
+
+![](https://i.imgur.com/8EhdwWM.png)
 
