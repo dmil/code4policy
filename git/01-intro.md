@@ -1,5 +1,13 @@
 # Git 1: Introduction
 
+Wikipedia 
+> Git (/ɡɪt/[8]) is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,[9] but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed,[10] data integrity,[11] and support for distributed, non-linear workflows.[12]
+
+Github
+
+> Git is an open source program for tracking changes in text files.
+> https://help.github.com/articles/github-glossary/
+
 ## What is Git?
 
 Keeping track of file versions is hard.
@@ -37,9 +45,14 @@ refactoring (rewriting) existing code. Because git makes it easy to go back to a
 known good state, we can experiment without worrying that we'll be unable to
 undo the experimental work.
 
-### Git, for things other than code
-
+## Git, for things other than code
 * Auditing system for changes on a file
 * For collaboratively editing a text document
 * [For drafting government web design standards!](https://github.com/18F/web-design-standards)
+* Open [comment period](https://github.com/whitehouse/source-code-policy/issues?q=is%3Aissue+is%3Aclosed) for policy
 * [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
+* Open journalsim showcase
+	* 	https://github.com/showcases/open-journalism
+* Github for Government
+	* https://government.github.com/
+	* https://government.github.com/community/
