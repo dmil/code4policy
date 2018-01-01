@@ -30,7 +30,7 @@ A few directories have special symbols:
 - `..` parent directory
 - `~` shortcut to the home directory (for me, the absolute path would be `/Users/mehtad`)
 
-#### Example
+#### Example Directory Structure
 
 Below is an example directory structure from macOS.
 

@@ -20,3 +20,6 @@ Additional Resources:
 	
 * [http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/21](http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/21)
 
+## Credits
+some information sourced from: [https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-git.ipynb](https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-git.ipynb)
+
