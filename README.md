@@ -37,7 +37,7 @@ file | description
 [commandline/07-homework.md](commandline/07-homework.md) | Command Line Homework
 [Try Git](https://try.github.io) | Get a Taste of Git
 
-# Day 2---
+# Day 2
 file | description
 -----|------------
 [git](./git) | Intro to Git & GitHub
