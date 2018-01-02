@@ -1,9 +1,23 @@
-
-
 ## HTTP
+
+HTML - "Hyper Text Markup Language"
+HTTP - "Hyper Text Transfer Protocol"
+
+### So what exactly is this "Hyper Text"?
+https://www.w3.org/WhatIs.html
+https://www.merriam-webster.com/dictionary/hypertext - see etymology
+
+Request & Response Framework
+
 [http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade#/6/4](http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade#/6/4)
 
 [http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade#/6/5](http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade#/6/5)
+
+### Which layer is it?
+
+* HTTP is on the "application layer" of the OSI stack
+* It assumes a reliable transport layer protocol (like TCP/IP)
+* But maybe these acronyms are all TMI...point being - HTTP is an abstraction at the application layer
 
 ## Examples
 
