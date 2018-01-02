@@ -18,3 +18,70 @@ file | description
 [precoursework.md](precoursework.md) | Pre-work
 [windows.md](windows.md) | Special instructions for Windows users.
 [setup.md](setup.md) | Setup
+
+# Day 1
+
+file | description
+-----|------------
+[welcome.md](welcome.md) | Introduction
+[agilescrum.md](agilescrum.md) | Agile & Scrum
+[commandline](commandline) | Command Line and Unix
+
+## Homework
+
+file | description
+-----|------------
+[agilescrumreading.md](agilescrumreading.md) | Agile Reading
+[projectplanning.md](projectplanning.md) | Project Planning Guide
+[Project Group Form](https://goo.gl/forms/oAqhlJBltIi2oAYA3) | Project Group Form
+[commandline/07-homework.md](commandline/07-homework.md) | Command Line Homework
+[Try Git](https://try.github.io) | Get a Taste of Git
+
+<!--
+
+# Day 2
+file | description
+-----|------------
+[git](./git) | Intro to Git & GitHub
+[web](./web)	| Intro to the Web
+--- | Project Sprint Planning
+
+## Homework
+
+file | description
+-----|------------
+[opensource.md](opensource.md) | Open Source Readings
+[http://jsforcats.com/](http://jsforcats.com/) | JavaScript For Cats
+[functions.md](functions.md)	 | Functions Homework (Python & JavaScript)
+[apireadings.md](apireadings.md)	 | API Readings
+
+# Day 3
+file| description
+----|------------
+---| Guest: Open Source (Seamus Kraft)
+---| Deconstructing the Web
+---| Apis & Scraping
+---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
+---| Intro to JavaScript
+
+# Day 4
+file| description
+----|------------
+---| Guest: Selecting a Visualization (Julia Wolfe)
+---| Sprint Planning
+---| Data Formats
+---| Cleaning Data and Backend Stuff
+---| Guest 2:00-2:45pm - Open Data and XML (Kirsten Gullickson)
+    
+# Day 5
+file| description
+----|------------
+---| AWS - Dynamic Web Apps in the Cloud
+---| Cryptography, Security & SSH
+---| Databases (SQL & NoSQL)
+---| Speaker: Security (Max Whitney)
+    
+    
+ 
+
+-->
