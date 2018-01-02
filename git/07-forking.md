@@ -22,63 +22,25 @@ Good example repository that makes use of issues and pull requests: https://gith
 * **pull request** - ask the upstream maintainer to pull in changes from origin.
 * **merge conflict** - when two commits conflict, and thus can't be merged automatically
 
-<!--
-example
-fork https://github.com/dmil/simple-website
-and submit PRs
-
-show openelections
-
-try it
-fork each other
-
-try it
-come to my website and then leave an issue
--->
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
 1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
 
-This
+2. Go to Settings > GitHub Pages and select the "master" branch as the source.
 
-https://github.com/`dmil`/simple-website
+3. Clone the forked repository to your Development folder.
 
-will fork to 
+4. Create a feature branch with your name and make a random change. Commit and push the change.
 
-https://github.com/`your-username`/mozilla-website
+5. Create a pull request. Note that this time we are creating pull request across repositories instead of just across branches within the same repository. The `base` will be `dmil/simple-website/master` while the `compare` will be `your-username/simple-website/feature-branch-name`.
 
-![](images/screenshot_28.jpg)
+6. Create another pull request within the fork itself where the base is your own master branch. More explicitly, the base is `your-username/simple-website/master` and the compare is `your-username/simple-website/feature-branch-name`. Merge this pull request.
 
-If you want to see the site rendered in your GitHub pages, go to Settings > GitHub Pages and select the "master" branch to render the page from.
+7. Compare your website http://`your-username`.github.io/simple-website to mine: http://dhrumilmehta.com/simple-website/
 
-### Step 2: Make ONE change!
+6. I will now merge your pull requests and we can see what changes you all make to the website over time. There's a good chance we may run into some merge conflicts as well.
 
-**Make Changes on GitHub**
-
-The short way to do this is to just make the changes directly in the GitHub web editor in the `your-username/mozilla-website` repository's `master` branch. 
-
-**Optional (make changes locally instead)**
-
-If you want to get some more practice with GitHub though, you can clone the repository locally onto your Desktop. Make the changes, commit them, and then push the new commits from your **local** `master` branch to your **remote** `master` branch in GitHub.
-
-![](images/screenshot_29.jpg)
-
-### Step 3: Issue a pull request back to my repository
-
-Issue a pull request back from the `master` branch of the `your-username/mozilla-website` to the `master` branch of `dmil/mozilla-website`
-
-![](images/screenshot_30.jpg)
-
-### Step 4: Wait for me to approve the pull request and see the change on my site.
-
-compare
-
-http://dmil.github.io/mozilla-website
-
-with
-
-http://`your-username`.github.io/mozilla-website
-
-### Step 5: Woohoo! You just collaborated open-source.
+### Woohoo! You just collaborated open-source.
 
 Open source collaboration is great for:
 
@@ -97,47 +59,25 @@ More Links
 - https://government.github.com/
 - https://government.github.com/community/
 
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-
-
-
-## Pull requests from a fork
-
-### Open source collaboration.
-
-https://github.com/tj/git-extras/pull/356
-
-### Backbone forms example
-
-Github Issue
-
-https://github.com/powmedia/backbone-forms/issues/537
-
-Pull Request (From a Fork)
-
-https://github.com/powmedia/backbone-forms/pull/538
-
-## Try It (together)
-
-1. Find another partner, and fork their simple webpage into your github.
-2. Clone your fork onto your local computer
+1. Find another partner, and fork their `<username>-simple-website`.
+2. Clone your fork onto your local computer and create a feature branch called `endorsement`.
 3. Put an endorsement on their webpage as the last item on the site.
-
 	```
 	<h2> Endorsements </h2>
-	
 	<p> You are a really cool person. - Dhrumil</p>
 	```
-4. commit this endorsement and push it to your fork in github
-5. issue a pull request back to that person's github repo
+4. Commit this endorsement and push it to your fork..
+5. Issue a pull request back to that person's github repo.
 
-## Try It
+## Pull Requests and Issues in the Wild
 
-Put an endorsement on someone else's site using the same method, forking and open source collaboration.
+- https://github.com/tj/git-extras/pull/356
+- https://github.com/powmedia/backbone-forms/issues/537
+- https://github.com/powmedia/backbone-forms/pull/538
 
-## Finally
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. Create a "github page" for yourself [https://pages.github.com/](https://pages.github.com/) - follow the instructions for a "User"
-2. Chose Jekyll Theme to instantly make it look good
-https://github.com/blog/2295-new-theme-chooser-for-github-pages
-2. (optional) - buy a domain for yourself at [http://namecheap.com](http://namecheap.com). When we get to the "DevOps" lesson, you'll learn how to connect your new domain to either a static or dynamic webpage.
+Make an issue on my simple-website repository: https://github.com/dmil/simple-website
+
