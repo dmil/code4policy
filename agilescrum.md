@@ -122,7 +122,7 @@ https://read.amazon.com/
 	* 1 as other "users" (in our case stakeholders)
 
 3. Come up with a definition of "Done" on the back of each card
-
+4. Lets workshop a few User Stories together, makek sure they [INVEST](http://agileforall.com/new-to-agile-invest-in-good-user-stories/) and have a definition of done.
 
 ## While you wait
 
