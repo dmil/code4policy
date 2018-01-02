@@ -1,4 +1,4 @@
-# Git 9: Resources
+# Git 8: Resources
 
 ## Further Reading
 
