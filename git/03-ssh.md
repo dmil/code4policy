@@ -60,9 +60,10 @@ Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 
 ## Other applications
 
-* HTTPS - https://www.youtube.com/watch?v=w0QbnxKRD0w
-	* We'll cover this more in a later lesson 
+* [Encrypting Files](https://bjornjohansen.no/encrypt-file-using-ssh-key)
+* [HTTPS](https://www.youtube.com/watch?v=w0QbnxKRD0w) - We'll cover this more in a later lesson 
 * Cryptocurrency - https://walletgenerator.net/
+* Verifying Identity, Chat, etc... (see keybase)
 
 ## Want to know more?
 * Questions
