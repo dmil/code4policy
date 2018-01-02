@@ -19,58 +19,38 @@ Request & Response Framework
 * It assumes a reliable transport layer protocol (like TCP/IP)
 * But maybe these acronyms are all TMI...point being - HTTP is an abstraction at the application layer
 
-## Examples
+### HTTP Verbs
 
-[http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/](http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/)
+http://www.w3schools.com/tags/ref_httpmethods.asp
 
-[https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data](https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data)
+* **GET** - when you navigate to a website like `www.google.com` you're issuing a get request to google's servers. Their server then sends you back the google homepage.
 
-[https://fivethirtyeight.com/features/fandango-movies-ratings/](https://fivethirtyeight.com/features/fandango-movies-ratings/)
+* **POST** - when you fill out the google search for and hit "Search", you're issuing a "POST" request. POST requests contain a payload in the body that is not visible in the URL. That is why it is most often used to send form data to a website.
 
-### Hanging out in the Network Tab
+* HEAD, PUT, DELETE ... and [some others](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
-Simple request to your simple website.
-[https://dmil.github.io/dhrumil-simple-website/](https://dmil.github.io/dhrumil-simple-website/)
+### GET vs POST
 
-Modifying a facebook profile picture.
+GET | POST
+----|-----
+Requests data from a specific resource	| Submits data to be processed by a specific resource.
+Data is submitted as part of the URL |	Data is submitted in the request body
+Less secure but faster | More secure but slower
+Can be cached by browser | Not Cached by Browser
+Length Limited by URL size | MaxLength determined by server
 
-Making the Ad Go Away on Kami
+### Representational State Transfer (REST)
 
-```
-$("html #outerContainer.adsVisible > #mainContainer").css("right", 0);
-```
-Modifying CSS
+So what is being "got" when you GET?... A Resource!
 
-Modifying JavaScript
+You'll read a little more about REST-ful webpages in your homework tonight. For now, I want to just show you an example of a REST-ful web app. Regardless of what is going on behind the scenes, a layer of REST-ful abstraction can help things make sense to an outside consumer of your content.
 
+* Demo of the polls database.
+	* Note how the URL (Universal Resource Locator) refers to a "resource".
+	* I can GET a **resource** or list of resources, or I can **POST** to an **endpoint** which can trigger the creation of a resource.
+	* Any kind of request can be programmed to do any kind of thing (for example POST requests can also trigger scraping in the polls database), but a well formed REST-ful web applicaiton will stick to conventions.
 
-### Cookies
+* A source once said to me: 
+> The government is just as series of CRUD applications that interact with each other.
 
-Types of Cookies
-
-[https://en.wikipedia.org/wiki/HTTP_cookie#Terminology](https://en.wikipedia.org/wiki/HTTP_cookie#Terminology)
-
-Check out the cookies on a website.
-
-https://www.dccourts.gov/cco/maincase.jsf
-
-### Poll
-intercom.io
-
-### Not a cookie, but interesting
-https://www.propublica.org/about/pixelping
-
-## Try It
-
-Tell me everything you can find out about a website from the network tab.
-
-- cookies
-- technologies the website uses
-- what takes a long time to load / large elements on page
-- local storage
-
-## Quote
-
-![](https://www.evernote.com/shard/s150/sh/ea7383a1-438d-4fba-8706-cd21af484ac6/56e394f2b6f72325/res/300ce791-5f8f-4ec9-b0ad-44b5f4957365/skitch.png?resizeSmall&width=832)
-
-Free to Make: How the Maker Movement is Changing Our Schools, Our Jobs, and Our Minds - by Dale Dougherty
+* CRUD Apps - "CRUD apps" have four functions: **C**reate **R**ead **U**pdate **D**elete resoures. Understanding the concept of a CRUD app can help you understand REST and HTTP verbs a little better.
