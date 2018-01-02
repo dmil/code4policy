@@ -61,11 +61,12 @@ file| description
 ---| Apis & Scraping
 ---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
 ---| Intro to JavaScript
----| Guest: Selecting a Visualization (Julia Wolfe)
 
 # Day 4
 file| description
 ----|------------
+---| Guest: Selecting a Visualization (Julia Wolfe)
+---| Sprint Planning
 ---| Data Formats
 ---| Cleaning Data and Backend Stuff
 ---| Guest 2:00-2:45pm - Open Data and XML (Kirsten Gullickson)
