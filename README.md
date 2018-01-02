@@ -40,32 +40,43 @@ file | description
 # Day 2
 file | description
 -----|------------
-[github.md](github.md) | Intro to Git & GitHub
-
-	 | Recap command line
-	 | Recap GitHub
-	 | Intro to the Web
-	 | HTML & CSS
-	 | CSS Selectors & Web Scraping
+[git](./git) | Intro to Git & GitHub
+[web](./web)	| Intro to the Web
 
 ## Homework
 
 file | description
 -----|------------
-[github_homework.md](github_homework.md) | GitHub Homework
-	 | API Readings
-	 | Open Source Readings
-	 | JS For Cats
-	 | Functions Homework (python & javascript)
+[opensource.md](opensource.md) | Open Source Readings
+[http://jsforcats.com/](http://jsforcats.com/) | JavaScript For Cats
+[functions.md](functions.md)	 | Functions Homework (Python & JavaScript)
+[apireadings.md](apireadings.md)	 | API Readings
 
 # Day 3
-file | description
------|------------
-	 | Intro to JavaScript
-	 | Deconstructing the Web
-	 | Apis & Scraping
+file| description
+----|------------
+    | Speaker: Open Source (Seamus Kraft)
+    | Deconstructing the Web
+    | Apis & Scraping
+    | Speaker: Agile/Scrum (Leah Bannon & Eric Mill)
+    | Intro to JavaScript
+    | Speaker: Visualization
 
 # Day 4
-Data Formats
-Cleaning Data and Backend Stuff
+file| description
+----|------------
+    | Data Formats
+    | Cleaning Data and Backend Stuff
+    | Speaker: Open Data and XML (Kirsten Gullickson)
+    
+# Day 5
+file| description
+----|------------
+    | AWS - Dynamic Web Apps in the Cloud
+    | Cryptography, Security & SSH
+    | Databases (SQL & NoSQL)
+    | Speaker: Security (Max Whitney)
+    
+    
+ 
 
