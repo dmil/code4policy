@@ -31,7 +31,7 @@ Pipes the results from `command1` as input to `command2`, and then the results o
 1. Redirect a fact about planet mars into the mars.txt.
 
 ```
-echo "Mars is red." > ~/Development/universe/solar_system/planets/mars.txt
+echo "Mars is dusty." > ~/Development/universe/solar_system/planets/mars.txt
 ```
 
 2. Add another mars fact to mars.txt.
@@ -45,6 +45,14 @@ echo "Mars has an 687 day year." >> ~/Development/universe/solar_system/planets/
 ```
 cat ~/Development/universe/solar_system/planets/mars.txt
 ```
+
+4. Make sure there is at least one newline at the end of `mars.txt`.
+
+  You can check if there is a newline at the end of the file if there is no `%` sign that appears at the end of the file.
+
+  ![](https://i.imgur.com/k8XBUQF.png)
+
+  In this screenshot, the first example with the `%` at the end has no newline. The latter example does.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
 

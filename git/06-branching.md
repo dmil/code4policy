@@ -70,26 +70,6 @@ git checkout <branchname>
 git branch -d <branchname>
 ```
 
-<!-- TODO: 
-Example:
-1)
-add comments to day1/sayhello.py in another branch
-create a pr, explain base branch and stuff
-merge your own pr
-????
-profit
-2)
-multiple branches, some cause merge conflits some don't
-alternative universes:
-	- red-universe
-	- blue-universe
-	- the-upside-down
-Try It
-make an example with collab with team. repo will be called teamname and product owner will make it. add every1 else as collabs.
-do an example where very1 makes separate pages and submits PRs.
--->
-
-
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
 1. `cd` into the assignments repository (`~/Development/assignments`).
@@ -121,7 +101,7 @@ do an example where very1 makes separate pages and submits PRs.
 
 6. Commit the change.
 
-7. Run git status to make sure the repository is "clean" (i.e. there are no "unstaged changes" and no "untracked files").
+7. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
 8. Run git log and see that your new commit in the list.
 
@@ -147,55 +127,104 @@ do an example where very1 makes separate pages and submits PRs.
 
 14. Review the files changed and click the big green merge button on the bottom of the PR.
 
-### Branches IRL (In Real Life)
+### Example Branches and PRs in the Wild
 
-Branches are frequently used to develop features on a project. People can work independently in branches and then issue a pull request back into master. That pull request is reviewed and merged into the branch.
+Private FiveThirtyEight repository:
 
-Branches in one of our projects
+- [https://github.com/fivethirtyeight/general-forecast](https://github.com/fivethirtyeight/general-forecast)
+- https://projects.fivethirtyeight.com/2016-election-forecast/
 
-[https://github.com/fivethirtyeight/general-forecast](https://github.com/fivethirtyeight/general-forecast)
+Public 18F repository:
 
-https://projects.fivethirtyeight.com/2016-election-forecast/
+- [https://github.com/18F/web-design-standards](https://github.com/18F/web-design-standards)
 
-Branches in a public repository
+Example PRs:
 
-[https://github.com/18F/web-design-standards](https://github.com/18F/web-design-standards)
+- For example #471, 468, 461 in #general-forecast
 
-### Pull Requests (from branch)
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-For example #471, 468, 461 in #general-forecast
+1. In `<name>-simple-website/` create a new branch called `linkedin-link`
 
-## Try It 
-1. in `myname-simple-website/` create a new branch called `linkedin-link`
-2. in this new branch, put a link to your linked in page at the bottom  of your simple website
+2. In this new branch, put a link to your LinkedIn profile at the bottom of your simple website.
 
 	```
-	<a href src="https://www.linkedin.com/in/dhrumilmehta">  find me on linked in! </a>
+	<a href src="https://www.linkedin.com/in/dhrumilmehta">  Find me on LinkedIn!</a>
 	```
 
-3. commit the change to the branch
+3. Commit the change in the feature branch.
 
-## Collaboration with Branches on GitHub
+4. Create a pull request from the feature branch and merge it.
 
-### Try It
+5. Check the website online and make sure it has changed.
 
-1. Clone my simple website
-2. Checkout a branch for yourself
-	
-	```
-	git checkout -b dhrumils-branch
-	```
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-3. Inside that branch, convert your name into a link to your github
+1. `cd` to the `universe` repository at `~/Development/universe`.
 
-	so for example instead of 
-	```
-	<li> Mehta, Dhrumil </li>
-	```
-	
-	I would write
-	```
-	<li> <a href="http://github.com/dmil"> Mehta, Dhrumil </a> </li>
-	```
-4. Commit that change
-5. Issue a pull request back to the `master` branch with your change.
+2. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
+
+3. Run `git pull` to ensure you have the latest changes in the repository.
+  
+  You probably do since you're the only one working on this repository, but it's good to get in a habbit of always running `git pull` before working on anything, especialy when collaborating.
+
+3. Create a branch called `blue-universe`.
+	1. Modify the facts in `mars.txt` to add a new line "Mars is blue". Use `git diff` to ensure that you only modifeid that one line and nothing else.
+	2. Commit this change to the branch.
+	3. Push the branch.
+	4. Create a pull request but do not merge it.
+
+4. Check out the master branch and then create a new branch called `red-universe`.
+	1. Modify the facts in `mars.txt` to add a new line "Mars is red". Use `git diff` to ensure that you only modifeid that one line and nothing else.
+	2. Commit this change to the branch.
+	3. Push the branch.
+	4. Create a pull request but do not merge it.
+
+5. Merge the `red-universe` pull request. Try to merge the `blue-universe` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
+
+6. Create a branch called `the-upside-down`.
+	1. Edit `united_states.txt` with the text: "Hawkins, Indiana: The Demogorgon was here."
+	2. Commit this change to the branch.
+	3. Push the branch.
+	4. Do not merge this branch back in as [the upside down](http://strangerthings.wikia.com/wiki/The_Upside_Down) runs parallel to the real `universe`...
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. Make sure the repository is clean and you are in the master branch.
+
+2. Create a branch called `alternative-facts`.
+ 
+3. Go back to (checkout) the `master` branch.
+  1. Add two facts to `mars.txt`: "Mars has polar ice caps." and "Mars is a little more than half the size of earth."
+  2. Rename `united_states.txt` to `beynation.txt`.
+  2. Commit these changes to `master`.
+
+4. Checkout the `alternative-facts` repository.
+  1. Add two facts to `mars.txt`. "Mars is gaseous." and "Mars is double the size of earth."
+  2. Commit these changes to `alternative-facts`.
+  3. Create a pull request using `alternative-facts`.
+
+5. Attempt to merge the pull request and try to resolve the merge conflicts.
+
+  Note that the changes that don't conflict (such as the renamed file in `master`) will merge just fine.
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. Get into your teams and come up with a team name and a product owner if you haven't already done so.
+
+2. Have the product owner create a **blank** repository (no README) under their account with the name of the team as the name of the repo. 
+
+3. Add the remaining team members as collaborators to the repo. This is done under the repo settings. 
+
+4. Enable github pages on this repo with the `master` branch as the source.
+
+5. Everyone should clone the empty repository.
+
+5. The product owner should create an `index.html` with the name of your team and a folder called `our-team`. Commit and push this change directly to the `master` branch.
+
+6. Everyone else should pull these changes.
+
+7. All team memmbers, including the product owner, should create feature branches titled `add-member-<name>`. In this branch, create a file within the `our-team` foler that is titled `<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
+	1. Commit this change to the feature branch, push it, and create a pull request.
+	2. Product Lead should review and merge all of the PRs. There should be no conflicts.
+
