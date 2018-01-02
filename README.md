@@ -42,7 +42,7 @@ file | description
 -----|------------
 [git](./git) | Intro to Git & GitHub
 [web](./web)	| Intro to the Web
-	| Project Sprint Planning
+none | Project Sprint Planning
 
 ## Homework
 
