@@ -1,5 +1,23 @@
 # Git 7: Forking
 
+<!--
+
+	use stuff from opensource.md, merge into forking
+	
+	example
+	fork https://github.com/dmil/simple-website
+	and submit PRs
+
+	show openelections
+
+	try it
+	fork each other
+
+	try it
+	come to my website and then leave an issue
+
+-->
+
 ## Forking
 
 Draw on the board, forking vs branching

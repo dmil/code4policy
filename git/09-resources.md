@@ -21,8 +21,9 @@
 * [http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/21](http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/21)
 
 ## Learn to use Git from the Command Line
-* Interactive Tutorial
+* Interactive Tutorials
 	* ​https://try.github.io
+	* https://github.com/jlord/git-it-electron
 * Basic Git Commands
 	* ​http://www.teaching-materials.org/git/slides.html
 	* http://rogerdudler.github.io/git-guide/

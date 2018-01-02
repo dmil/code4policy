@@ -56,3 +56,5 @@ undo the experimental work.
 * Github for Government
 	* https://government.github.com/
 	* https://government.github.com/community/
+
+<!-- TODO: integrate stuff from intro.md -->

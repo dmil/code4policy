@@ -154,6 +154,20 @@ Within a Repository you have
 11. push your commits
 12. check if the code is pushed online
 
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: cloning and pulling
+
+1. Clone code4policy repository.
+
+	```
+	git clone git@github.com:dmil/code4policy.git
+	```
+
+2. Dhrumil will now push a commit.
+
+3. Run `git pull` followed by `git log` to see the new commits.
+
 ## Git vs Github
+
+<!-- TODO: integrate stuff from intro.md - git vs github -->
 
 Git is a _distributed_ version control system (VCS). Distributed means that there is no one central server that stores all of your code- you can have redundancies (copies) of the code wherever you like. There is always one copy of the code (along with its entire history) on your local computer. Other copies of your code are each referred to as "remotes". Github.com is a *very* popular remote used for Git projects such as it is almost synonymous with Git now. There are of course other alternatives such as [BitBucket](https://bitbucket.org/) and [GitLab](https://about.gitlab.com/).

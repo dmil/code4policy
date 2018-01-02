@@ -2,6 +2,20 @@
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
+1. Create a blank repository called `<username>-simple-website` where `<username>` is your Github username.
+2. 
+
+<!-- TODO: create blank repo with README and clone it -->
+<!-- TODO: 
+
+- bullet points
+- have multiple pages to navigate between
+- introduce css
+	- background color
+- img tag
+
+ -->
+
 1. Navigate to your `~/Development/` folder in the terminal
 2. Create a directory called `dhrumil-simple-website/` (BUT USE YOUR OWN NAME!!!!)
 3. Create a new page called `index.html` with the `touch` command
