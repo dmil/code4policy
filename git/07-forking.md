@@ -2,10 +2,27 @@
 
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/489063/images/2498675/pasted-from-clipboard.png)
 
+Draw on the board, forking vs branching.
+
+## Branching vs Forking
+
+* **Branching** is a feature of Git, you've used branching already
+* **Forking** is a feature of GitHub
+	* A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. Forks remain attached to the original, allowing you to submit a pull request to the original's author to update with your changes. You can also keep your fork up to date by pulling in updates from the original. - [GitHub Glossary](https://help.github.com/articles/github-glossary/)
+	*  When you fork a repository, you get all of the branches the other person posted on GitHub
+	*  Pull requests however, don't acknowledge forks since they are a feature of GitHub and not Git
+
+Good example repository that makes use of issues and pull requests: https://github.com/openelections/
+
+## Key Terms
+
+* **fork** - make a copy of a remote repo on github.
+* **merge** - taking two histories, merge one into the other
+* **push**  - sending changes to a remote repository and merging them into the specified branch
+* **pull request** - ask the upstream maintainer to pull in changes from origin.
+* **merge conflict** - when two commits conflict, and thus can't be merged automatically
+
 <!--
-
-use stuff from opensource.md, merge into forking
-
 example
 fork https://github.com/dmil/simple-website
 and submit PRs
@@ -17,43 +34,13 @@ fork each other
 
 try it
 come to my website and then leave an issue
-
 -->
 
-## Forking
-
-Draw on the board, forking vs branching
-
-http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/17
-
-### Key Terms
-
-* **fork** - make a copy of a remote repo on github.
-* **merge**  - taking two histories, merge one into the other
-* **push**   - sending changes to a remote repository and merging them into the specified branch
-* **pull request** - ask the upstream maintainer to pull in changes from origin.
-* **merge conflict** - when two commits conflict, and thus can't be merged automatically
-
-
-
-
-
-
-
-
-## Branching vs Forking
-
-* **Branching** is a feature of Git, you've used branching already
-* **Forking** is a feature of GitHub
-	* 	A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. Forks remain attached to the original, allowing you to submit a pull request to the original's author to update with your changes. You can also keep your fork up to date by pulling in updates from the original. - [GitHub Glossary](https://help.github.com/articles/github-glossary/)
-	*  When you fork a repository, you get all of the branches the other person posted on GitHub
-	*  Pull requests however, don't acknowledge forks since they are a feature of GitHub and not Git
-
-### Step 1: Fork a copy of my `mozilla-website` repository into your own account!
+1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
 
 This
 
-https://github.com/`dmil`/mozilla-website
+https://github.com/`dmil`/simple-website
 
 will fork to 
 
@@ -109,12 +96,6 @@ More Links
 
 - https://government.github.com/
 - https://government.github.com/community/
-
-
-
-
-
-
 
 
 
