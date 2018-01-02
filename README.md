@@ -37,12 +37,12 @@ file | description
 [commandline/07-homework.md](commandline/07-homework.md) | Command Line Homework
 [Try Git](https://try.github.io) | Get a Taste of Git
 
-# Day 2
+# Day 2---
 file | description
 -----|------------
 [git](./git) | Intro to Git & GitHub
 [web](./web)	| Intro to the Web
-none | Project Sprint Planning
+--- | Project Sprint Planning
 
 ## Homework
 
@@ -56,27 +56,27 @@ file | description
 # Day 3
 file| description
 ----|------------
-none| Guest: Open Source (Seamus Kraft)
-none| Deconstructing the Web
-none| Apis & Scraping
-none| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
-none| Intro to JavaScript
-none| Guest: Selecting a Visualization (Julia Wolfe)
+---| Guest: Open Source (Seamus Kraft)
+---| Deconstructing the Web
+---| Apis & Scraping
+---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
+---| Intro to JavaScript
+---| Guest: Selecting a Visualization (Julia Wolfe)
 
 # Day 4
 file| description
 ----|------------
-none| Data Formats
-none| Cleaning Data and Backend Stuff
-none| Guest 2:00-2:45pm - Open Data and XML (Kirsten Gullickson)
+---| Data Formats
+---| Cleaning Data and Backend Stuff
+---| Guest 2:00-2:45pm - Open Data and XML (Kirsten Gullickson)
     
 # Day 5
 file| description
 ----|------------
-none| AWS - Dynamic Web Apps in the Cloud
-none| Cryptography, Security & SSH
-none| Databases (SQL & NoSQL)
-none| Speaker: Security (Max Whitney)
+---| AWS - Dynamic Web Apps in the Cloud
+---| Cryptography, Security & SSH
+---| Databases (SQL & NoSQL)
+---| Speaker: Security (Max Whitney)
     
     
  
