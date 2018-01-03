@@ -20,10 +20,8 @@ Get to know your neighbor! This class is collaborative, we're all going to be wo
 
 ## Pre-Course Survey
 
-Aggregate responses:
+Aggregate responses (technical skills question):
 [https://docs.google.com/forms/d/1cVr0Qbd28kzV5ZAj7yAoKd0sSOvXVHJq2jBJxRbhccY/edit#responses](https://docs.google.com/forms/d/1cVr0Qbd28kzV5ZAj7yAoKd0sSOvXVHJq2jBJxRbhccY/edit#responses)
-
-* Also see GitKeep note for summary of responses
 
 ## Introductions
 

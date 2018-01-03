@@ -1,18 +1,67 @@
 # Agile and Scrum
 
 ## Morning Scrum
-- Review Scrum Roles
-	- Assign Product Owners & Scrum Master
+
+- Review Scrum Roles & Assign
+	- Product Owner
+	- Scrum Master
+	- Team Member
+
 - Have meeting
 	- What have you been working on since the last meeting?
 	- What are you working on between now and the next meeting?
 	- What are your blockers?
 
-## Agile
-
-### Waterfall vs Iterative Development
+## Waterfall vs Iterative Development
 
 ![](assets/waterfallvsagile.png)
+
+## A Scrum-ified (Scrum-ish?) J-term
+
+Aggregate responses:
+[https://docs.google.com/forms/d/1cVr0Qbd28kzV5ZAj7yAoKd0sSOvXVHJq2jBJxRbhccY/edit#responses](https://docs.google.com/forms/d/1cVr0Qbd28kzV5ZAj7yAoKd0sSOvXVHJq2jBJxRbhccY/edit#responses)
+
+* Do you think that you will use code or data analysis in your future work?
+* Also see Google Keep note for summary of responses
+
+## Writing Good User Stories
+
+**As a _____**\<role\>**_____________**
+
+**I want _____**\<feature\>**_________**
+
+**So that _____**\<value\>**__________**
+
+### User Stories ought to be
+
+* **I**ndependant - stories can be worked on in any order
+* **N**egotiable - A story is not a contract.  A story IS an invitation to a conversation.
+* **V**aluable - If a story does not have discernable value it should not be done.
+* **E**stimable - What happens if a story can’t be estimated?  You can split the story and perhaps gain more clarity. Or do more research to estimate it.
+* **S**mall - Suggested 3-4 days of work max. For our class lets say 1 day of work MAX.
+* **T**estable - How do you know when you're done?
+
+#### Definition of Done
+
+User stories ought to have a definition of done. Generally there is one generic definition of done that applies to every story in the project, but aslo specific **acceptance critera** for each story.
+
+Source:
+[http://agileforall.com/new-to-agile-invest-in-good-user-stories/](http://agileforall.com/new-to-agile-invest-in-good-user-stories/)
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Since we're running a scrummy class, and this class is our product. Lets write good user stories for the class! Lets do this one in pairs.
+
+1. Brainstorm stakeholders
+2. Write user stories
+	* 2 as yourselves
+	* 1 as other "users" (in our case stakeholders)
+3. For each story, make sure you have a definiton of "done" as well as a checkbox for I-N-V-E-S-T. Be honest about which part of I-N-V-E-S-T it meeets and which part it does not meet.
+
+Lets share and workshop them together. Present one and put the rest up on the board. I will look through them after class and see how they can inform the development of the course.
+
+
+## Agile
 
 ### Agile is Cyclical
 ![](https://www.evernote.com/shard/s150/sh/638b2cde-a6b4-4e4b-a299-519096ac92eb/f49ab3ede265cff7/res/8ecec91f-add1-435e-91f9-79a5585e4ff0/skitch.jpg?resizeSmall&width=832)
@@ -21,16 +70,25 @@ Parallels to [Design Thinking](https://dschool.stanford.edu/groups/k12/wiki/17cf
 
 ### Agile Manifesto
 
-**Individuals and interactions** over processes and tools
+> **Individuals and interactions** over processes and tools
+>
+>**Working software** over comprehensive documentation
+>
+>**Customer collaboration** over contract negotiation
+>
+>**Responding to change** over following a plan
 
-**Working software** over comprehensive documentation
+Source: [http://agilemanifesto.org/](http://agilemanifesto.org/)
 
-**Customer collaboration** over contract negotiation
-
-**Responding to change** over following a plan
 
 ### Agile Principles
-[12 principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+
+* Lets review the 12 agile principles from the "Elements of Scrum" recommended reading on https://read.amazon.com/
+* Also found here: [https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/]( https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+
+### Few additional resources
+* [The cartoon](https://www.tamingdata.com/wp-content/uploads/2010/07/tree-swing-project-management-large.png): Agile helps to prevent this. Continuous delivery and feedback.
+* Agile vs Waterfall: http://www.agilenutshell.com/agile_vs_waterfall
 
 ### An Agile J-Term
 Split up into 4 teams:
@@ -45,10 +103,16 @@ Split up into 4 teams:
 Much of government traditionally operates in the waterfall style.
 
 > Policy -->
+> 
 > Requirements Gathering/Design -->
+> 
 > Procurement/Contracts/etc -->
+> 
 > Development -->
-> Press release
+> 
+> Press release -->
+> 
+> Implementation
 
 Some agencies are pushing for more agile development.
 
@@ -56,7 +120,7 @@ Its still nacent, but gaining momemtum. Like a baby holding onto the railing and
 [David Zvenyach](https://www.linkedin.com/in/vdavez) (Executive
 Director of 18F)
 
-## Scrum
+## Scrum Overview
 
 A toolset for Agile Software Development
 
@@ -106,23 +170,6 @@ A toolset for Agile Software Development
 * Small (7 +/- 2)
 * Cross Functional
 * Self Organizing
-
-### Quick Review
-Essentials of Scrum
-https://read.amazon.com/
-
-### A Scrum-ified (Scrum-ish?) J-term
-
-1. Define product owner and scrum master (one for today, two for remaining days)
-2. Come up with user stories
-
-	http://agileforall.com/new-to-agile-invest-in-good-user-stories/
-
-	* 2 as yourself
-	* 1 as other "users" (in our case stakeholders)
-
-3. Come up with a definition of "Done" on the back of each card
-4. Lets workshop a few User Stories together, makek sure they [INVEST](http://agileforall.com/new-to-agile-invest-in-good-user-stories/) and have a definition of done.
 
 ## While you wait
 
