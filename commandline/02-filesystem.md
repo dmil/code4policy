@@ -14,17 +14,18 @@ This command gives the *absolute* path to your current working directory.
 
 ### File paths
 
-#### Relative Path
-
-A **relative path** specifies the path to a file or folder, taking into account your current working directory. For example, if you were to give someone "relative" directions to your house, you would give them directions from their current location (the relative path from where they are to where you are).
-
 #### Absolute Path
 
 An **absolute path** specifies the complete path to a file or folder, ignoring your current working directory. For example, if you were to give someone "absolute" directions to your house, you would start by telling them to be on earth, then go to your continent, then go to your country, then go to your region, etc. The root of the filesystem is referred to as `/`.
 
+#### Relative Path
+
+A **relative path** specifies the path to a file or folder, taking into account your current working directory. For example, if you were to give someone "relative" directions to your house, you would give them directions from their current location (the relative path from where they are to where you are).
+
 #### Special Symbols
 
 A few directories have special symbols:
+
 - `/` is the root of the [filesystem](https://www.tutorialspoint.com/unix/unix-file-system.htm)
 - `.` current directory
 - `..` parent directory
@@ -62,6 +63,12 @@ If you are in the Downloads folder, what folder is:
 - `../../mehtad/`
 - `../../mehtad/./`
 - `../../mehtad/./Downloads/../Documents`
+
+Notice that those were **relative** paths, the following are **absolute** paths that both refer to the same location:
+
+- `/Users/mehtad/Downloads`
+- `~/Downloads`
+
 
 ### Navigating Directories
 
@@ -148,7 +155,7 @@ If you don't have Sublime Text installed, run `brew cask install sublime-text` o
 2. Navigate to `~/Desktop` and run both `ls -a` and `tree` 
 3. Navigate to `~/Downloads` and run the `ls -l` command to see information about every item in that folder
 
-hint! - are you lost? don't know what to type next?
+**hint!** - are you lost? don't know what to type next?
 
 - first type `pwd` to see "where you are"
 - then type `ls` to see what files and folders are there
@@ -256,3 +263,7 @@ find . -name "*.txt"
 cd ~/Development/universe
 find . -type d
 -->
+
+**hint**: 
+
+The manual for the find command (`man find`) is super long. The answer is in there, but it might take a while to find. You might want to try google instead.

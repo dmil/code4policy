@@ -26,7 +26,7 @@ command1 | command2
 
 Pipes the results from `command1` as input to `command2`, and then the results of `command2` are printed to the console.
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: redirection
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: Redirection
 
 1. Redirect a fact about planet mars into the mars.txt.
 
@@ -62,18 +62,40 @@ Count the number of characters in the string "hello world" using `wc`.
 echo "hello world" | wc -c
 ```
 
+Count the number of lines in the file `mars.txt`
+
+```
+cat ~/Development/universe/solar_system/planets/mars.txt | wc -l
+```
+
+Count the number of characters in the first line of `mars.txt`
+
+```
+cat ~/Development/universe/solar_system/planets/mars.txt | head -n 1 | wc -l
+```
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Count the number of characters in `mars.txt`
+Count the number of characters in the last line of `mars.txt`
+
+
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
 
-Count number of **files** in the `universe` folder.
+Count number of **folders** in the `universe` folder.
 
 ```
 cd ~/Development/universe
-find . -type f | wc -l
+find . -type d | wc -l
 ```
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Count number of **files** in the `universe` folder.
 
 ## Slackcat
 
-Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page [http://slackcat.chat/](http://slackcat.chat/) for instructions.
+Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page https://github.com/vektorlab/slackcat for instructions.
 
 Configure slackcat by running this command and following the instructions in your web browser:
 
@@ -99,16 +121,16 @@ echo "hello" | slackcat -t -s -c scratchwork
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. Count the number of files and folders in the `~/Development/universe/solar_system/planets` directory and send this to the person sitting next to you using slackcat. Use only one line and piping. You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message.
+1. Count the total number of files and folders in the `~/Development/universe/` directory and send this to the person sitting next to you using slackcat. Use only one line and piping. You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message. (hint: start with `tree`)
 
 <!--
 cd ~/Development/universe/solar_system/planets
-ls | wc -l | slackcat -s -c scratchwork
+tree | wc -l | slackcat -s -c scratchwork
 -->
 
 2. In the `~/Development/universe` directory, run `ls`, pipe the output of that into slackcat and send it to the `#scratchwork` channel. This time, make sure to send it as a snippet.
 
-<!-- 
+<!--
 cd ~/Development/universe/solar_system
 tree | slackcat -c scratchwork
 -->
@@ -156,7 +178,7 @@ House Office Expenditure Data: https://projects.propublica.org/represent/expendi
     ```
 
 9. Return only the rows containing the word "technology" and redirect the output into a file. Keep the header.
-    
+
     ```
     head -1 2017Q2-house-disburse-detail.csv > technology.csv
     cat 2017Q2-house-disburse-detail.csv | grep -i technology >> technology.csv

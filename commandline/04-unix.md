@@ -155,12 +155,10 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. Make a file called `sayhello.py` in a new folder called `assignments` within `~/Development`.
+1. Make a file called `sayhello.py` in your `assignments` folder within `~/Development`.
 
 	```bash
-	cd ~/Development/
-	mkdir assignments
-	cd assignments
+	cd ~/Development/assignments
 	touch sayhello.py
 	```
 

@@ -161,10 +161,19 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. print your username to the command line using `whoami`
-2. print your hostname to the command line using `hostname`
-3. take a look at the manual page for the `hostname` command
-4. print your hostname without the domain information, then again with the domain information
-5. print "I did it! I'm so cool!" to the terminal using `echo`
+2. print your computer's name to the command line using `hostname`
+3. print the name of your operating system using `uname`
+4. take a look at the manual page for the `uname` command. Then, use `uname` with options to:
+	* print the operating system name
+	* print the operating system release
+	* print the operating system name and release together
+	* print the machine hardware name and the processor architecture together
+	* print as much information as you can all at once using `uname`.
+5. print 'I did it. I'm so cool.' to the terminal using `echo`
+
+**Bonus** 
+
+1. print "I did it! I'm so cool!" (hint: google "escaping characters in bash")
 
 **Protip**: Use the ↑ and ↓ arrow keys to navigate previously entered commands.
 
