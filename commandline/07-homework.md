@@ -33,6 +33,12 @@ for row in reader:
 2. save this program as `filter.py`
 3. make the script executable (hint: chmod)
 4. `curl` the 2017 quarter 1 expenditure file from https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv and pipe it into `./filter.py`
+	
+	note: you have to use the `-N` flag on `curl`
+	```
+	curl -N "https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv" | ./filter.py
+	```
+
 5. redirect the output into a file `expensive_water.csv`
 6. pipe `expensive_water.csv` into `csvstat` and redirect that into a file called `expensive_water_summary.txt`
 
