@@ -71,7 +71,7 @@ cat ~/Development/universe/solar_system/planets/mars.txt | wc -l
 Count the number of characters in the first line of `mars.txt`
 
 ```
-cat ~/Development/universe/solar_system/planets/mars.txt | head -n 1 | wc -l
+cat ~/Development/universe/solar_system/planets/mars.txt | head -n 1 | wc -c
 ```
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
