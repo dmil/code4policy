@@ -129,7 +129,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 
 ## Basic Commands
 
-### `whomai`
+### `whoami`
 * prints your username to the terminal
 
 ### `hostname`
