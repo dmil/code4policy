@@ -1,8 +1,10 @@
 #  Functions
 
 ## Setup
+
 ### Install python if you haven't already
-Mac
+
+macOS
 
 ```
 brew install python
@@ -37,14 +39,14 @@ A function has inputs and an output. The inputs are known as the "arguments", an
 
 below is an example of a function in python
 
-```
+```python
 def multiply(a,b):
 	return a * b
 ```
 
 this is an example of the same function in  javascript
 
-```
+```javascript
 function multiply(a,b) { 
 	return (a * b)
 }
@@ -59,7 +61,7 @@ This function takes two arguments (a and b), and returns the value of them multi
 
 In the above exercise you have simply defined a function, but you haven't asked python to call it. If you ran the program above, you wouldn't see any output in the terminal.
 
-```
+```python
 # This part of the code defines a function
 def multiply(a,b):
 	return a * b
@@ -73,7 +75,7 @@ print x
 
 in JavaScript that would look like this
 
-```
+```javaascript
 # This part of the code defines a function
 function multiply(a,b) { 
 	return (a * b)
@@ -90,7 +92,7 @@ console.log(x)
 
 The function can also contain other logic and do other things. For example, you could write the function above like this:
 
-```
+```python
 def multiply(a,b):
 	print "I'm multiplying two numbers"
 	return  a * b
@@ -108,7 +110,7 @@ This would both print to the terminal and return a value. The return is the very
 
 5. At the bottom of the file, Call the function and print a line explaining what is happening. Like this:
 	
-	```
+	```python
 	print "I'm going use the calculator functions to multiply 5 and 6"
 	x = multiply(5,6)
 	print x
@@ -119,7 +121,7 @@ This would both print to the terminal and return a value. The return is the very
 7. Run the file with the following command to make sure your python is all right:
 
 	```
-	python calculator.py
+	python2 calculator.py
 	```
 
 8. Make sure everything works correctly and issue a pull request on github back to the master branch with a message explaining what changes you made in this branch.
@@ -127,15 +129,18 @@ This would both print to the terminal and return a value. The return is the very
 9. Accept the pull request into the master branch and delete the `calculator` branch on github.
 
 10. Checkout the master branch, and pull the version of master with the calculator branch merged
+
 	```
 	git checkout master
 	git pull
 	```
-	
+
 11. Delete your local version of the calculator branch
+
 	```
 	git branch -D calculator
 	```
+
 **bonus**
 
 1. Add two more functions, square and cube.
@@ -152,12 +157,12 @@ This would both print to the terminal and return a value. The return is the very
 
 5. At the bottom of the file, Call the function and print a line explaining what is happening. Like this:
 	
-	```
+	```javascript
 	console.log("I'm going use the calculator functions to multiply 5 and 6")
 	var x = multiply(5,6)
 	console.log(x)
 	```
-	
+
 6. Commit this change and explain what you just did in the commit message
 
 7. Run the file with the following command to make sure your python is all right:
@@ -171,12 +176,14 @@ This would both print to the terminal and return a value. The return is the very
 9. Accept the pull request into the master branch and delete the `js-calculator` branch on github.
 
 10. Checkout the master branch, and pull the version of master with the calculator branch merged
+
 	```
 	git checkout master
 	git pull
 	```
-	
+
 11. Delete your local version of the js-calculator branch
+
 	```
 	git branch -D js-calculator
 	```

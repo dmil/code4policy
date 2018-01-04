@@ -165,7 +165,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 2. Open `sayhello.py` and type the following python program:
 
 	```python
-	#!/usr/bin/env python
+	#!/usr/bin/env python2
 	import sys
 	name = sys.stdin.read()
 	print "Hello " + name + "!"
