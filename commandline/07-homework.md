@@ -1,5 +1,13 @@
 # Command Line 7
 
+## Setup
+
+Please note that if you don't have csvkit, you'll need to install it.
+
+```
+pip install csvkit
+```
+
 ## Homework
 
 The following program reads data from STDIN that is in a csv format and filters rows where someone has made a purchase for water that is over $1000. It writes this data back to STDOUT.
