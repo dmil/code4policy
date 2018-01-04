@@ -37,7 +37,6 @@ file | description
 [Commandline Homework](commandline/07-homework.md) | Command Line Homework
 [Try Git](https://try.github.io) | Get a Taste of Git
 
-<!--
 
 # Day 2
 file | description
@@ -54,6 +53,8 @@ file | description
 [http://jsforcats.com/](http://jsforcats.com/) | JavaScript For Cats
 [functions.md](functions.md)	 | Functions Homework (Python & JavaScript)
 [apireadings.md](apireadings.md)	 | API Readings
+
+<!--
 
 # Day 3
 file| description
