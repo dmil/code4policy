@@ -87,26 +87,26 @@ Within a Repository you have
 	```
 
 9. commit
-	
+
 	```
 	git commit -m "add earth"
 	```
 
 10. check the git status
-	
+
 	```
 	git status
 	```
 
 11. check the git log
-	
+
 	```
 	git log
 	```
 
-12. create a [blank github repo](https://github.com/new) called "universe" 
+12. create a [blank github repo](https://github.com/new) called "universe"
 
-13. set your remotes (follow the instructions in the new github repository)  
+13. set your remotes (follow the instructions in the new github repository)
 
 14. push your 2 commits
 
@@ -132,7 +132,7 @@ Within a Repository you have
 	git init
 	```
 4. Add yesterday's homework to the staging area. Move it to a folder first.
-	
+
 	```
 	mkdir day1
 	mv sayhello.py day1/
@@ -149,8 +149,8 @@ Within a Repository you have
 6. commit
 7. check the git status
 8. check the git log
-9. create a [blank github repo](https://github.com/new) called "assignments" 
-10. set your remotes (follow the instructions in the new github repository)  
+9. create a [blank github repo](https://github.com/new) called "assignments"
+10. set your remotes (follow the instructions in the new github repository)
 11. push your commits
 12. check if the code is pushed online
 
