@@ -6,7 +6,7 @@ First lets see if you already have SSH keys setup
 
 Follow these instructions for connecting to Github via SSH.
 
-https://help.github.com/articles/connecting-to-github-with-ssh/ 
+https://help.github.com/articles/connecting-to-github-with-ssh/
 
 ## Lets see what we've just done
 
@@ -61,10 +61,10 @@ Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 ## Other applications
 
 * [Encrypting Files](https://bjornjohansen.no/encrypt-file-using-ssh-key)
-* [HTTPS](https://www.youtube.com/watch?v=w0QbnxKRD0w) - We'll cover this more in a later lesson 
+* [HTTPS](https://www.youtube.com/watch?v=w0QbnxKRD0w) - We'll cover this more in a later lesson
 * Cryptocurrency - https://walletgenerator.net/
 * Verifying Identity, Chat, etc... (see keybase)
 
 ## Want to know more?
 * Questions
-* If we have time I've invited a security expert to come and speak during our final class day. 
+* If we have time I've invited a security expert to come and speak during our final class day.

@@ -2,7 +2,7 @@
 
 ## Websites on the Internet
 
-How do they work? 
+How do they work?
 
 https://projects.propublica.org/graphics/images/data-institute/presentations/how-websites-work.pdf
 

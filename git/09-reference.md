@@ -3,8 +3,8 @@
 # Getting Started
 
 1. Create a new repository on GitHub
-2. **Clone** that repository locally onto your computer 
-	
+2. **Clone** that repository locally onto your computer
+
 	```
 	git clone git@github.com:dmil/mehta-simple-website.git
 	```
@@ -12,7 +12,7 @@
 # Linear Workflow
 
 
-1. `cd` into the folder containing your project. 
+1. `cd` into the folder containing your project.
 
 	```
 	cd ~/path/to/project
@@ -23,16 +23,16 @@
 	git status
 	```
 
-3. Then **pull** the latest changes from the **remote repository** on GitHub. 
+3. Then **pull** the latest changes from the **remote repository** on GitHub.
 
 	```
 	git pull
 	```
-	
+
 4. Do a discrete chunk of work on your project (lets say you added a basic FAQ page"
 
 5. Check the status again, then **add** the files you'd like to commit to the **staging area**.
-	
+
 	```
 	git status
 	git add faq.html
@@ -43,16 +43,16 @@
 	```
 	git commit -m "add a basic FAQ page"
 	```
-	
+
 7. Push that change back to GitHub
 
 	```
 	git push
 	```
-	
+
 # Non-linear branching workflow
 
-1. `cd` into the folder containing your project. 
+1. `cd` into the folder containing your project.
 
 	```
 	cd ~/path/to/project
@@ -64,22 +64,22 @@
 	git branch
 	```
 
-3. Then **pull** the latest changes from the **master** branch of the **remote repository** on GitHub. 
+3. Then **pull** the latest changes from the **master** branch of the **remote repository** on GitHub.
 
 	```
 	git pull
 	```
-	
+
 4. Create a new branch with a descriptive name (remember the `-b` option will create a new branch, you can check out an existing branch by not using that option)
 
 	```
 	git checkout -b faq-page
 	```
-	
+
 5. Do your work in discrete chunks. at the end of each chunk, add the file to the staging area, then commit it. Its usually a good idea to also push the latest to GitHub, although some people prefer to do that at the end.
 
 	Do some work
-	
+
 	```
 	git status
 	git add faq.html
@@ -87,9 +87,9 @@
 	git push
 	git status
 	```
-	
+
 	Do more work
-	
+
 	```
 	git status
 	git add faq.html
@@ -122,16 +122,16 @@
 6. Once everything has been pushed to GitHub, issue a **pull request** from your branch back to the master branch.
 
 	![](https://www.evernote.com/shard/s150/sh/271da921-4f35-4fca-ab35-7ced2b9e1faa/8364bd49b4ad8f8e/res/765ea1c4-9759-4f0f-bc5f-ba44987a4e6c/skitch.png?resizeSmall&width=832)
-	
+
 7. You can have a discussion on this **pull request** using GitHub's social features, and then **merge** it into the master branch when everyone agrees its a good idea to do so.
 
 8. Finally, once the pull request has been merged into the master branch in the **remote repository** on GitHub, you'll want to get the latest version of the master branch on your local machine. Checkout the master branch locally and then pull.
-	
+
 	```
 	git checkout master
 	git pull
 	```
-	
+
 ## Additional Resources
 
 1. If you're stuck, ask (or come to office hours). Ihsaan and I should also be on Slack.
