@@ -5,7 +5,7 @@
 Please note that if you don't have csvkit, you'll need to install it.
 
 ```
-pip install csvkit
+pip2 install csvkit
 ```
 
 ## Homework
