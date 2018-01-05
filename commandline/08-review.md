@@ -28,38 +28,12 @@ ls # list directory
 
 ### Files
 ```
-cat <filepath>
-touch <filepath>
+cat <filepath> # display contents of a file
+touch <filepath> # create file if it doesn't already exist
 
 mkdir <directory_path> # make directory
-rmdir <directory_path> # remove directory
-cp <from> <to> # copy a file or directory
-mv <from> <to> # move a file or directory
+rm -ir <directory_path> # remove directory
+cp -v <source> <destination> # copy a file or directory
+mv <source> <destination> # move a file or directory
 ```
 
-## Try It
-* Navigate to your `Development/` folder in the terminal
-* Create a directory called `python-playground`
-* Create a file inside `python-playground` called `README.md`. The file should look like this
-	
-	```
-	# Python Playground
-	
-	This is my python-playground, a place where I keep some simple python scripts as I learn python.
-	
-	```
-
-* Create a new file called `hello.py`
-* Write a python program that prints "Hello, World!" inside that file. It should look like this:
-
-	```
-	print "Hello, World!"
-	```
-
-* Run the file from the command line as follows
-
-	```
-	python hello.py
-	```
-	
-This should print "Hello, World!" to the terminal
