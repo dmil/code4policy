@@ -103,39 +103,41 @@ git branch -d <branchname>
 	print "Hello " + name + "!"
 	```
 
-6. Commit the change.
+6. Run `git diff` to see what has changed (what lines were added/deleted).
+
+7. Commit the change.
 
 	```
 	git commit -m "add comments to sayhello.py"
 	```
 
-7. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
+8. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
-8. Run `git log` and see that your new commit is in the list.
+9. Run `git log` and see that your new commit is in the list.
 
-9. Switch back to the master branch.
+10. Switch back to the master branch.
 
 	```
 	git checkout master
 	git branch
 	```
 
-10. Run `git log` again. Notice that the commit does not appear in the history of the master branch.
+11. Run `git log` again. Notice that the commit does not appear in the history of the master branch.
 
-11. Push the changes from the `add-comments` branch. You will run into an error asking you to set the "upstream" branch. Do what the instructions tell you to.
+12. Push the changes from the `add-comments` branch. You will run into an error asking you to set the "upstream" branch. Do what the instructions tell you to.
 
 	```
 	git checkout add-comments
 	git push
 	``` 
 
-12. Go to github.com and see the branch appear in the dropdown window. Click on it and then view the list of commits within this branch.
+13. Go to github.com and see the branch appear in the dropdown window. Click on it and then view the list of commits within this branch.
 
-13. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `add-comments` branch. Give it a title and a description and create the pull request.
+14. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `add-comments` branch. Give it a title and a description and create the pull request.
 
 ![](https://i.imgur.com/XNmv1lk.png)
 
-14. Review the files changed and click the big green merge button on the bottom of the PR.
+15. Review the files changed and click the big green merge button on the bottom of the PR.
 
 ### Example Branches and PRs in the Wild
 
