@@ -1,4 +1,4 @@
-# Git 4: SSH and Security
+# Git 3: SSH and Security
 
 ## Setup
 
