@@ -123,9 +123,12 @@ Within a Repository you have
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. Add the rest of the `planets` folder and commit it with the message "add remaining planets".
-2. Add the rest of the `stars` folder and commit it with the message "add stars".
-3. Push the two commits to github.
+1. Add `venus.txt` and commit it with the message "add venus".
+2. Add 'jupiter.txt' and 'uranus.txt' and commit it with the message "add jupiter and venus".
+3. Add the rest of the `planets` folder and commit it with the message "add remaining planets".
+4. Add the rest of the `stars` folder and commit it with the message "add stars".
+5. Run `git status` to check for any more "untracked files". Add the remaining files and commit them.
+5. Push these commits to github.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: assignments
 
