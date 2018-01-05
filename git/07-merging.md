@@ -110,3 +110,5 @@
 	</body>
 	</html>
 	```
+
+Your repository and website should look something like this: https://github.com/AlJohri/our-website
