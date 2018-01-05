@@ -89,7 +89,16 @@ Within a Repository you have
 	git log
 	```
 
-7. Push the commit.
+7. Create a [blank github repo](https://github.com/new) called "fruit-basket".
+
+8. Set your remotes (follow the instructions in the new github repository, it should look something like below).
+	
+	```
+	git remote add origin git@github.com:<username>/fruit-basket.git
+	git push -u origin master
+	```
+
+8. Push the commit.
 
 	```
 	git push
