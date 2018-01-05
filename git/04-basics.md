@@ -138,29 +138,43 @@ Within a Repository you have
 
 	```
 	git init
+	git status
 	```
-4. Add yesterday's homework to the staging area. Move it to a folder first.
+4. Add day 1 homework to the staging area.
 
 	```
-	mkdir day1
-	mv sayhello.py day1/
-	mv expensive_water.csv day1/
-	mv expensive_water_summary.txt day1/
-	mv description.txt day1/
-	mv output.csv day1/
-	mv summary.txt day1/
-
-	git add day1
+	git add sayhello.py
+	git add expensive_water.csv
+	git add expensive_water_summary.txt
+	git add description.txt
+	git add output.csv
+	git add summary.txt
+	git status
 	```
 
-5. check the git status
-6. commit
-7. check the git status
-8. check the git log
-9. create a [blank github repo](https://github.com/new) called "assignments"
-10. set your remotes (follow the instructions in the new github repository)
-11. push your commits
-12. check if the code is pushed online
+5. commit
+	
+	```
+	git commit -m "add day 1 homework"
+	git status
+	git log
+	```
+
+6. create a [blank github repo](https://github.com/new) called "assignments"
+7. set your remotes (follow the instructions in the new github repository, it should look something like below)
+
+	```
+	git remote add origin git@github.com:<username>/<repo>.git
+	git push -u origin master
+	```
+
+8. push your commits
+
+	```
+	git push
+	```
+
+9. check if the code is pushed online
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: cloning and pulling
 
