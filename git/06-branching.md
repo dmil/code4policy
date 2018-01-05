@@ -107,7 +107,7 @@ git branch -d <branchname>
 
 7. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
-8. Run git log and see that your new commit in the list.
+8. Run git log and see that your new commit is in the list.
 
 9. Switch back to the master branch.
 
@@ -115,7 +115,7 @@ git branch -d <branchname>
 	git checkout master
 	```
 
-10. Run git log again. Notice that the commit does not appear in the history of the master branch.
+10. Run `git log` again. Notice that the commit does not appear in the history of the master branch.
 
 11. Push the changes from the feature branch.
 
