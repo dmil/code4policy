@@ -11,7 +11,7 @@ https://help.github.com/articles/connecting-to-github-with-ssh/
 ## Lets see what we've just done
 
 ```
-ls -al ~/.ssh/id_rsa
+ls -al ~/.ssh/
 ```
 
 This is your **public key**
