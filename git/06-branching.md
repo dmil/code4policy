@@ -161,7 +161,7 @@ Example PRs:
 2. In this new branch, put a link to your LinkedIn profile at the bottom of your simple website.
 
 	```
-	<a href src="https://www.linkedin.com/in/dhrumilmehta">  Find me on LinkedIn!</a>
+	<a href="https://www.linkedin.com/in/dhrumilmehta">  Find me on LinkedIn!</a>
 	```
 
 3. Commit the change in the feature branch.
