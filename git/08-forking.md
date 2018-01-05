@@ -29,16 +29,34 @@ Good example repository that makes use of issues and pull requests: https://gith
 2. Go to Settings > GitHub Pages and select the "master" branch as the source.
 
 3. Clone the forked repository to your Development folder.
+	
+	```
+	git clone git@github.com:XXXX/XXXX.git
+	```
 
-4. Create a feature branch with your name and make a random change. Commit and push the change.
+4. Create a feature branch with your name.
 
-5. Create a pull request. Note that this time we are creating pull request across repositories instead of just across branches within the same repository. The `base` will be `dmil/simple-website/master` while the `compare` will be `your-username/simple-website/feature-branch-name`.
+	```
+	# XXXX should be your name
+	git checkout -b XXXX
+	```
 
-6. Create another pull request within the fork itself where the base is your own master branch. More explicitly, the base is `your-username/simple-website/master` and the compare is `your-username/simple-website/feature-branch-name`. Merge this pull request.
+5. Make a random change.
 
-7. Compare your website http://`your-username`.github.io/simple-website to mine: http://dhrumilmehta.com/simple-website/
+6. Commit and push the change.
+	
+	```
+	git commit -m "describe your random change here"
+	git push
+	```
 
-6. I will now merge your pull requests and we can see what changes you all make to the website over time. There's a good chance we may run into some merge conflicts as well.
+7. Create a pull request. Note that this time we are creating pull request across repositories instead of just across branches within the same repository. The `base` will be `dmil/simple-website/master` while the `compare` will be `your-username/simple-website/feature-branch-name`.
+
+8. Create another pull request within the fork itself where the base is your own master branch. More explicitly, the base is `your-username/simple-website/master` and the compare is `your-username/simple-website/feature-branch-name`. Merge this pull request.
+
+9. Compare your website http://`your-username`.github.io/simple-website to mine: http://dhrumilmehta.com/simple-website/
+
+10. I will now merge your pull requests and we can see what changes you all make to the website over time. There's a good chance we may run into some merge conflicts as well.
 
 ### Woohoo! You just collaborated open-source.
 
