@@ -57,9 +57,9 @@
 
 2. Have the product owner create a **blank** repository (no README) under their account named `our-website`. 
 
-3. The product owner should add the remaining team members as collaborators to the repo. This is done under the repo settings. 
-
-4. The product owner should enable github pages on this repo with the `master` branch as the source.
+3. The product owner should:
+	1. add the remaining team members as collaborators to the repo. This is done under the repo settings
+	2. enable github pages on this repo with the `master` branch as the source
 
 5. Everyone should clone the empty repository.
 
