@@ -106,7 +106,12 @@ Within a Repository you have
 
 12. create a [blank github repo](https://github.com/new) called "universe"
 
-13. set your remotes (follow the instructions in the new github repository)
+13. set your remotes (follow the instructions in the new github repository, it should look something like below)
+	
+	```
+	git remote add origin git@github.com:<username>/<repo>.git
+	git push -u origin master
+	```
 
 14. push your 2 commits
 
@@ -118,9 +123,12 @@ Within a Repository you have
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. Add the rest of the `planets` folder and commit it with the message "add remaining planets".
-2. Add the rest of the `stars` folder and commit it with the message "add stars".
-3. Push the two commits to github.
+1. Add `venus.txt` and commit it with the message "add venus".
+2. Add 'jupiter.txt' and 'uranus.txt' and commit it with the message "add jupiter and venus".
+3. Add the rest of the `planets` folder and commit it with the message "add remaining planets".
+4. Add the rest of the `stars` folder and commit it with the message "add stars".
+5. Run `git status` to check for any more "untracked files". Add the remaining files and commit them.
+5. Push these commits to github.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: assignments
 
@@ -130,29 +138,43 @@ Within a Repository you have
 
 	```
 	git init
+	git status
 	```
-4. Add yesterday's homework to the staging area. Move it to a folder first.
+4. Add day 1 homework to the staging area.
 
 	```
-	mkdir day1
-	mv sayhello.py day1/
-	mv expensive_water.csv day1/
-	mv expensive_water_summary.txt day1/
-	mv description.txt day1/
-	mv output.csv day1/
-	mv summary.txt day1/
-
-	git add day1
+	git add sayhello.py
+	git add expensive_water.csv
+	git add expensive_water_summary.txt
+	git add description.txt
+	git add output.csv
+	git add summary.txt
+	git status
 	```
 
-5. check the git status
-6. commit
-7. check the git status
-8. check the git log
-9. create a [blank github repo](https://github.com/new) called "assignments"
-10. set your remotes (follow the instructions in the new github repository)
-11. push your commits
-12. check if the code is pushed online
+5. commit
+	
+	```
+	git commit -m "add day 1 homework"
+	git status
+	git log
+	```
+
+6. create a [blank github repo](https://github.com/new) called "assignments"
+7. set your remotes (follow the instructions in the new github repository, it should look something like below)
+
+	```
+	git remote add origin git@github.com:<username>/<repo>.git
+	git push -u origin master
+	```
+
+8. push your commits
+
+	```
+	git push
+	```
+
+9. check if the code is pushed online
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: cloning and pulling
 
