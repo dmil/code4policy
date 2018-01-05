@@ -122,7 +122,7 @@ git branch -d <branchname>
 
 10. Run `git log` again. Notice that the commit does not appear in the history of the master branch.
 
-11. Push the changes from the `add-comments` branch. You will run into an error asking you to set the "upstream" branch.
+11. Push the changes from the `add-comments` branch. You will run into an error asking you to set the "upstream" branch. Do what the instructions tell you to.
 
 	```
 	git checkout add-comments
