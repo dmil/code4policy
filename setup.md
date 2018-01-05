@@ -21,6 +21,11 @@
 	brew install python
 	```
 
+6. Install Sublime Text, the text editor we will be using in class
+	```
+	brew cask install sublime-text
+	```
+
 ## Ubuntu
 
 1. In the terminal run the following command to update your package manager.
@@ -41,7 +46,15 @@
 	sudo apt-get install python
 	sudo apt-get install python-pip
 	```
+	
+5. Install Sublime Text, the text editor we will be using in class
 
+	```
+	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+	echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+	sudo apt update && sudo apt install sublime-text
+	```
+	
 ## Windows
 
 Please see instructions to boot Ubuntu on Windows ([windows.md](windows.md)). Once you've loaded and run Ubuntu, please follow the Ubuntu instructions above.
