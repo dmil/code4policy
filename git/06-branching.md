@@ -133,6 +133,8 @@ git branch -d <branchname>
 
 13. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `add-comments` branch. Give it a title and a description and create the pull request.
 
+![](https://i.imgur.com/XNmv1lk.png)
+
 14. Review the files changed and click the big green merge button on the bottom of the PR.
 
 ### Example Branches and PRs in the Wild
