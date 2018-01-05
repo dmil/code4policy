@@ -48,24 +48,22 @@ Within a Repository you have
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: fruit-basket
 
-1. Create a [blank github repo](https://github.com/new) called "fruit-basket". Copy the ssh url of the repo (looks like `git@github.com:AlJohri/fruit-basket.git`).
-2. `cd ~/Development/`
-3. Clone the repository.
+1. Create 🍒🍎🍌🍇🍑🍉🍍 basket
 
 	```
-	git clone git@github.com:AlJohri/fruit-basket.git
+	cd ~/Development/
+	mkdir fruit-basket
 	cd fruit-basket
 
-	git status
-	git log
+	echo "i am cherry" > cherries.txt
+	echo "i am a strawberry" > strawberries.txt
+	echo "i am a watermelon" > watermelons.txt
 	```
 
-4. Create a bunch of fruits.
+2. Initialize repository
 
 	```
-	echo "🍒🍒🍒" > cherries.txt
-	echo "🍓🍓🍓" > strawberries.txt
-	echo "🍉🍉🍉" > watermelons.txt
+	git init
 
 	git status
 	git log
