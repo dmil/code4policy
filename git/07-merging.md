@@ -2,29 +2,27 @@
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. `cd` to the `universe` repository at `~/Development/universe`.
+1. `cd ~/Development/universe`.
 
 2. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
 3. Run `git pull` to ensure you have the latest changes in the repository.
-  
-  You probably do since you're the only one working on this repository, but it's good to get in a habbit of always running `git pull` before working on anything, especialy when collaborating.
 
-3. Create a branch called `blue-universe`.
+4. Create a branch called `blue-universe`.
 	1. Modify the facts in `mars.txt` to add a new line "Mars is blue". Use `git diff` to ensure that you only modifeid that one line and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
-4. Check out the master branch and then create a new branch called `red-universe`.
+5. Check out the master branch and then create a new branch called `red-universe`.
 	1. Modify the facts in `mars.txt` to add a new line "Mars is red". Use `git diff` to ensure that you only modifeid that one line and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
-5. Merge the `red-universe` pull request. Try to merge the `blue-universe` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
+6. Merge the `red-universe` pull request. Try to merge the `blue-universe` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
 
-6. Create a branch called `the-upside-down`.
+7. Create a branch called `the-upside-down`.
 	1. Edit `united_states.txt` with the text: "Hawkins, Indiana: The Demogorgon was here."
 	2. Commit this change to the branch.
 	3. Push the branch.
