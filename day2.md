@@ -45,7 +45,7 @@ Things to mention
 	* Quickly go over slack and its features.
 	* Quickly go over the discsussion of Reading.
 	* Quickly go over the new channels that exist now.
-		* anyone should feel free to register a new channel if it feels necessary, just make sure to inform everyone in #general if you do.
+	* anyone should feel free to register a new channel if it feels necessary, just make sure to inform everyone in #general if you do.
 
 ### Weather-related changes
 
@@ -68,7 +68,7 @@ Things to mention
 
 ### StoryTime
 
-![](https://www.evernote.com/shard/s150/sh/1d24b8ec-6fb2-468c-9d0d-d2330d637016/92fe55b72922033d/res/f26ac4e6-0f80-48ad-9faf-730f47e2e08f/skitch.png =50x)
+![](https://www.evernote.com/shard/s150/sh/1d24b8ec-6fb2-468c-9d0d-d2330d637016/92fe55b72922033d/res/f26ac4e6-0f80-48ad-9faf-730f47e2e08f/skitch.png)
 
 1. Group stories
 2. Prioritize (surface the most important ones)
