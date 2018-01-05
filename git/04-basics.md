@@ -51,13 +51,14 @@ Within a Repository you have
 1. Backup the `assignments` directory.
 2. cd into your directory `~/Development/assignments`
 3. run `pwd` and `ls` to remind yourself where you are and what is there
-4. intitialize a git repository in the folder
+4. intitialize a git repository in the folder. Your shell prompt (`PS1`) should also show that we are now in a git repository.
 
 	```
 	git init
 	git status
 	git log
 	```
+
 5. Add day 1 homework to the staging area.
 
 	```
