@@ -26,7 +26,7 @@ Good example repository that makes use of issues and pull requests: https://gith
 
 1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
 
-2. Go to Settings > GitHub Pages and select the "master" branch as the source.
+2. Go to Settings > GitHub Pages and select the "master" branch as the source. Wait a few seconds and then go to http://`your-username`.github.io/simple-website to make sure github pages is set up correctly.
 
 3. Clone the forked repository to your Development folder.
 	
