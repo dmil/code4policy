@@ -94,9 +94,13 @@ git branch -d <branchname>
 
 5. Open sayhello.py in your text editor and to the best of your knowledge add comments describing what the code is doing.
 	
-	```
-	# This python program demonstrates how to print a string.
-	print "Hello World"
+	```python
+	#!/usr/bin/env python2
+	# this is a sample comment
+	# add your own comments to describe what this script does
+	import sys
+	name = sys.stdin.read()
+	print "Hello " + name + "!"
 	```
 
 6. Commit the change.
