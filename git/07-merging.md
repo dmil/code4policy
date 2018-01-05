@@ -55,11 +55,11 @@
 
 1. Get into your teams and come up with a team name and a product owner if you haven't already done so.
 
-2. Have the product owner create a **blank** repository (no README) under their account named `test-collab`. 
+2. Have the product owner create a **blank** repository (no README) under their account named `our-website`. 
 
-3. Add the remaining team members as collaborators to the repo. This is done under the repo settings. 
+3. The product owner should add the remaining team members as collaborators to the repo. This is done under the repo settings. 
 
-4. Enable github pages on this repo with the `master` branch as the source.
+4. The product owner should enable github pages on this repo with the `master` branch as the source.
 
 5. Everyone should clone the empty repository.
 
@@ -70,7 +70,7 @@
 	<html>
 	<body>
 
-	<h1>My Team Name</h1>
+	<h1>Our Website</h1>
 
 	</body>
 	</html>
@@ -85,3 +85,5 @@
 8. In this branch, each team member should create a file that is titled `<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
 	1. Commit this change to the feature branch, push it, and create a pull request.
 	2. Product Lead should review and merge all of the PRs. There should be no conflicts.
+
+9. The product owner should link each of these member pages into the `index.html`.
