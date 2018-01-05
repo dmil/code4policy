@@ -93,5 +93,4 @@ file| description
 file | description
 -----|------------
 [projectplanning.md](projectplanning.md) | Planning Document
-[project.md](project.md) | Final Project
 
