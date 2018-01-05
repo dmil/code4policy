@@ -95,7 +95,7 @@ Within a Repository you have
 	
 	```
 	git remote add origin git@github.com:XXXXX/XXXXX.git
-	git push -u origin master
+	git push --set-upstream origin master
 	```
 
 8. Push the commit.
@@ -146,7 +146,7 @@ Within a Repository you have
 
 	```
 	git remote add origin git@github.com:<username>/<repo>.git
-	git push -u origin master
+	git push --set-upstream origin master
 	```
 
 9. push your commits
@@ -207,7 +207,7 @@ Within a Repository you have
 	
 	```
 	git remote add origin git@github.com:XXXXX/XXXXX.git
-	git push -u origin master
+	git push --set-upstream origin master
 	```
 
 10. push your 2 commits
