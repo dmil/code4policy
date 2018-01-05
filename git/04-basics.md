@@ -46,6 +46,60 @@ Within a Repository you have
 * **fetch**  - downloading the set of changes (commits) from a remote repository
 * **pull**   - fetching changes and merging them into the current branch
 
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: fruit-basket
+
+1. Create a [blank github repo](https://github.com/new) called "fruit-basket". Copy the ssh url of the repo (looks like `git@github.com:AlJohri/fruit-basket.git`).
+2. `cd ~/Development/`
+3. Clone the repository.
+
+	```
+	git clone git@github.com:AlJohri/fruit-basket.git
+	cd fruit-basket
+
+	git status
+	git log
+	```
+
+4. Create a bunch of fruits.
+
+	```
+	echo "🍒🍒🍒" > cherries.txt
+	echo "🍓🍓🍓" > strawberries.txt
+	echo "🍉🍉🍉" > watermelons.txt
+
+	git status
+	git log
+	```
+
+5. Add the fruits to the staging area.
+
+	```
+	git add cherries.txt
+	git add strawberries.txt
+	git add watermelons.txt
+
+	git status
+	git log
+	```
+
+6. Create a commit.
+
+	```
+	git commit -m "add cherries, strawberries, and watermelons"
+
+	git status
+	git log
+	```
+
+7. Push the commit.
+
+	```
+	git push
+
+	git status
+	git log
+	```
+
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: assignments
 
 1. Backup the `assignments` directory.
