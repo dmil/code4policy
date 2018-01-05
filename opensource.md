@@ -86,7 +86,7 @@ Github and Hiring
 
 ## Assignment
 
-Tomorrow we will be joined by Seamus Kraft, Director of the Open Gov Foundation and an advocate for open source technology and transparancy in congress. You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of resisting open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed.
+On the last day of class Seamus Kraft, Director of the Open Gov Foundation and an advocate for open source technology and transparancy in congress. You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of resisting open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed.
 
 In your groups, you will prepare an outline that goes through the reasons why open source should not be adopted. Each group will focus on a different area. Example areas include:
 
