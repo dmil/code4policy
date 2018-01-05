@@ -105,6 +105,10 @@ git branch -d <branchname>
 
 6. Commit the change.
 
+	```
+	git commit -m "add comments to sayhello.py"
+	```
+
 7. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
 8. Run git log and see that your new commit is in the list.
