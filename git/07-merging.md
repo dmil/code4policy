@@ -65,7 +65,7 @@
 
 5. The product owner should create an `index.html` and a an empty folder called `our-team`. Commit and push this change directly to the `master` branch. Here is a sample `index.html`:
 	
-	```
+	```html
 	<!DOCTYPE html>
 	<html>
 	<body>
@@ -86,12 +86,12 @@
 	1. Each member should:
 		1. commit this change to the branch
 		2. push it
-		3. create a pull request.
+		3. create a pull request
 	2. Product owner should review and merge all of the PRs. There should be no conflicts.
 
 9. The product owner should create links to each of these individal pages back into the `index.html`.
 
-	```
+	```html
 	<!DOCTYPE html>
 	<html>
 	<body>
