@@ -51,6 +51,8 @@ undo the experimental work.
 * [For drafting government web design standards!](https://github.com/18F/web-design-standards)
 * Open [comment period](https://github.com/whitehouse/source-code-policy/issues?q=is%3Aissue+is%3Aclosed) for policy
 * [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
+* Design (image diff) 
+	* https://help.github.com/articles/rendering-and-diffing-images/
 * Open journalsim showcase
 	* 	https://github.com/showcases/open-journalism
 * Github for Government

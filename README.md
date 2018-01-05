@@ -41,6 +41,7 @@ file | description
 # Day 2
 file | description
 -----|------------
+[day2.md](./day2.md) | Getting Started
 [git](./git) | Intro to Git & GitHub
 [web](./web)	| Intro to the Web
 --- | Project Sprint Planning
