@@ -53,7 +53,7 @@ Good example repository that makes use of issues and pull requests: https://gith
 
 8. Create another pull request within the fork itself where the base is your own master branch. More explicitly, the base is `your-username/simple-website/master` and the compare is `your-username/simple-website/feature-branch-name`. Merge this pull request. 
 
-*Note: Draw diagram on board*
+	*Note: Draw diagram on board*
 
 9. Compare your website http://`your-username`.github.io/simple-website to mine: http://dhrumilmehta.com/simple-website/
 
