@@ -94,3 +94,4 @@ file | description
 -----|------------
 [projectplanning.md](projectplanning.md) | Planning Document
 
+...and that's it. Thanks for coming!
