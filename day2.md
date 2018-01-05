@@ -58,7 +58,7 @@ Things to mention
 * What do you plan to do between now and the next meeting?
 * What are your blockers?
 
-# Project Groups
+## Project Groups
 
 * Lets take 2 minutes to silently look at the ideas your section-mates provided. 	
 
