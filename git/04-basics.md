@@ -106,7 +106,12 @@ Within a Repository you have
 
 12. create a [blank github repo](https://github.com/new) called "universe"
 
-13. set your remotes (follow the instructions in the new github repository)
+13. set your remotes (follow the instructions in the new github repository, it should look something like below)
+	
+	```
+	git remote add origin git@github.com:<username>/<repo>.git
+	git push -u origin master
+	```
 
 14. push your 2 commits
 
