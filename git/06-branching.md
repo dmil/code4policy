@@ -111,22 +111,22 @@ git branch -d <branchname>
 
 7. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
-8. Run git log and see that your new commit is in the list.
+8. Run `git log` and see that your new commit is in the list.
 
 9. Switch back to the master branch.
 
 	```
 	git checkout master
+	git branch
 	```
 
 10. Run `git log` again. Notice that the commit does not appear in the history of the master branch.
 
-11. Push the changes from the feature branch.
-
-	Remember that `origin` is the name of the `remote` on github.com. You can run `git remote -v` to see the full url of the repository. Because we are pushing to the feature branch, we specify the branch as the second *positional argument*.
+11. Push the changes from the `add-comments` branch.
 
 	```
-	git push origin add-comments
+	git checkout add-comments
+	git push
 	``` 
 
 12. Go to github.com and see the branch appear in the dropdown window. Click on it and then view the list of commits within this branch.
