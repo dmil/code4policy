@@ -66,7 +66,7 @@ Things to mention
 
 * Please finalize project groups. Self-organizing teams will report back to me. Lets finish this up quickly.
 
-### StoryTime
+## StoryTime
 
 ![](https://www.evernote.com/shard/s150/sh/1d24b8ec-6fb2-468c-9d0d-d2330d637016/92fe55b72922033d/res/f26ac4e6-0f80-48ad-9faf-730f47e2e08f/skitch.png)
 
