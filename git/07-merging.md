@@ -99,9 +99,9 @@
 	<h1>Our Website</h1>
 
 	<ul>
-		<li><a href="jessica.html">Jessica</a>
-		<li><a href="dhrumil.html">Dhrumil</a>
-		<li><a href="john.html">John</a>
+		<li><a href="our-team/jessica.html">Jessica</a>
+		<li><a href="our-team/dhrumil.html">Dhrumil</a>
+		<li><a href="our-team/john.html">John</a>
 	</ul>
 
 	</body>
