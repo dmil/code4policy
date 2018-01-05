@@ -40,18 +40,16 @@
 2. Create a branch called `alternative-facts`.
  
 3. Go back to (checkout) the `master` branch.
-  1. Add two facts to `mars.txt`: "Mars has polar ice caps." and "Mars is a little more than half the size of earth."
-  2. Rename `united_states.txt` to `beynation.txt`.
-  2. Commit these changes to `master`.
+	1. Add two facts to `mars.txt`: "Mars has polar ice caps." and "Mars is a little more than half the size of earth."
+	2. Commit these changes to `master`.
 
 4. Checkout the `alternative-facts` repository.
-  1. Add two facts to `mars.txt`. "Mars is gaseous." and "Mars is double the size of earth."
-  2. Commit these changes to `alternative-facts`.
-  3. Create a pull request using `alternative-facts`.
+	1. Add two facts to `mars.txt`. "Mars is gaseous." and "Mars is double the size of earth."
+	2. Commit these changes to `alternative-facts`.
+	3. Create a pull request using `alternative-facts`.
 
 5. Attempt to merge the pull request and try to resolve the merge conflicts.
 
-  Note that the changes that don't conflict (such as the renamed file in `master`) will merge just fine.
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
