@@ -36,12 +36,14 @@
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. Make sure the repository is clean and you are in the master branch.
+
+2. Create a branch called `alternative-facts`.
  
-3. In the master branch:
+3. Go back to (checkout) the `master` branch.
 	1. Add two facts to `mars.txt`: "Mars has polar ice caps." and "Mars is a little more than half the size of earth."
 	2. Commit these changes to `master`.
 
-4. 2. Create and switch to (checkout) a branch called `alternative-facts`.
+4. Checkout the `alternative-facts` branch.
 	1. Add two facts to `mars.txt`. "Mars is gaseous." and "Mars is double the size of earth."
 	2. Commit these changes to `alternative-facts`.
 	3. Create a pull request using `alternative-facts`.
