@@ -111,4 +111,6 @@
 	</html>
 	```
 
-Your repository and website should look something like this: https://github.com/AlJohri/our-website
+Your repository and website should look something like this:
+- https://github.com/AlJohri/our-website
+- http://aljohri.com/our-website/
