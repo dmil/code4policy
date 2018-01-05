@@ -63,7 +63,7 @@
 
 5. Everyone should clone the empty repository.
 
-5. The product owner should create an `index.html`. Commit and push this change directly to the `master` branch. Here is a sample `index.html`:
+5. The product owner should create an `index.html` and a an empty folder called `our-team`. Commit and push this change directly to the `master` branch. Here is a sample `index.html`:
 	
 	```
 	<!DOCTYPE html>
@@ -82,7 +82,7 @@
 
 	For example a team might have `add-member-jessica`, `add-member-dhrumil`, `add-member-john`, etc.
 
-8. In this branch, each team member should create a file that is titled `<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
+8. In this branch, each team member should create a file that is titled `our-team/<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
 	1. Commit this change to the feature branch, push it, and create a pull request.
 	2. Product Lead should review and merge all of the PRs. There should be no conflicts.
 
