@@ -46,101 +46,19 @@ Within a Repository you have
 * **fetch**  - downloading the set of changes (commits) from a remote repository
 * **pull**   - fetching changes and merging them into the current branch
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: universe
-
-1. cd into your directory `~/Development/universe`
-2. run `pwd` and `ls` to remind yourself where you are and what is there
-3. intitialize a git repository in the folder
-
-	```
-	git init
-	```
-
-4.  add mars.txt
-
-	```
-	git add solar_system/planets/mars.txt
-	```
-
-5. check the git status
-
-	```
-	git status
-	```
-
-6. commit
-
-	```
-	git commit -m "add mars"
-	```
-
-7. check the git status
-
-	```
-	git status
-	```
-
-8. add earth
-
-	```
-	git add solar_system/planets/earth
-	```
-
-9. commit
-
-	```
-	git commit -m "add earth"
-	```
-
-10. check the git status
-
-	```
-	git status
-	```
-
-11. check the git log
-
-	```
-	git log
-	```
-
-12. create a [blank github repo](https://github.com/new) called "universe"
-
-13. set your remotes (follow the instructions in the new github repository, it should look something like below)
-	
-	```
-	git remote add origin git@github.com:<username>/<repo>.git
-	git push -u origin master
-	```
-
-14. push your 2 commits
-
-	```
-	git push
-	```
-
-15. check your repository online by refereshing the page in github
-
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
-
-1. Add `venus.txt` and commit it with the message "add venus".
-2. Add 'jupiter.txt' and 'uranus.txt' and commit it with the message "add jupiter and venus".
-3. Add the rest of the `planets` folder and commit it with the message "add remaining planets".
-4. Add the rest of the `stars` folder and commit it with the message "add stars".
-5. Run `git status` to check for any more "untracked files". Add the remaining files and commit them.
-5. Push these commits to github.
-
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: assignments
 
-1. cd into your directory `~/Development/assignments`
-2. run `pwd` and `ls` to remind yourself where you are and what is there
-3. intitialize a git repository in the folder
+1. Backup the `assignments` directory.
+2. cd into your directory `~/Development/assignments`
+3. run `pwd` and `ls` to remind yourself where you are and what is there
+4. intitialize a git repository in the folder
 
 	```
 	git init
 	git status
+	git log
 	```
-4. Add day 1 homework to the staging area.
+5. Add day 1 homework to the staging area.
 
 	```
 	git add sayhello.py
@@ -150,9 +68,10 @@ Within a Repository you have
 	git add output.csv
 	git add summary.txt
 	git status
+	git log
 	```
 
-5. commit
+6. commit
 	
 	```
 	git commit -m "add day 1 homework"
@@ -160,21 +79,91 @@ Within a Repository you have
 	git log
 	```
 
-6. create a [blank github repo](https://github.com/new) called "assignments"
-7. set your remotes (follow the instructions in the new github repository, it should look something like below)
+7. create a [blank github repo](https://github.com/new) called "assignments"
+8. set your remotes (follow the instructions in the new github repository, it should look something like below)
 
 	```
 	git remote add origin git@github.com:<username>/<repo>.git
 	git push -u origin master
 	```
 
-8. push your commits
+9. push your commits
 
 	```
 	git push
 	```
 
-9. check if the code is pushed online
+10. check if the code is pushed online
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: universe
+
+1. cd into your directory `~/Development/universe`
+2. run `pwd` and `ls` to remind yourself where you are and what is there
+3. intitialize a git repository in the folder
+
+	```
+	git init
+	git status
+	git log
+	```
+
+4.  add mars.txt
+
+	```
+	git add solar_system/planets/mars.txt
+	git status
+	git log
+	```
+
+5. commit
+
+	```
+	git commit -m "add mars"
+	git status
+	git log
+	```
+
+6. add earth
+
+	```
+	git add solar_system/planets/earth
+	git status
+	git log
+	```
+
+7. commit
+
+	```
+	git commit -m "add earth"
+	git status
+	git log
+	```
+
+8. create a [blank github repo](https://github.com/new) called "universe"
+
+9. set your remotes (follow the instructions in the new github repository, it should look something like below)
+	
+	```
+	git remote add origin git@github.com:<username>/<repo>.git
+	git push -u origin master
+	```
+
+10. push your 2 commits
+
+	```
+	git push
+	```
+
+11. check your repository online by refereshing the page in github
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. Add `venus.txt` and commit it with the message "add venus".
+2. Add `jupiter.txt` and `uranus.txt` and commit it with the message "add jupiter and venus".
+3. Add the rest of the `planets` folder and commit it with the message "add remaining planets".
+4. Add the rest of the `stars` folder and commit it with the message "add stars".
+5. Run `git status` to check for any more "untracked files". Add the remaining files and commit them.
+5. Push these commits to github.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: cloning and pulling
 
