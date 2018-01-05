@@ -33,7 +33,7 @@
 	3. Push the branch.
 	4. Do not merge this branch back in as [the upside down](http://strangerthings.wikia.com/wiki/The_Upside_Down) runs parallel to the real `universe`...
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Example
 
 1. Make sure the repository is clean and you are in the master branch.
 
@@ -55,7 +55,7 @@
 
 1. Get into your teams and come up with a team name and a product owner if you haven't already done so.
 
-2. Have the product owner create a **blank** repository (no README) under their account with the name of the team as the name of the repo. 
+2. Have the product owner create a **blank** repository (no README) under their account named `test-collab`. 
 
 3. Add the remaining team members as collaborators to the repo. This is done under the repo settings. 
 
@@ -63,10 +63,25 @@
 
 5. Everyone should clone the empty repository.
 
-5. The product owner should create an `index.html` with the name of your team and a folder called `our-team`. Commit and push this change directly to the `master` branch.
+5. The product owner should create an `index.html`. Commit and push this change directly to the `master` branch. Here is a sample `index.html`:
+	
+	```
+	<!DOCTYPE html>
+	<html>
+	<body>
+
+	<h1>My Team Name</h1>
+
+	</body>
+	</html>
+	```
 
 6. Everyone else should pull these changes.
 
-7. All team memmbers, including the product owner, should create feature branches titled `add-member-<name>`. In this branch, create a file within the `our-team` foler that is titled `<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
+7. All team members, should create branches titled `add-member-<name>`.
+
+	For example a team might have `add-member-jessica`, `add-member-dhrumil`, `add-member-john`, etc.
+
+8. In this branch, each team member should create a file that is titled `<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
 	1. Commit this change to the feature branch, push it, and create a pull request.
 	2. Product Lead should review and merge all of the PRs. There should be no conflicts.
