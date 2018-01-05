@@ -2,31 +2,9 @@
 
 ## Setup
 
-1. Install Sublime-Text
-	
-	**Ubuntu**
-	
-	* http://tipsonubuntu.com/2017/05/30/install-sublime-text-3-ubuntu-16-04-official-way/
-	
-	**Mac**
-	
-	```
-	brew cask install sublime-text
-	```
+1. Please check [setup.md](./setup.md), there are new steps in that file about installing ubuntu and making sure we all have the same python setup.
 
-2. Lets make sure we all have the same python setup.
-
-	Run `which python2`.	If this returns something like `/usr/local/bin/python2` on macOS or `/usr/bin/python2` on Ubuntu, then you don't need to do anything. If it returns nothing, run the following command to standardize your python setup with mine.
-	
-	**Mac**
-
-	`brew install python`
-	
-	**Ubuntu**
-
-	`sudo apt-get install python python-pip`
-
-3. If you haven't filled out the form, please do so now. We will be finalizing project groups today. If you don't have an idea ready, please just put XXXXX in that feild. Every person in the class should have submitted the form, i will be using the spreadsheet that this form produces as the official roster of groups.
+2. If you haven't filled out the form, please do so now. We will be finalizing project groups today. If you don't have an idea ready, please just put XXXXX in that feild. Every person in the class should have submitted the form, i will be using the spreadsheet that this form produces as the official roster of groups.
 	
 	https://docs.google.com/forms/d/e/1FAIpQLSeljR-P2PYEE0MuiRXCHwFdTwpJRM-7tzxHivkc_y6GefWO7A/viewform
 	
