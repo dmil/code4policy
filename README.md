@@ -44,7 +44,7 @@ file | description
 [day2.md](./day2.md) | Getting Started
 [git](./git) | Intro to Git & GitHub
 [web](./web)	| Intro to the Web
---- | Project Sprint Planning
+--- | Project Sprint 1 Planning
 
 ## Homework
 
@@ -52,7 +52,7 @@ file | description
 -----|------------
 [opensource.md](opensource.md) | Open Source Readings
 [http://jsforcats.com/](http://jsforcats.com/) | JavaScript For Cats
-[functions.md](functions.md)	 | Functions Homework (Python & JavaScript)
+[functions.md](functions.md) | Functions Homework (Python & JavaScript)
 Project | Sprint 1 + Daily Scrum Meetings
 
 <!--
