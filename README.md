@@ -53,18 +53,20 @@ file | description
 [opensource.md](opensource.md) | Open Source Readings
 [http://jsforcats.com/](http://jsforcats.com/) | JavaScript For Cats
 [functions.md](functions.md)	 | Functions Homework (Python & JavaScript)
-[apireadings.md](apireadings.md)	 | API Readings
+Project | Sprint 1 + Daily Scrum Meetings
 
 <!--
 
 # Day 3
 file| description
 ----|------------
----| Guest: Open Source (Seamus Kraft)
 ---| Deconstructing the Web
 ---| Apis & Scraping
 ---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
 ---| Intro to JavaScript
+
+## Homework
+[apireadings.md](apireadings.md)	 | API Readings
 
 # Day 4
 file| description
@@ -78,12 +80,19 @@ file| description
 # Day 5
 file| description
 ----|------------
+---| Guest: Open Source (Seamus Kraft)
 ---| AWS - Dynamic Web Apps in the Cloud
 ---| Cryptography, Security & SSH
 ---| Databases (SQL & NoSQL)
 ---| Speaker: Security (Max Whitney)
     
-    
- 
-
 -->
+
+
+## FINAL PROJECT
+file | description
+-----|------------
+[projectplanning.md](projectplanning.md) | Planning Document
+[project.md](project.md) | Final Project
+[projectchecklist.md](projectchecklist.md) | Checklist for Submission
+
