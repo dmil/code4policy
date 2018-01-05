@@ -14,13 +14,13 @@
 3. Run `git pull` to ensure you have the latest changes in the repository.
 
 4. Create a branch called `blue-universe`.
-	1. Modify the facts in `mars.txt` to add a new line "Mars is blue". Use `git diff` to ensure that you only modifeid that one line and nothing else.
+	1. Modify the facts in `mars.txt` to add a new line "Mars is blue". Use `git diff` to ensure that you only modified that one line and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
 5. Check out the master branch and then create a new branch called `red-universe`.
-	1. Modify the facts in `mars.txt` to add a new line "Mars is red". Use `git diff` to ensure that you only modifeid that one line and nothing else.
+	1. Modify the facts in `mars.txt` to add a new line "Mars is red". Use `git diff` to ensure that you only modified that one line and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
