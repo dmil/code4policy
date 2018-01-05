@@ -2,7 +2,12 @@
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. `cd ~/Development/universe`.
+1. 	`cd` into the universe folder and open the directory in sublime as well.
+
+	```
+	cd ~/Development/universe
+	subl ~/Development/universe
+	```
 
 2. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
