@@ -52,6 +52,7 @@ Images below sourced from [David Brumly at Carnegie Mellon University](https://w
 * Use them to encrypt files or data.
 	* https://gist.github.com/colinstein/de1755d2d7fbe27a0f1e
 * Use secure shell (`ssh`) to remote into another computer.
+	* ssh into 538stats
 * Copy a file securely from another computer using secure copy (`scp`).
 
 ## So this is what encryption is all about?
