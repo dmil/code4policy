@@ -80,7 +80,7 @@
 
 7. All team members, should create branches titled `add-member-<name>`.
 
-	For example a team might have `add-member-jessica`, `add-member-dhrumil`, `add-member-john`, etc.
+	For example a team might have `add-member-rachel`, `add-member-monica`, `add-member-phoebe`, etc.
 
 8. In this branch, each team member should create a file that is titled `our-team/<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
 	1. Each member should:
@@ -99,9 +99,12 @@
 	<h1>Our Website</h1>
 
 	<ul>
-		<li><a href="our-team/jessica.html">Jessica</a>
-		<li><a href="our-team/dhrumil.html">Dhrumil</a>
-		<li><a href="our-team/john.html">John</a>
+	    <li><a href="our-team/rachel.html">Rachel</a></li>
+	    <li><a href="our-team/monica.html">Monica</a></li>
+	    <li><a href="our-team/phoebe.html">Phoebe</a></li>
+	    <li><a href="our-team/joey.html">Joey</a></li>
+	    <li><a href="our-team/chandler.html">Chandler</a></li>
+	    <li><a href="our-team/ross.html">Ross</a></li>
 	</ul>
 
 	</body>
