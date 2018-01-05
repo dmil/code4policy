@@ -94,7 +94,7 @@ Within a Repository you have
 8. Set your remotes (follow the instructions in the new github repository, it should look something like below).
 	
 	```
-	git remote add origin git@github.com:<username>/fruit-basket.git
+	git remote add origin git@github.com:XXXXX/XXXXX.git
 	git push -u origin master
 	```
 
@@ -206,7 +206,7 @@ Within a Repository you have
 9. set your remotes (follow the instructions in the new github repository, it should look something like below)
 	
 	```
-	git remote add origin git@github.com:<username>/<repo>.git
+	git remote add origin git@github.com:XXXXX/XXXXX.git
 	git push -u origin master
 	```
 
