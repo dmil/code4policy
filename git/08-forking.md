@@ -37,8 +37,7 @@ Good example repository that makes use of issues and pull requests: https://gith
 4. Create a feature branch with your name.
 
 	```
-	# XXXX should be your name
-	git checkout -b XXXX
+	git checkout -b <your name>
 	```
 
 5. Make a random change.
