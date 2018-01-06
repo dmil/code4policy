@@ -57,8 +57,7 @@ What is open source?
 * Writings of Aaron Swartz
     * http://www.aaronsw.com/weblog/usefultransparency
     * http://crookedtimber.org/2012/07/03/a-database-of-folly/
-    * http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005 - chapter 7
-FLOSS/FOSS in Government
+    * (**recommended**) http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005 - chapter 7
 * Ethics
     *  [Senate ethics code of conduct summary - ("gifts" page)](http://www.ethics.senate.gov/public/index.cfm/files/serve?File_id=1aec2c45-aadf-46e3-bb36-c472bcbed20f)
     * [House Ethics - Gifts](https://ethics.house.gov/gifts/house-gift-rule)
