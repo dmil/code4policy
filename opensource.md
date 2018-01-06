@@ -31,14 +31,15 @@ What is open source?
     * https://en.wikipedia.org/wiki/Open-source_software_development#Model
 * Open Source Intro / Philosophy
     * http://www.dreamsongs.com/IHE/IHE-27.html
-    * **(required)**https://opensource.org/osd
+    * (**required**) https://opensource.org/osd
 * Open vs Free
-    * https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
-    * **(required)**https://www.ubuntu.com/about/about-ubuntu/our-philosophy
+    * (**recommended**) https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
+    * https://www.ubuntu.com/about/about-ubuntu/our-philosophy
 * DOD
-    * **(required)**http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
+    * (**required**)http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
+    * https://hackerone.com/resources/hack-the-pentagon
 * Whitehouse
-    * **(required)**https://www.whitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
+    * (**required**)https://www.whitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
     * https://sourcecode.cio.gov/
     * https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf
 * HHS
@@ -76,7 +77,6 @@ non-us
 * https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open
 * https://www.gov.uk/service-manual/technology/working-with-open-standards
 * http://meity.gov.in/content/free-and-open-source-software
-* https://hackerone.com/resources/hack-the-pentagon
 * https://timreview.ca/article/130
 * https://www.wired.com/2013/04/openstack-india/
 
