@@ -15,7 +15,7 @@ As you're reading, please contribute to the slack channel corresponding to the t
 
 1. Business Case & Cost (#opensource-cost) - discuss the cost advantages of open source software for a congressional office
 2. Ethics (#opensource-ethics) - discuss the ethics-related issues of adopting open source software for a congressional office
-3. Maintainance (#opensource-maintenance)  - discuss the advantages for maintaining software that is open source
+3. Maintainance (#opensource-maintain)  - discuss the advantages for maintaining software that is open source
 4. Security (#opensource-security) - discuss the security implications of open source software
 
 ## Artifacts
