@@ -33,7 +33,7 @@ What is open source?
     * http://www.dreamsongs.com/IHE/IHE-27.html
     * **(required)**https://opensource.org/osd
 * Open vs Free
-    * **(required)**https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
+    * https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
     * **(required)**https://www.ubuntu.com/about/about-ubuntu/our-philosophy
 * DOD
     * **(required)**http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
