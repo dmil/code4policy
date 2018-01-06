@@ -50,10 +50,11 @@ file | description
 
 file | description
 -----|------------
-[opensource.md](opensource.md) | Open Source Readings
+[weekend-note-1.md](weekend-note-1.md) | A note about the weekend.
+Project | Sprint 1 + Daily Scrum Meetings
 [http://jsforcats.com/](http://jsforcats.com/) | JavaScript For Cats
 [functions.md](functions.md) | Functions Homework (Python & JavaScript)
-Project | Sprint 1 + Daily Scrum Meetings
+[opensource.md](opensource.md) | Open Source Readings
 
 <!--
 
