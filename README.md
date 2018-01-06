@@ -43,7 +43,6 @@ file | description
 -----|------------
 [day2.md](./day2.md) | Getting Started
 [git](./git) | Intro to Git & GitHub
-[web](./web)	| Intro to the Web
 --- | Project Sprint 1 Planning
 
 ## Homework
@@ -61,6 +60,7 @@ Project | Sprint 1 + Daily Scrum Meetings
 # Day 3
 file| description
 ----|------------
+[web](./web) | Intro to the Web
 ---| Deconstructing the Web
 ---| Apis & Scraping
 ---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
