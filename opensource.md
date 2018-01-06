@@ -1,27 +1,26 @@
 # Homework
 
-Spend at least two hours reading selections from the following reading list. Some of the selections are required, others are optional. Required selections are marked as such. This should not be the end of your reading, this list is just a place to begin. Once you've done some general reading, focus your reading on the issue that your group has been assigned to debate.
+On the last day of class (Jan 12) Seamus Kraft, Director of the [OpenGov Foundation](https://www.opengovfoundation.org/) and an advocate for open source technology and transparancy in congress, will be skyping in from Washington DC. Seamus was one of the voices that helped to [convince congress to adopt open source technology](http://congressionaldata.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives-2/). You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of a member of congress (or a congressional staffer) who is skeptical of open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed. Depending on how we feel we can make it a more informal discussion, however I would still like for you to be well read on the topic you chose going into this discussion.
+
+## Assignment 
+
+Spend at least two hours reading selections from the reading list. Some of the selections are required, others are optional. Required selections are marked as such. This should not be the end of your reading, this list is just a place to begin. Once you've done some general reading, you will select a topic area from the topics below, and focus your remaining time drilling into one particular topic.
 
 ## Topic Assignment
 
-Your group assignment can be found in slack in the #general channel. Topic areas are:
+Please sign yourself up for one of the following groups in this google doc:
+https://docs.google.com/spreadsheets/d/1y_nJtNseCnFV01W2YQ34vYafYOFQkwb3wg9V6McF-zM/edit?usp=sharing
 
-1. business case / cost - discuss the cost advantages of open source software for a congressional office
-2. ethics - discuss the ethics-related issues of adopting open source software for a congressional office
-3. maintainance of open source software - discuss the advantages for maintaining software that is open source
-4. open source software and security - discuss the security implications of open source software
+As you're reading, please contribute to the slack channel corresponding to the topic you signed up for:
 
-Remember in each topic you are going to be arguing *for* the adoption of open source.
+1. Business Case & Cost (#opensource-cost) - discuss the cost advantages of open source software for a congressional office
+2. Ethics (#opensource-ethics) - discuss the ethics-related issues of adopting open source software for a congressional office
+3. Maintainance (#opensource-maintenance)  - discuss the advantages for maintaining software that is open source
+4. Security (#opensource-security) - discuss the security implications of open source software
 
 ## Artifacts
-1. Discuss in a slack channel (either #opensource or you can make your own for example #opensource-security if the #opensource channel is getting noisy and you want to discuss security in particular)
-2. An outline of your opening arguments for tomorrow (bullet points will be fine, please be detailed)
 
-   > The prompt is as follows:
-   >
-   > Assume Seamus (our guest speaker tomorrow) is the head of a congressional office who is resistant to open source software and you are a member of his staff. You are to convince Seamus that your office should use open source software. You will focus on the topic area assigned to you. Topic assignments can be found in slack in the #general channel.
-
-3. A list of personal questions or disucssion points for tomrrow about anything you're reading or anything that we have learned so far.
+1. Discussion on Slack - Lets try to have a discussion on Slack about the topic area you've selected. For this assignment, if Slack turns into just a list of comments rather than a discussion, that's fine too. Before the debate/discussion, you and the other people who have selected that subject area can review the points that everyone made in the slack channel and pick the most interesting or convincing ones to talk to Seamus about.
 
 ## Reading List
 What is open source?
@@ -36,8 +35,6 @@ What is open source?
 * Open vs Free
     * **(required)**https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
     * **(required)**https://www.ubuntu.com/about/about-ubuntu/our-philosophy
-    * http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005 - chapter 7
-FLOSS/FOSS in Government
 * DOD
     * **(required)**http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
 * Whitehouse
@@ -58,9 +55,11 @@ FLOSS/FOSS in Government
 * Writings of Aaron Swartz
     * http://www.aaronsw.com/weblog/usefultransparency
     * http://crookedtimber.org/2012/07/03/a-database-of-folly/
+    * http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005 - chapter 7
+FLOSS/FOSS in Government
 * Ethics
     *  [Senate ethics code of conduct summary - ("gifts" page)](http://www.ethics.senate.gov/public/index.cfm/files/serve?File_id=1aec2c45-aadf-46e3-bb36-c472bcbed20f)
-    * **(required)**[House Ethics - Gifts](https://ethics.house.gov/gifts/house-gift-rule)
+    * [House Ethics - Gifts](https://ethics.house.gov/gifts/house-gift-rule)
     * [White House Open Source Policy](https://sourcecode.cio.gov/)
     * [Open Source Software in House Press Release](http://congressionaldata.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives-2/)
     * https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/
@@ -83,22 +82,6 @@ non-us
 Github and Hiring
 
 * https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/
-
-## Assignment
-
-On the last day of class Seamus Kraft, Director of the Open Gov Foundation and an advocate for open source technology and transparancy in congress. You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of resisting open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed.
-
-In your groups, you will prepare an outline that goes through the reasons why open source should not be adopted. Each group will focus on a different area. Example areas include:
-
-1. The Business Case for Open Source, cost effectiveness
-2. Open Source Software and Security
-3. Specialization of Software
-4. Maintainance of Open Source Software
-5. Ethics of "free work"
-
-You may find other areas to focus your argument, just make sure to check in with the instructor to ensure that there is no overlap. 
-
-Each group will make their opening arguments to Seamus for why a congressional office ought to adopt open source software. He will then engage in a debate with each group and we will then open the discussion to the class and explore each of these areas together.
 
 ### Notes
 
