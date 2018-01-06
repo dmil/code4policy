@@ -47,7 +47,7 @@ What is open source?
 * 18F
     * https://18f.gsa.gov/2015/01/16/open-source-for-good-government/
     * https://github.com/18F/open-source-policy/blob/master/policy.md
-    * https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/
+    * (**required**)https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/
 * House
     * http://opengovfoundation.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives/
     * https://www.wired.com/2016/08/open-source-won-now/
