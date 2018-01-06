@@ -102,5 +102,5 @@ Each group will make their opening arguments to Seamus for why a congressional o
 
 ### Notes
 
-We will be using git and github every day for the remainder of the class. If you feel that you need to reinforce the larning from today to make sure that goes smoothly for you, feel free to spend some time following a git tutorial or reading one of the resources provided during the lesson about git. This one is a great place ot start. [https://try.github.io](https://try.github.io/)
+We will be using git and github every day for the remainder of the class. If you feel that you need to reinforce the learning from today to make sure that goes smoothly for you, consider rehashing the [git](git) lessons, or trying out a third party tutorial. I've found [git-it](http://jlord.us/git-it/) and GitHub's "[try git](https://try.github.io/)" useful.
 
