@@ -76,15 +76,15 @@ print x
 in JavaScript that would look like this
 
 ```javascript
-# This part of the code defines a function
+// This part of the code defines a function
 function multiply(a,b) { 
 	return (a * b)
 }
 
-# This part of the code then calls that function and assigns the variable x to its return value
+// This part of the code then calls that function and assigns the variable x to its return value
 var x = multiply(8,9)
 
-# This prints x to the terminal for humans to read
+// This prints x to the terminal for humans to read
 console.log(x)
 ```
 
