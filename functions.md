@@ -75,7 +75,7 @@ print x
 
 in JavaScript that would look like this
 
-```javaascript
+```javascript
 # This part of the code defines a function
 function multiply(a,b) { 
 	return (a * b)
