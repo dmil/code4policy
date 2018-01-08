@@ -59,12 +59,12 @@ Project | Sprint 1 + Daily Scrum Meetings
 # Day 3
 file| description
 ----|------------
-[web](./day3) | Getting Started
+[day3.md](day3.md) | Getting Started
 ---| Guest: Visualizing Data (Julia Wolfe)
-[web](./git) | Forking
+[git](./git) | Forking
 [web](./web) | Front-end development
 ---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
-[web](./day3) | Sprint Planning
+[day3.md](day3.md) | Sprint Planning
 
 
 ## Homework
