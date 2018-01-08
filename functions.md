@@ -75,16 +75,16 @@ print x
 
 in JavaScript that would look like this
 
-```javaascript
-# This part of the code defines a function
+```javascript
+// This part of the code defines a function
 function multiply(a,b) { 
 	return (a * b)
 }
 
-# This part of the code then calls that function and assigns the variable x to its return value
+// This part of the code then calls that function and assigns the variable x to its return value
 var x = multiply(8,9)
 
-# This prints x to the terminal for humans to read
+// This prints x to the terminal for humans to read
 console.log(x)
 ```
 
@@ -101,7 +101,7 @@ def multiply(a,b):
 This would both print to the terminal and return a value. The return is the very last logical thing that happens in the execution of a function. Once a `return` is called, no additional code can be run inside the function. The same is true in JavaScript (and all programming languages).
 
 ## Try It
-1. create a new branch in your `python-playground` git repo called "calculator"
+1. create a new branch in your `assignments` git repo called "calculator"
 2. inside that branch create a new file called `calculator.py`
 
 3. Write a program that defines four functions (multiply, add, subtract, and divide). These functions should not print anything, they should simply perform a mathematical operation on the two arguments and return the value.
@@ -148,7 +148,7 @@ This would both print to the terminal and return a value. The return is the very
 
 ## Try It
 
-1. create a new branch in your `python-playground` git repo called "js-calculator"
+1. create a new branch in your `assignments` git repo called "js-calculator"
 2. inside that branch create a new file called `calculator.js`
 
 3. Write (in javascript) a program that defines four functions (multiply, add, subtract, and divide). These functions should not print anything, they should simply perform a mathematical operation on the two arguments and return the value.
