@@ -19,19 +19,19 @@ When working with branches, here is the general workflow to adhere to.
 
 2. Commit changes and push to your branch in GitHub regularly.
 
-  ```bash
-
-  # add files to the staging area
-  git add filename1
-  git add filename2
-  git add filename3
-
-  # commit with a descritive message
-  git commit -m "descriptive message of the change i just made"
-
-  # push to your branch on GitHub
-  git push
-  ```
+    ```bash
+    
+    # add files to the staging area
+    git add filename1
+    git add filename2
+    git add filename3
+    
+    # commit with a descritive message
+    git commit -m "descriptive message of the change i just made"
+    
+    # push to your branch on GitHub
+    git push
+    ```
 
 3. Also make sure to periodically pull from master: 
 
