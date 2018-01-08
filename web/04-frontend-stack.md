@@ -51,7 +51,7 @@ Lets make all the quotes red.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-Lets now make the mainquote retain all of the styles from the regular quote, but also be bold.
+Lets now make the mainquote retain all of the styles from the regular quote, but also give it a border.
 
 ## JavaScript
 
