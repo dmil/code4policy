@@ -47,21 +47,11 @@ The `class` and `id` attributes are particularly important. These are what the C
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-Lets give all the quotes a distinct style from the rest of the paragraph tags.
+Lets make all the quotes red.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-Lets now make the mainquote retain all of the stles from the regular quote, but also be bold.
-
-
-### Addendum 
-
-There are lots of tools online to help you select a color pallate:
-
-* https://www.google.com/search?q=css+color+palette&spell=1&sa=X&ved=0ahUKEwiWg_fZ28bYAhXHzIMKHVDICKoQvwUIJigA&biw=834&bih=639
-* https://www.w3schools.com/colors/colors_picker.asp
-
-Also, you can modify CSS in the browser window if you just want to see what a change might look like without actually making the change.
+Lets now make the mainquote retain all of the styles from the regular quote, but also be bold.
 
 ## JavaScript
 
@@ -100,18 +90,11 @@ Add two buttons to your page, one to show the fox and one to hide it.
 ### Super duper bonus
 Make those into one button that toggles show/hide of the fox
 
-## Forking Practice (if we have time)
+## A note about style
 
-* Example Website: http://dhrumilmehta.com/simple-website/
-* GitHub Repo: https://github.com/dmil/simple-website
+There are lots of tools online to help you select a color pallate:
 
-1. Look at the example website above.
-2. Go to the GitHub Repo and "Fork" it
+* https://www.google.com/search?q=css+color+palette&spell=1&sa=X&ved=0ahUKEwiWg_fZ28bYAhXHzIMKHVDICKoQvwUIJigA&biw=834&bih=639
+* https://www.w3schools.com/colors/colors_picker.asp
 
-	![](https://www.evernote.com/shard/s150/sh/2188c37d-0d99-450c-81df-13b00cd26519/cd2d2ecf36ca17d8/res/87675191-4ae5-4905-9b59-237f21f7033a/skitch.png?resizeSmall&width=832)
-	
-	That should create a copy of the site on your own GitHub Repo.
-	
-3. Make **one** small change on your fork. You can edit content, styles, or javascript. You should be able to edit files directly in GitHub. (in a forking workflow you would normally fork it into your own GitHub, then clone the fork down onto your local computer and commit to your fork several times as you do work). For the purposes of this project, make a change directly in GitHub.
-
-4. Issue a pull request from the master branch of your repo to the master branch of my repo with a description of the suggested change.
+Also, you can modify CSS in the browser window if you just want to see what a change might look like without actually making the change.
