@@ -14,7 +14,7 @@ Draw on the board, forking vs branching.
 
 Good example repository that makes use of issues and pull requests: https://github.com/openelections/
 
-![](assets/forkvsbranch.png)
+![](../assets/forkvsbranch.png)
 
 
 ## Key Terms
