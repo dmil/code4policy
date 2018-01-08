@@ -15,13 +15,12 @@ When working with branches, here is the general workflow to adhere to.
 
   # create a new branch, branch-ed off of the master branch
   git checkout -b my-awesome-feature
-
   ```
 
 2. Commit changes and push to your branch in GitHub regularly.
 
   ```bash
-  
+
   # add files to the staging area
   git add filename1
   git add filename2
@@ -29,7 +28,7 @@ When working with branches, here is the general workflow to adhere to.
 
   # commit with a descritive message
   git commit -m "descriptive message of the change i just made"
-  
+
   # push to your branch on GitHub
   git push
   ```
