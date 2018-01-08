@@ -18,9 +18,10 @@
 	*  When you fork a repository, you get all of the branches the other person posted on GitHub
 	*  Pull requests however, don't acknowledge forks since they are a feature of GitHub and not Git
 
-Good example repository that makes use of issues and pull requests: https://github.com/openelections/
-
 ![](../assets/forkvsbranch.png)
+
+Here is a good example repository that makes use of issues and pull requests: https://github.com/openelections/
+
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
