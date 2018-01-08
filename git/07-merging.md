@@ -39,11 +39,13 @@
 
 2. Create a branch called `alternative-facts`.
  
-3. Go back to (checkout) the `master` branch.
+3. Go back to the `master` branch.
+	1. `git checkout master`
 	1. Add two facts to `mars.txt`: "Mars has polar ice caps." and "Mars is a little more than half the size of earth."
 	2. Commit these changes to `master`.
 
-4. Checkout the `alternative-facts` branch.
+4. Go back to the `alternative-facts` branch.
+	1. `git checkout alternative-facts`
 	1. Add two facts to `mars.txt`. "Mars is gaseous." and "Mars is double the size of earth."
 	2. Commit these changes to `alternative-facts`.
 	3. Create a pull request using `alternative-facts`.
