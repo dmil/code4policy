@@ -1,8 +1,14 @@
 # Git 7: Forking
 
-![](https://s3.amazonaws.com/media-p.slid.es/uploads/489063/images/2498675/pasted-from-clipboard.png)
+## Key Terms
 
-Draw on the board, forking vs branching.
+* **fork** - make a copy of a remote repo on GitHub from one account to another.
+* **pull request** - ask the upstream maintainer to pull in changes from origin.
+* **upstream** - the name for a remote read-only repository
+* **origin** - the name for a remote read-and-write repository
+
+## A Typical Setup for Forked Code
+![](https://s3.amazonaws.com/media-p.slid.es/uploads/489063/images/2498675/pasted-from-clipboard.png)
 
 ## Branching vs Forking
 
@@ -15,15 +21,6 @@ Draw on the board, forking vs branching.
 Good example repository that makes use of issues and pull requests: https://github.com/openelections/
 
 ![](../assets/forkvsbranch.png)
-
-
-## Key Terms
-
-* **fork** - make a copy of a remote repo on github.
-* **merge** - taking two histories, merge one into the other
-* **push**  - sending changes to a remote repository and merging them into the specified branch
-* **pull request** - ask the upstream maintainer to pull in changes from origin.
-* **merge conflict** - when two commits conflict, and thus can't be merged automatically
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
