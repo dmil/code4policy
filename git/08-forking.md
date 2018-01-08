@@ -23,7 +23,21 @@
 Here is a good example repository that makes use of issues and pull requests: https://github.com/openelections/
 
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example (shorter - no local repository)
+
+1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
+
+2. Go to Settings > GitHub Pages and select the "master" branch as the source. Wait a few seconds and then go to http://`your-username`.github.io/simple-website to make sure github pages is set up correctly.
+
+3. Normally I'd clone the forked repository locally onto my computer, push changes to the fork, then issue a pull request. For the sake of time lets cut that step out. Make **one** small edit in your fork of this code in GitHub.
+
+4. Create a pull request. Note that this time we are creating pull request across repositories instead of just across branches within the same repository. The `base` will be `dmil/simple-website/master` while the `compare` will be `your-username/simple-website/master`.
+
+5. Compare your website http://`your-username`.github.io/simple-website to mine: http://dhrumilmehta.com/simple-website/
+
+6. I will now merge your pull requests and we can see what changes you all make to the website over time. There's a good chance we may run into some merge conflicts as well.
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example (Longer)
 
 1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
 
