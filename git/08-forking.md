@@ -29,7 +29,7 @@ Here is a good example repository that makes use of issues and pull requests: ht
 
 2. Go to Settings > GitHub Pages and select the "master" branch as the source. Wait a few seconds and then go to http://`your-username`.github.io/simple-website to make sure github pages is set up correctly.
 
-3. Normally I'd clone the forked repository locally onto my computer, push changes to the fork, then issue a pull request. For the sake of time lets cut that step out. Make **one** small edit in your fork of this code in GitHub.
+3. Normally I'd clone the forked repository locally onto my computer, push changes to the fork, then issue a pull request. For the sake of time lets cut that step out. Make **one** small edit in your fork of this code **directly** in GitHub.
 
 4. Create a pull request. Note that this time we are creating pull request across repositories instead of just across branches within the same repository. The `base` will be `dmil/simple-website/master` while the `compare` will be `your-username/simple-website/master`.
 
