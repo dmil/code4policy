@@ -93,8 +93,14 @@ Also, you can modify CSS in the browser window if you just want to see what a ch
 	// Assign the function to the onclick event on that element
 	foxImage.onclick = sayOuch;
 	```
+	
+### Bonus
+Add two buttons to your page, one to show the fox and one to hide it.
 
-## Bonus: Forking Practice (if we have time)
+### Super duper bonus
+Make those into one button that toggles show/hide of the fox
+
+## Forking Practice (if we have time)
 
 * Example Website: http://dhrumilmehta.com/simple-website/
 * GitHub Repo: https://github.com/dmil/simple-website
