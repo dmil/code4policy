@@ -6,7 +6,7 @@ When working with branches, here is the general workflow to adhere to.
 
 1. Before starting work:
 
-```
+```bash
 # always start your branching from the master branch
 git checkout master
 
@@ -18,22 +18,13 @@ git checkout -b my-awesome-feature
 
 ```
 
-2. Make your changes. While working...
+2. Make your changes. While working, periodically:
 
-```
-# periodically commit your changes
-git commit -m "making some changes in my branch"
+- pull from master: `git pull origin master`
+- commit to branch: `git commit -m "made some changes"`
+- push to branch: `git push`
 
-# push the changes back up to your branch
-git push
-
-# periodically pull the latest from master back into your feature branch
-git pull origin master
-```
-
-3. When you're done, create a pull request and merge your changes back into master.
-
-Be sure to periodically pull `master` back into your branch via `git pull origin master` for long standing branches. This will keep your code relatively insync and prevent deferring massive merge conflicts down the line.
+Pulling from master periodically is very important! This will keep your code relatively insync and prevent deferring massive merge conflicts down the line.
 
 ## Workflow TYpes
 
