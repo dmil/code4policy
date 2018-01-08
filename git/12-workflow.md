@@ -6,7 +6,7 @@ When working with branches, here is the general workflow to adhere to.
 
 ```
 # always start your branching from the master branch
-git checkout branch
+git checkout master
 
 # pull the latest
 git pull
