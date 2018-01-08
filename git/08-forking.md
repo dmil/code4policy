@@ -16,7 +16,7 @@
 * **Forking** is a feature of GitHub
 	* A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. Forks remain attached to the original, allowing you to submit a pull request to the original's author to update with your changes. You can also keep your fork up to date by pulling in updates from the original. - [GitHub Glossary](https://help.github.com/articles/github-glossary/)
 	*  When you fork a repository, you get all of the branches the other person posted on GitHub
-	*  Pull requests however, don't acknowledge forks since they are a feature of GitHub and not Git
+	*  Pull requests however, don't acknowledge forks since they are a feature of GitHub and not Git. So while you can colloquially say "I'm issuing a pull request from my fork to yours", really what you're saying is "I'm issuing a pull request from the master branch of my fork to the master branch of your fork". You can actually issue a pull request from any branch in your forked repository to any branch in the original repository.
 
 ![](../assets/forkvsbranch.png)
 
