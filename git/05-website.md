@@ -59,7 +59,7 @@ GitHub also doubles as a static web server! If you enable a feature called "[Git
 
 	```
 	git status
-	git add hello.html
+	git add index.html
 	git commit -m "add a subhead and a paragraph"
 	git status
 	```
@@ -119,7 +119,7 @@ https://www.w3schools.com/tags/tag_a.asp
 	git commit -m "add goodbye page"
 	```
 
-4. Lets add navigation. In `hello.html` inside the body tag, lets add the following.
+4. Lets add navigation. In `index.html` inside the body tag, lets add the following.
 
 	```
 	<a href="goodbye.html"> Goodbye Page </a>
@@ -128,14 +128,14 @@ https://www.w3schools.com/tags/tag_a.asp
 	and in `goodbye.html` lets add a link back
 
 	```
-	<a href="hello.html"> Home Page </a>
+	<a href="index.html"> Home Page </a>
 	```
 	
 5. Now lets commit both of those in one commit
 	
 	```
 	git status
-	git add hello.html
+	git add index.html
 	git add goodbye.html
 	git commit -m "add navigation links to website"
 	```
