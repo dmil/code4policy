@@ -50,7 +50,7 @@ When working with branches, here is the general workflow to adhere to.
     git status
     ```
     
-    then open up github and **issue a pull request back to master**.
+    then open up GitHub and **issue a pull request back to master**.
 
 ## Workflow Types
 
