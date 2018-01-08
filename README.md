@@ -55,24 +55,32 @@ Project | Sprint 1 + Daily Scrum Meetings
 [functions.md](functions.md) | Functions Homework (Python & JavaScript)
 [opensource.md](opensource.md) | Open Source Readings
 
-<!--
 
 # Day 3
 file| description
 ----|------------
-[web](./web) | Intro to the Web
----| Deconstructing the Web
----| Apis & Scraping
+[web](./day3) | Getting Started
+---| Guest: Visualizing Data (Julia Wolfe)
+[web](./git) | Forking
+[web](./web) | Front-end development
 ---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
----| Intro to JavaScript
+[web](./day3) | Sprint Planning
+
 
 ## Homework
-[apireadings.md](apireadings.md)	 | API Readings
+
+file| description
+----|------------
+[apireadings.md](apireadings.md) | API Readings
+--- | Review CodeCademy Lesson 5: Lists and Dictionaries
+--- | Select a Visualization
+
+<!--
+
 
 # Day 4
 file| description
 ----|------------
----| Guest: Selecting a Visualization (Julia Wolfe)
 ---| Sprint Planning
 ---| Data Formats
 ---| Cleaning Data and Backend Stuff
