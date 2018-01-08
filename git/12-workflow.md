@@ -6,29 +6,29 @@ When working with branches, here is the general workflow to adhere to.
 
 1. Before starting work:
 
-```bash
-# always start your branching from the master branch
-git checkout master
+  ```bash
+  # always start your branching from the master branch
+  git checkout master
 
-# pull the latest
-git pull
+  # pull the latest
+  git pull
 
-# create a new branch, branch-ed off of the master branch
-git checkout -b my-awesome-feature
+  # create a new branch, branch-ed off of the master branch
+  git checkout -b my-awesome-feature
 
-```
+  ```
 
 2. Commit changes and push to your branch in GitHub regularly.
 
-```
-git add filename1
-git add filename2
-git add filename3
+  ```bash
+  git add filename1
+  git add filename2
+  git add filename3
 
-git commit -m "descriptive message of the change i just made"
+  git commit -m "descriptive message of the change i just made"
 
-git push
-```
+  git push
+  ```
 
 3. Also make sure to periodically
 
