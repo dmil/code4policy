@@ -27,7 +27,7 @@ When working with branches, here is the general workflow to adhere to.
   git add filename2
   git add filename3
 
-	# commit with a descritive message
+  # commit with a descritive message
   git commit -m "descriptive message of the change i just made"
   
   # push to your branch on GitHub
@@ -36,11 +36,11 @@ When working with branches, here is the general workflow to adhere to.
 
 3. Also make sure to periodically pull from master: 
 
-	```bash
-	git pull origin master
-	```
+  ```bash
+  git pull origin master
+  ```
 
-	Pulling from master periodically is very important! This will keep your code relatively insync and prevent deferring massive merge conflicts down the line.
+  Pulling from master periodically is very important! This will keep your code relatively insync and prevent deferring massive merge conflicts down the line.
 
 4. When you're done with your work
 
