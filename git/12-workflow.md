@@ -39,7 +39,7 @@ When working with branches, here is the general workflow to adhere to.
     git pull origin master
     ```
 
-    Pulling from master periodically is very important! This will keep your code relatively insync and prevent deferring massive merge conflicts down the line.
+    **Pulling from master periodically is very important!** This will keep your code relatively in-sync and prevent deferring massive merge conflicts down the line.
 
 4. When you're done with your work
 
