@@ -38,5 +38,4 @@ The feature branch workflow is where every small or large feature gets its own b
 
 ### Workflow 2: Team Member Branches
 
-The team member workflow is where each team member gets their own branch. These branches stay alive throughout the duration of the project and can be merged back in as frequently as you like. In this approach you can only have one PR open at a given time.
-
+The team member workflow is where each team member gets their own branch. These branches stay alive throughout the duration of the project and can be merged back in as frequently as you like. In this approach you can only have one PR open at a given time per team member.
