@@ -7,6 +7,9 @@ We'll be leaning on Mozilla's tutorials to learn the basics of HTML, CSS, and Ja
 * Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 )
 
+## CSS
+* Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
 ### Addendum: Attributes - Class vs ID
 
 The `class` and `id` attributes are particularly important. These are what the CSS is going to latch onto in order to identify which elements should receive the same styles, and they are what the JavaScript will latch onto in order to determine which element it should assign a behavior to.
@@ -40,10 +43,6 @@ The `class` and `id` attributes are particularly important. These are what the C
 	```
 	
 	Lets paste that at the end of our mozilla content (but still inside the **\<body> \</body>** tags). These will be useful a little further down the line.
-
-	
-## CSS
-* Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
