@@ -41,16 +41,9 @@ The `class` and `id` attributes are particularly important. These are what the C
 	
 	<p> Sed scelerisque commodo odio, ut consectetur arcu sodales in. Curabitur vitae rhoncus arcu. Mauris hendrerit rhoncus diam sit amet hendrerit. Suspendisse potenti. Aenean semper rhoncus mi, non semper urna porta nec. Quisque condimentum est et ultricies aliquam. Etiam et eros in dolor tempus maximus eu id turpis. Aliquam ac leo sed ligula tincidunt vulputate. Suspendisse sagittis et mauris in euismod. Integer suscipit sapien sit amet nunc finibus, sed faucibus dui dictum. Phasellus ac velit nisi. </p>
 	```
-	
-	Lets paste that at the end of our mozilla content (but still inside the **\<body> \</body>** tags). These will be useful a little further down the line.
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
-
-Lets make all the quotes red.
-
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
-
-Lets now make the mainquote retain all of the styles from the regular quote, but also give it a border.
+4. Make all the quotes red. Commit and push the change.
+5. Make the mainquote retain all of the styles from the regular quote, but also give it a border.
 
 ## JavaScript
 
