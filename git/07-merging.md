@@ -58,7 +58,7 @@
 1. Get into your teams.
 
 2. The product owner should:
-	1. Create a repository under their account named `demo-website`.
+	1. create a repository under their account named `demo-website`
 	2. add the remaining team members as collaborators to the repo. this is done under the repo settings
 	3. enable github pages on this repo with the `master` branch as the source
 
@@ -119,6 +119,13 @@
 	</body>
 	</html>
 	```
+
+9. All team members should checkout the master branch and pull the latest code.
+
+    ```
+    git checkout master
+    git pull
+    ```
 
 Your repository and website should look something like this:
 - https://github.com/AlJohri/our-website
