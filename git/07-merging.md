@@ -33,7 +33,7 @@
 	3. Push the branch.
 	4. Do not merge this branch back in as [the upside down](http://strangerthings.wikia.com/wiki/The_Upside_Down) runs parallel to the real `universe`...
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Example
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
 1. Make sure the repository is clean and you are in the master branch.
 
