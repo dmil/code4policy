@@ -97,7 +97,7 @@ Some clips from [FiveThirtyEight](http://slides.com/dhrumilmehta/deck-dcee62b7-2
 2. **Organize and Refine User Stories** (15 minutes)
 
 	1. Take the most important ones and put them at the top of the stack, and the least important at the bottom. Combine any that are basically the same and split any that are too large.
-	2. Select the 6 most important stories, and make sure they meet I-N-V-E-S-T and have a strong definition of done. Enter them into the top of a trello list called "USER STORIES".
+	2. Select the 5 most important stories, and make sure they meet I-N-V-E-S-T and have a strong definition of done. Enter them into the top of a trello list called "USER STORIES".
 	3. Normally story time and sprint planning are two separate meetings, but today we're running a hybrid. Create a new list in trello called SPRINT2 BACKLOG. Take each user story and break it down into tasks, put those tasks in the backlog, prioritizing the most important at the top.
 
 3. **Planning Poker** (15 minutes)
