@@ -1,8 +1,8 @@
 ## Reading
-* **(required)** [Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Chapter 1 -"Introduction: A Programmable Web"
-* **(required)** [Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Chapter 2 -"Building for Users: Designing URLs"
-* **(recommended)** [Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Chapter 3 -"Building for Search Engines: Following Rest"
-* **(required)** [Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Chapter 5 -"Building a Platform: Providing APIs"
+* **(required)** [Aaron Swartz’s A Programmable Web](http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005): Chapter 1 -"Introduction: A Programmable Web"
+* **(required)** [Aaron Swartz’s A Programmable Web](http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005): Chapter 2 -"Building for Users: Designing URLs"
+* **(recommended)** [Aaron Swartz’s A Programmable Web](http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005): Chapter 3 -"Building for Search Engines: Following Rest"
+* **(required)** [Aaron Swartz’s A Programmable Web](http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005): Chapter 5 -"Building a Platform: Providing APIs"
 * [Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Rest of the book is not required, but Chapter 7 is about Open Source if you're interested.
 * **(required)** APIs that suck [video] - [https://www.infoq.com/presentations/API-design-mistakes](https://www.infoq.com/presentations/
 
