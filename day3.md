@@ -3,17 +3,17 @@
 ## Setup
 
 1. Install google chrome and download the following chrome extensions:
-	
+
 	* [SelectorGadget](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb)
 	* [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
 
 2. Install SourceTree (Mac Only)
-	
+
 	```
 	brew cask install sourcetree
 	```
 	Also available for Windows at https://www.sourcetreeapp.com/, but not available for Ubuntu.
-	
+
 3. Feedback form - please fill this out. It will help me figure out what needs to be reinforced and how each group is doing.
 
 	https://goo.gl/forms/JFy3cJamiLtZUOKt2
@@ -27,7 +27,7 @@ Today we'll focus on the tools of the web: HTML, CSS, and JavaScript. We also ha
 1. Class standup scrum meeting
 2. Project Group Scrum Meeting
 3. Sprint Review Meeting
-4. Sprint 1 Retrospective 
+4. Sprint 1 Retrospective
 
 ## GitHub and GitHub Review
 
@@ -71,23 +71,23 @@ Some clips from [FiveThirtyEight](http://slides.com/dhrumilmehta/deck-dcee62b7-2
 1. **Collect User Stories** (15 minutes)
 
 	Talk among your group and start capturing user stories for your project. This isn't just a hokey exerecise you have to do, so don't slack off or settle for bad user stories. This is really a conversation about what the final product will look like. Take each discrete story and put it on a notecard. Here is an example:
-	
+
 	> **As a** student applying for jobs
-	> 
+	>
 	> **I want** a website that looks good
-	> 
+	>
 	> **So that** I can use it in my portfolio
-	
+
 	Your group may or may not care about the look and feel of the site. You may say decide that you'll spend time doing original analysis, you'd prefer an ugly site with more code so that you can practice javascript.
-	
+
 	> **As a** activist
-	> 
+	>
 	> **I want** a website that tells a clear story
-	> 
-	> **So that** I can use it to convince people about my cause 
-	
+	>
+	> **So that** I can use it to convince people about my cause
+
 	Or maybe your group has a lot of members working remotely.
-	
+
 	> **As a** group that is working remotely
 	>
 	> **I want** a site with one discrete page and dataset per group member
@@ -106,6 +106,5 @@ Some clips from [FiveThirtyEight](http://slides.com/dhrumilmehta/deck-dcee62b7-2
 	3. We play a round of planning poker, and all agree on a value. Place that value on the trello card.
 
 4. **Moving Forward** - Count up the total number of points for the sprint. Every day during your group's daily scrum, please move cards around on the trello board as they're getting done. It will be the job of one person on the team to maintain a "burndown" of how many points the whole scrum is worth, and how many points you have accomplished so far.  You will submit that as part of your final project.
-	
+
 	You should try to maintain a constant pace, or if you find you're not on track to finish, you may want to either adjust your pace or think about reducing the number of tasks, or negotiate a deadline extension.
-	
