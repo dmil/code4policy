@@ -73,10 +73,10 @@ file| description
 ----|------------
 [apireadings.md](apireadings.md) | API Readings
 --- | Review CodeCademy Lesson 5: Lists and Dictionaries
---- | Select a Visualization
+[viz-form](https://goo.gl/forms/sairW5dlmOu0HS8n2) | Select a Visualization
+mozilla-website | Render the D3 line chart at the bottom of your Mozilla Website
 
 <!--
-
 
 # Day 4
 file| description
