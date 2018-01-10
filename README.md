@@ -76,16 +76,24 @@ file| description
 [viz-form](https://goo.gl/forms/sairW5dlmOu0HS8n2) | Select a Visualization
 [mozilla-website](web/05-visualization.md#-try-it) | Render the D3 line chart from class at the bottom of your Mozilla Website.
 
-<!--
 
 # Day 4
 file| description
 ----|------------
----| Sprint Planning
----| Data Formats
----| Cleaning Data and Backend Stuff
+`day4.md`| Getting Started + Scrummy Class
+`./data`| Data Transformation
+`./web`| Web and APIs
 ---| Guest 2:00-2:45pm - Open Data and XML (Kirsten Gullickson)
-    
+project-time | Work on Projects in Class, get help from Dhrumil and Ihsaan
+
+## Homework
+
+file| description
+----|------------
+[opensource.md](opensource.md) | Open Source Readings
+
+<!--
+
 # Day 5
 file| description
 ----|------------
