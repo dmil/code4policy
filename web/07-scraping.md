@@ -1,4 +1,4 @@
-# Scraping
+# Web 7: Scraping
 
 **Dependencies**: `pip2 install requests lxml cssselect`
 
