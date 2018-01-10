@@ -61,8 +61,8 @@ file| description
 ----|------------
 [day3.md](day3.md) | Getting Started
 ---| Guest: Visualizing Data (Julia Wolfe)
-[git](./git) | Forking
-[web](./web) | Front-end development
+[./git](./git) | Forking
+[./web](./web) | Front-end development
 ---| Guest: Agile/Scrum (Leah Bannon & Eric Mill)
 [day3.md](day3.md) | Sprint Planning
 
@@ -80,11 +80,11 @@ file| description
 # Day 4
 file| description
 ----|------------
-`day4.md`| Getting Started + Scrummy Class
-`./data`| Data Transformation
-`./web`| Web and APIs
+[day4.md](day4.md)| Getting Started + Scrummy Class
+[./data](./data) | Data Transformation
+[./web](./web) | Web and APIs
 ---| Guest 2:00-2:45pm - Open Data and XML (Kirsten Gullickson)
-project-time | Work on Projects in Class, get help from Dhrumil and Ihsaan
+project-time | Work on Projects in Class, tackle the most difficult task, get help from Dhrumil and Ihsaan
 
 ## Homework
 
