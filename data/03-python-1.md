@@ -144,3 +144,18 @@ with open('testwrite.json', 'w') as f:
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetables.json`.
+
+## Datetime
+
+We can use the `datetime` module to parse dates and convert them from one format to another. We will primarily be using the `datetime.datetime.strptime` and `datetime.datetime.strftime` methods. Check http://strftime.org/ for the format string codes.
+
+```python
+import datetime
+
+raw_date = "2017-01-11"
+date_format = "%Y-%m-%d"
+
+parsed_date = datetime.datetime.strptime(raw_date, date_format)
+
+print parsed_date.strftime("%x") # 01/11/17
+```
