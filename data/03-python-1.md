@@ -29,7 +29,7 @@ with open('testwrite.txt', 'w') as f:
 
 You can append to the end of a file by opening it in the mode `a` like `with open('testwrite.txt', 'a') as f:`.
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Create a file called `name.txt` with your full name in it.
 
@@ -98,7 +98,7 @@ with open('testwrite.csv', 'w') as f:
 
 You can read more about the csv module here: https://docs.python.org/2/library/csv.html
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Write a python script that defines a list of dicts named vegetables like so:
 
@@ -132,16 +132,16 @@ with open('test.json') as f:
 import json
 
 rows = [
-    {"name": "Rachel", "value": 34},
-    {"name": "Monica", "value": 34},
-    {"name": "Phoebe", "value": 37}
+    {"name": "Rachel", "age": 34},
+    {"name": "Monica", "age": 34},
+    {"name": "Phoebe", "age": 37}
 ]
 
 with open('testwrite.json', 'w') as f:
     json.dump(rows, f)
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetables.json`.
 
@@ -159,3 +159,93 @@ parsed_date = datetime.datetime.strptime(raw_date, date_format)
 
 print parsed_date.strftime("%x") # 01/11/17
 ```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Parse the date "1-May-12" and print it out as "5/1/2012".
+
+## Filtering
+
+We can use `for` loops and `if` statements to filter through data.
+
+```python
+rows = [
+    {"name": "Rachel", "age": 34},
+    {"name": "Monica", "age": 34},
+    {"name": "Phoebe", "age": 37}
+]
+
+# filter to age < 37
+
+for row in rows:
+    if row['age'] < 37:
+        print(row)
+
+# filter whitelist names
+
+whitelist_names = ['Rachel', 'Phoebe']
+for row in rows:
+    if row['name'] in whitelist_names:
+        print(row)
+
+# blacklist names
+
+blacklist_names = ['Rachel']
+for row in rows:
+    if row['name'] not in blacklist_names:
+        print(row)
+```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Loop through `vegetables.csv` and output another csv called `green_vegetables.csv`.
+
+## Grouping
+
+We can use `for` loops, `if` statements, and `dicts` to group data.
+
+```python
+from pprint import pprint
+
+cars = [
+    {"model": "Yaris", "make": "Toyota"},
+    {"model": "Auris", "make": "Toyota"},
+    {"model": "Camry", "make": "Toyota"},
+    {"model": "Prius", "make": "Toyota"},
+    {"model": "Civic", "make": "Honda"},
+    {"model": "Model 3", "make": "Tesla"},
+]
+
+cars_by_make = {}
+for car in cars:
+    make = car['make']
+    if make in cars_by_make:
+        cars_by_make[make].append(car)
+    else:
+        cars_by_make[make] = [car]
+
+pprint(cars_by_make)
+
+# {'Honda': [{'make': 'Honda', 'model': 'Civic'}],
+#  'Tesla': [{'make': 'Tesla', 'model': 'Model 3'}],
+#  'Toyota': [{'make': 'Toyota', 'model': 'Yaris'},
+#             {'make': 'Toyota', 'model': 'Auris'},
+#             {'make': 'Toyota', 'model': 'Camry'},
+#             {'make': 'Toyota', 'model': 'Prius'}]}
+
+number_of_cars_by_make = {}
+for car in cars:
+    make = car['make']
+    if make in number_of_cars_by_make:
+        number_of_cars_by_make[make] += 1
+    else:
+        number_of_cars_by_make[make] = 1
+
+pprint(number_of_cars_by_make)
+
+# {'Honda': 1, 'Tesla': 1, 'Toyota': 4}
+```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Use excel to add a column `color` to `vegtables.csv`. Group by color and output the json as `vegtables_by_color.json`.
