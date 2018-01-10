@@ -145,6 +145,12 @@ with open('testwrite.json', 'w') as f:
 
 Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetables.json`.
 
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Powers should be comma separted. Any column that is top level, such as `squadName` should just be repeated for every row.
+
+HINT: to comma separate a list of strings use `', '.join(['str1', 'str2', 'str3'])`
+
 ## Datetime
 
 We can use the `datetime` module to parse dates and convert them from one format to another. We will primarily be using the `datetime.datetime.strptime` and `datetime.datetime.strftime` methods. Check http://strftime.org/ for the format string codes.
