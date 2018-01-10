@@ -115,7 +115,7 @@ Loop through each vegetable and write it to a CSV called `vegetables.csv` with t
 
 ## JSON
 
-# Opening a JSON file
+### Opening a JSON file
 
 This snippet reads `test.json` and loads the contents as a dict into the variable `data`.
 
@@ -126,7 +126,7 @@ with open('test.json') as f:
     data = json.load(f)
 ```
 
-# Writing a JSON file
+### Writing a JSON file
 
 ```python
 import json
