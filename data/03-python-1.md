@@ -143,7 +143,19 @@ with open('testwrite.json', 'w') as f:
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetables.json`.
+1. Read `vegetables.csv` into a variable called `vegetables`.
+2. Write `vegtables` as a JSON file called `vegetables.json`. It should look like this:
+
+    ```
+    [
+        {"name": ..., "length": ...},
+        {"name": ..., "length": ...},
+    ]
+    ```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Read `superheroes.json` (in this folder) and output a unique list of powers. To get the unique elements in a list use the `set` method. For example, try running `list(set([1, 1, 2, 3]))` in your python console.
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
@@ -168,7 +180,9 @@ print parsed_date.strftime("%x") # 01/11/17
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Parse the date "1-May-12" and print it out as "5/1/2012".
+1. Set a variable birthday = "1-May-12".
+2. Parse the date using datetime.datetime.strptime.
+3. Use strftime to output a date that looks like "5/1/2012".
 
 ## Filtering
 
@@ -204,7 +218,9 @@ for row in rows:
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Loop through `vegetables.csv` and output another csv called `green_vegetables.csv`.
+1. Read vegetables.csv into a variable called `vegetables`.
+2. Loop through `vegetables` and filter down to only green vegtables using a whitelist.
+3. Output another csv called `green_vegetables.csv`.
 
 ## Grouping
 
@@ -254,4 +270,7 @@ pprint(number_of_cars_by_make)
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Use excel to add a column `color` to `vegtables.csv`. Group by color and output the json as `vegtables_by_color.json`.
+1. Use excel to add a column `color` to `vegtables.csv`.
+2. Read `vegtables.csv` into a variable called `vegtables`.
+3. Group `vegtables` by `color` as a variable `vegtables_by_color`.
+4. Output `vegtables_by_color` into a json called `vegtables_by_color.json`.

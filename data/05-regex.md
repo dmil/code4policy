@@ -1,6 +1,8 @@
-# Part 1: Learning  Regular Expressions
+# Data 5: Regex
 
-## Intro to Regular Expressions
+## Part 1: Learning  Regular Expressions
+
+### Intro to Regular Expressions
 
 Regular Expressions (Regexes) can be useful for:
 
@@ -35,12 +37,12 @@ One additional concept we may need
 
 * `^(?!http).*` will match all lines that don't begin with `http`. Just know this pattern and know that its called a "negative lookahead". I'm not going to explain it, but you'll see what it does in the exercises below.
 
-## Regex Exercises
+### Regex Exercises
 
 Make sure to press "fork regex" to get your own copy before you mess around with it.
 ![](https://www.evernote.com/shard/s150/sh/edc138cf-1a64-4771-9da6-d38479aa3c8e/21836d6ddc04aba8/res/684b1904-c2f3-48c4-ab8d-c6bc45a7297e/skitch.png?resizeSmall&width=832)
 
-### Exercise 1: Words
+#### Exercise 1: Words
 Pre-Loaded Data: https://regex101.com/r/4jkeQ9/4
 
 1. Match words that start with "a" and end with "d" (will match 5 words)
@@ -54,7 +56,7 @@ Bonus:
 
 1. Match all words that are split with a hyphen where the contents of the left side are the same as the contents of the right side. (*hint*: you'll have to use a backreference, these are listed in the "cheat sheet").
 
-### Exercise 2: URLS
+#### Exercise 2: URLS
 Pre-Loaded Data: https://regex101.com/r/2qQTvP/3
 
 1. Match only URLs that start with `http://`or `https://`
@@ -64,7 +66,7 @@ Pre-Loaded Data: https://regex101.com/r/2qQTvP/3
 4. Match URLs that don't begin with either `http://`, `https://`, or `www`
 5. **Together:** Lets clean these URLS using find and replace in sublime text
 
-### Exercise 3: People
+#### Exercise 3: People
 Pre-Loaded Data: https://regex101.com/r/RWujRv/3
 
 1. Match just the state name
@@ -76,18 +78,18 @@ Pre-Loaded Data: https://regex101.com/r/RWujRv/3
 	* Together: switch first and last name columns and make the first letter of each upper case in sublime text
 
 
-## Concepts we did not cover
+### Concepts we did not cover
 * non-capturing groups
 * named groups
 * lookahead and lookbehind
 * backreference
 
 
-# Part 2: Cleaning & Extracting Data with Regex
+## Part 2: Cleaning & Extracting Data with Regex
 
-## Sublime Text
+### Sublime Text
 
-### Multi-line Cursor
+#### Multi-line Cursor
 - Creating Multi-line cursor
 	- `option`+ click and drag
 	- Alternatively select all with `Cmd ⌘`+`a`, then `Cmd ⌘`+`Shift`+`l` to create a multiline cursor at the end of each line
@@ -96,15 +98,15 @@ Pre-Loaded Data: https://regex101.com/r/RWujRv/3
 	- `Cmd ⌘`+`←` and `Cmd ⌘`+`→` to go to start or end of each line
 	- `option`+`←` and `option`+`→` to go to previous or next delimiter
 
-### Regular Expressions in Sublime Text
+#### Regular Expressions in Sublime Text
 
 * Regular Expressions Find and Replace ( `Cmd ⌘`+`option`+`f`)
 
 	![](https://www.evernote.com/shard/s150/sh/c369c090-ae6e-46ff-80b0-274d5224f9c6/43f5f856c227e7f8/res/f9a6f0dd-bd1e-4292-9f27-f2a8f5588d50/skitch.png?resizeSmall&width=832)
 
-## Data Extraction Exercises
+### Data Extraction Exercises
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example 1 
+#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example 1 
 
 We're going to grab some data from here: http://www.finra.org/industry/disciplinary-actions. Through some simple find and repalce statements using regex, we will be able to extract structured data from this otherwise unstructured format. 
 
@@ -187,7 +189,7 @@ I've already downloaded the pdf and saved it as a text file, so you can skip str
 7. How would you do this so that we don't lose the items that are split across two lines?
 
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example 2
+#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example 2
 
 Use regular expressions to extract table S-10 of this PDF 
 https://obamawhitehouse.archives.gov/sites/default/files/omb/budget/fy2017/assets/17msr.pdf
@@ -278,13 +280,13 @@ We want to conver this data into a CSV file. CSV stands for "Comma Separated Val
 	
 	Notice the "m dash" `–` in all the negative numbers appears odd in excel, find and replace that with an "n dash" `-` in sublime and reopen in excel to make it appear properly. (or just find and replace it in excel)
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+#### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Lets see if you can extract the value of each gift:
 
 * https://www.chronicle.com/article/Major-Private-Gifts-to-Higher/128264
 
-## Command Line Demonstration
+### Command Line Demonstration
 
 This one you can just watch. I'll demonstrate how regexes can be useful in the command line. Lets look at house expenditure data hosted by propublica.
 
@@ -329,11 +331,11 @@ curl https://pp-projects-static.s3.amazonaws.com/congress/staffers/2016Q4-house-
 ```
 
 
-## Conclusion
+### Conclusion
 
 There are lots of other uses for regular expressions. If there is a pattern, it can probably be matched! If you don't know how to do it, you may have to use one of the techniques we didn't cover like lookaheads or lookbehinds. Feel free to contact me for regex help, and please let me know if you use what you learned here. Hofully you can now identify situations in your work where regular expressions may be the answer. 
 
-## Additional Resources
+### Additional Resources
 
 * Useful Resources
 	* https://regex101.com/ 
