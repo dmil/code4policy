@@ -1,4 +1,3 @@
-
 # Visualizing Data
 
 ## D3 JS (Data Driven Documents)
@@ -43,20 +42,20 @@ Lets create a new webpage with a D3 visualization in it. We'll call this `chart-
 	```
 4. Grab the code from the example block and put it in `index.html`, grab the data and put it in `data.tsv`
  https://bl.ocks.org/mbostock/3902569
- 
+
 5. Now if you run a simple HTTP server, the code will run.
 
 	```
 	python2 -m SimpleHTTPServer 8000
 	```
-	
+
 6. Once you're sure it works, lets commit and push that.
 
 	```
 	git commit -m "add a chart of apple stock prices"
 	git push
 	```
-	
+
 # Splitting out HTML, CSS, and JavaScript
 The problem with this is that the HTML is ill-formed (there is no head and body). Also the CSS and the JavaScript is all in the same file as the HTML. Messy! I will demand that you always keep them separated for this class. Lets go ahead and do that.
 
@@ -94,22 +93,22 @@ You can call a JavaScript file like with this code. In this case we're linking o
 
 1. Split out the JavaScript and CSS into separate files.
 2. Import those files into your HTML. Your `index.html` might look something like this now.
-	
+
 	```html
 	<!DOCTYPE html>
 	<html>
-	
+
 	<head>
 	  <title> Example Site </title>
 	  <!--Load StyleSheets in the head-->
 	  <link href="styles/style.css" rel="stylesheet" type="text/css">
 	</head>
-	
+
 	<body>
-		<h1> Apple: The Profitable Fruit </h1> 
-		
+		<h1> Apple: The Profitable Fruit </h1>
+
 		<p> If you bought apple stock a long time ago you're probably rich. That's because it went up really fast! See for yourself in the chart below. </p>
-	
+
 		<h2> Apple Stocks are Really Rising! </h2>
 		<h3> ...more than any other fruit-based corporation. </h3>
 
@@ -117,7 +116,7 @@ You can call a JavaScript file like with this code. In this case we're linking o
 		<script src="//d3js.org/d3.v3.min.js"></script>
 		<script src="chart.js"></script>
 	</body>
-	
+
 	</html>
 	```
 
@@ -125,7 +124,7 @@ You can call a JavaScript file like with this code. In this case we're linking o
 
 Right now the chart works fine, however, that is because the chart is the only thing on the page. The CSS in these example D3 examples often assume the D3 is the only thing on the page. So if there were other things on the page, the CSS might also end up applying to those things as well! To avoid that, we must specify that the CSS only apply to the chart. Lets modify the CSS selectors to do just that.
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (simple) 
+### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (simple)
 
 Since the chart is the only `<svg>` element on the page, we can just append an `svg` element selector to the front of all the CSS specific to the chart to make sure it doesn't apply the CSS to elements outside the SVG.
 
@@ -159,7 +158,7 @@ Now it will generate the chart with `id=apple-stock-chart` and `class=chart`. Th
 
 This is useful for standardizing styles across the site and giving everything a common look and feel with specific customization for a chart where needed.
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (advanced) 
+### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (advanced)
 
 1. Modify the D3 for the chart so that it appends a `class=chart` and `id=apple-stock-chart` when it generates the chart.
 2. Modify the CSS so that it applies only to the `apple-stock-chart` and doesn't spill over to any other charts that may be on the page.
@@ -170,7 +169,7 @@ This is useful for standardizing styles across the site and giving everything a 
 Lets take your line chart and append it to the bottom of your Mozilla Webpage.
 
 1. Go to your mozilla website on your computer and make sure you're in the master branch.
-	
+
 	```
 	cd ~/Development/mozilla-website
 	git checkout master
@@ -178,7 +177,7 @@ Lets take your line chart and append it to the bottom of your Mozilla Webpage.
 	```
 
 2. Create a new branch called `add-chart`
-	
+
 	```
 	git checkout -b add-chart
 	```
