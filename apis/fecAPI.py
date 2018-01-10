@@ -8,8 +8,11 @@ base_url = 'https://api.open.fec.gov/v1/'
 # operation to execute for the api
 operation = 'candidates'
 
+# get key from environment variable
+key = os.environ['FECKEY']
+
 # additional api parameters specific to the operation
-api_parameters = {'api_key':os.environ['FECKEY'], 'office':'H', 'sort':'name', 'state':'MA', 'election_year':[2016]}
+api_parameters = {'api_key': key, 'office':'H', 'sort':'name', 'state':'MA', 'election_year':[2016]}
 
 # ping api
 response = requests.get(base_url + operation, params = api_parameters)
