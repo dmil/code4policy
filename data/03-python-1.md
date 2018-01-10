@@ -1,84 +1,146 @@
 # Data 3: Python 1
 
-While stringing together command line tools can be a quick and efficient way to transform data, it is not as flexible as just writing code.
+While command line tools allows for several quick out of the box data transformations, we resort to Python to doing anything a bit more custom.
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: CSV to JSON
+## Text Files
 
-Let's first look at this CSV using `csvlook`.
+### Opening a text file
 
-```
-curl -s 'https://bl.ocks.org/mbostock/raw/4063318/dji.csv' | head | csvlook
-```
+This snippet opens a file in read only mode (default), loads the entire contents of the file as a string in `full_text` and prints it out.
 
-Not to convert this CSV into a JSON, let's run the `csv2json.py` python script in this directory.
+```python
+with open('myfile.txt') as f:
+    full_text = f.read()
 
-```
-curl -s 'https://bl.ocks.org/mbostock/raw/4063318/dji.csv' | head | ./csv2json.py
-```
-
-Source: https://bl.ocks.org/mbostock/4063318
-
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: JSON to CSV
-
-<!--
-
-TODO: find a better flat JSON examples!!!
--->
-
-Let's first take a look at this JSON using `jq`.
-
-```
-curl -s 'http://elections.huffingtonpost.com/pollster/api/v2/polls' | jq
+print full_text
 ```
 
-Let's convert this into a flat JSON array for the purposes of this example.
+`with open(...) as f` is called a "context manager". After opening a file, we generally want to close it to prevent memory leaks. The context manager will do this for us.
 
-```
-curl -s 'http://elections.huffingtonpost.com/pollster/api/v2/polls' | jq -r '.items[] | {slug, start_date, end_date, survey_house, mode, url, partisanship, partisan_affiliation}' | jq --slurp '.'
-```
+### Writing a text file
 
-**Dependency**: the following script depends on the python package `unicodecsv`. Run `pip2 install unicodecsv`
+This snippet opens a file in write mode and writes the word 'hello' with a newline character at the end.
 
-Now let's pipe this into `json2csv.py`.
-
-```
-curl -s 'http://elections.huffingtonpost.com/pollster/api/v2/polls' | jq -r '.items[] | {slug, start_date, end_date, survey_house, mode, url, partisanship, partisan_affiliation}' | jq --slurp '.' | ./json2csv.py
+```python
+with open('testwrite.txt', 'w') as f:
+    f.write('hello')
+    f.write('\n')
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It: JSON to CSV, current legislators
+You can append to the end of a file by opening it in the mode `a` like `with open('testwrite.txt', 'a') as f:`.
 
-Take a look at this JSON using `jq`.
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-```
-curl -s 'https://theunitedstates.io/congress-legislators/legislators-current.json' | jq
-```
+Create a file called `name.txt` with your full name in it.
 
-The command below returns a flat JSON of current legislators. Pipe the output of this command into `./json2csv.py`.
+Write a python script that:
 
-```
-curl -s 'https://theunitedstates.io/congress-legislators/legislators-current.json' | jq '.[] | {bioguide: .id.bioguide, first: .name.first, last: .name.last, full: .name.official_full, birthday: .bio.birthday, gender: .bio.gender, religion: .bio.religion, party: .terms[-1].party, state: .terms[-1].state}' | jq --slurp '.'
-```
+1. reads `name.txt` into a variable `my_name` and then
+2. writes a new file named `hello.txt` with the contents `Hello, my name is <my_name>.`
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: JSON to CSV, current legislators 2
+## CSV/TSV
 
-Let's do the same example as before but flatten the JSON using `python` instead of `jq`.
+## Opening a CSV file
 
-```
-curl -s 'https://theunitedstates.io/congress-legislators/legislators-current.json' | ./flatten-legislators.py | jq
-```
+This snippet opens a file in read only mode and uses the csv module to instantiate a [`csv.DictReader`](https://docs.python.org/2/library/csv.html#csv.DictReader). This object will parse the CSV and return a dict for each record where the keys of the dict are the header of the csv.
 
-Now we can further pipe this into `json2csv.py` like before.
+```python
+import csv
 
-```
-curl -s 'https://theunitedstates.io/congress-legislators/legislators-current.json' | ./flatten-legislators.py | ./json2csv.py
+with open('myfile.csv') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        print(row)
 ```
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: JSON to CSV, current legislators 3
+If we wanted to get all of the rows into a single variable, we can run `rows = list(reader)`. `reader` is what is referred to as an `iterable` in python. Running the `list` function exhausts the iterator and just gives us the entire file as a plain old list.
 
-To be a bit less verbose, we can also combine all three of these steps into a single script.
+```python
+import csv
 
-**Dependency**: the following script depends on the python package `requests`. Run `pip2 install requests`
+with open('myfile.csv') as f:
+    reader = csv.DictReader(f)
+    rows = list(reader)
 
+for row in rows:
+    print(row)
 ```
-./download-flatten-and-convert-legislators.py
+
+Note that since we have loaded the entire CSV into memory in the variable `rows` we can now put our `for` loop outside of the context manager since we no longer need access to the file, `f`.
+
+You can also open a TSV file in the same manner by passing the `delimeter` argument to `csv.DictReader`.
+
+```python
+import csv
+
+with open('myfile.csv') as f:
+    reader = csv.DictReader(f, delimeter='\t')
+    rows = list(reader)
+
+for row in rows:
+    print(row)
 ```
+
+### Writing a CSV file
+
+We will be using the [`csv.writer`](https://docs.python.org/2/library/csv.html#csv.writer) to write csv files. [`csv.DictWriter`](https://docs.python.org/2/library/csv.html#csv.DictWriter) is a higher level abstraction you can also use but we will be using `csv.writer` in the examples below.
+
+```python
+import csv
+
+with open('testwrite.csv', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerow(['col1', 'col2'])
+    writer.writerow(['val1', 'val2'])
+    writer.writerow(['val1', 'val2'])
+    writer.writerow(['val1', 'val2'])
+```
+
+You can read more about the csv module here: https://docs.python.org/2/library/csv.html
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Write a python script that defines a list of dicts named vegetables like so:
+
+```python
+vegetables = [
+ {"name": "eggplant"},
+ {"name": "tomato"},
+ {"name": "corn"},
+ ...
+]
+```
+
+Loop through each vegetable and write it to a CSV called `vegetables.csv` with two columns, `name` and `length`. The first column is the name of the vegetable and the second column is the length of the string name. To get the length of any string use the builtin `len` method. For example, `len('dhrumil')` is 7.
+
+## JSON
+
+### Opening a JSON file
+
+This snippet reads `test.json` and loads the contents as a dict into the variable `data`.
+
+```python
+import json
+
+with open('test.json') as f:
+    data = json.load(f)
+```
+
+### Writing a JSON file
+
+```python
+import json
+
+rows = [
+    {"name": "Rachel", "value": 34},
+    {"name": "Monica", "value": 34},
+    {"name": "Phoebe", "value": 37}
+]
+
+with open('testwrite.json', 'w') as f:
+    json.dump(rows, f)
+```
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetables.json`.
