@@ -22,6 +22,13 @@ for row in doc.cssselect('.lister-list tr'):
     print id, title, rating
 ```
 
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Modify the script above to get the
+
+1) year each movie was made and
+2) the number of users that rated the movie
+
 ## Twitter
 
 https://twitter.com/DataDhrumil
