@@ -16,6 +16,8 @@ Not to convert this CSV into a JSON, let's run the `csv2json.py` python script i
 curl -s 'https://bl.ocks.org/mbostock/raw/4063318/dji.csv' | head | ./csv2json.py
 ```
 
+Source: https://bl.ocks.org/mbostock/4063318
+
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: JSON to CSV
 
 <!--
