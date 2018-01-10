@@ -7,7 +7,7 @@ Our computers are so small and the Web so great and vast that this last scenario
 seems like part of an inescapable trend. Why wouldn’t you depend on other
 web sites whenever you could, making their endless information and bountiful abilities
 a seamless part of yours? And so, I suspect, such uses will become increasingly common until, one day, your computer is as tethered to the Web as you yourself are
-now. 
+now.
 >
 >\- [Swartz: Introduction](http://www.morganclaypool.com/doi/pdf/10.2200/S00481ED1V01Y201302WBE005)
 
