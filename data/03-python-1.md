@@ -73,7 +73,7 @@ You can also open a TSV file in the same manner by passing the `delimeter` argum
 ```python
 import csv
 
-with open('myfile.csv') as f:
+with open('myfile.tsv') as f:
     reader = csv.DictReader(f, delimeter='\t')
     rows = list(reader)
 
