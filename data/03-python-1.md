@@ -27,6 +27,17 @@ with open('testwrite.txt', 'w') as f:
     f.write('\n')
 ```
 
+You can append to the end of a file by opening it in the mode `a` like `with open('testwrite.txt', 'a') as f:`.
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Create a file called `name.txt` with your full name in it.
+
+Write a python script that:
+
+1. reads `name.txt` into a variable `my_name` and then
+2. writes a new file named `hello.txt` with the contents `Hello, my name is <my_name>.`
+
 ## CSV/TSV
 
 ## Opening a CSV file
@@ -87,6 +98,21 @@ with open('testwrite.csv', 'w') as f:
 
 You can read more about the csv module here: https://docs.python.org/2/library/csv.html
 
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Write a python script that defines a list of dicts named vegetables like so:
+
+```python
+vegetables = [
+ {"name": "eggplant"},
+ {"name": "tomato"},
+ {"name": "corn"},
+ ...
+]
+```
+
+Loop through each vegetable and write it to a CSV called `vegetables.csv` with two columns, `name` and `length`. The first column is the name of the vegetable and the second column is the length of the string name. To get the length of any string use the builtin `len` method. For example, `len('dhrumil')` is 7.
+
 ## JSON
 
 # Opening a JSON file
@@ -115,3 +141,6 @@ with open('testwrite.json', 'w') as f:
     json.dump(rows, f)
 ```
 
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetables.json`.
