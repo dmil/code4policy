@@ -147,6 +147,10 @@ Read `vegetables.csv` into a variable called `vegetables`. Write a file `vegetab
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
+Read `superheroes.json` (in this folder) and output a unique list of powers. To get the unique elements in a list use the `set` method. For example, try running `list(set([1, 1, 2, 3]))` in your python console.
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
 Read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Powers should be comma separted. Any column that is top level, such as `squadName` should just be repeated for every row.
 
 HINT: to comma separate a list of strings use `', '.join(['str1', 'str2', 'str3'])`
