@@ -89,7 +89,7 @@ You can read more about the csv module here: https://docs.python.org/2/library/c
 
 ## JSON
 
-# Opening a JSON file
+### Opening a JSON file
 
 This snippet reads `test.json` and loads the contents as a dict into the variable `data`.
 
@@ -100,7 +100,7 @@ with open('test.json') as f:
     data = json.load(f)
 ```
 
-# Writing a JSON file
+### Writing a JSON file
 
 ```python
 import json
