@@ -208,7 +208,9 @@ for row in rows:
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Loop through `vegetables.csv` and output another csv called `green_vegetables.csv`.
+1. Read vegetables.csv into a variable called `vegetables`.
+2. Loop through `vegetables` and filter down to only green vegtables using a whitelist.
+3. Output another csv called `green_vegetables.csv`.
 
 ## Grouping
 
