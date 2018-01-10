@@ -19,7 +19,7 @@ for row in doc.cssselect('.lister-list tr'):
     id = row.cssselect('td.ratingColumn div[data-titleid]')[0].get('data-titleid')
     title = row.cssselect('td.titleColumn a')[0].text
     rating = row.cssselect('td.ratingColumn.imdbRating strong')[0].text
-    print([id, title, rating])
+    print id, title, rating
 ```
 
 ## Twitter
