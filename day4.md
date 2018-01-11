@@ -22,13 +22,12 @@
 	
 3. Install JSON Reindent plugin for Sublime Text
 
-	- Install the JSON plugin for sublime text.
-		- Open Sublime Text
-		- Open the Command Palette with <kbd>⌘</kbd>+<kbd> Shift </kbd>+<kbd> P </kbd> (use <kbd>CTRL</kbd>+<kbd> Shift </kbd>+<kbd> P </kbd> on Windows)
-		- Type: "Install Package Control" and press enter
-		- Open the Command Palette again
-		- Type: "Package Control: Install Package" and press enter.
-		- Find the package named "JSON Reindent" and press enter to install it.
+	- Open Sublime Text
+	- Open the Command Palette with <kbd>⌘</kbd>+<kbd> Shift </kbd>+<kbd> P </kbd> (use <kbd>CTRL</kbd>+<kbd> Shift </kbd>+<kbd> P </kbd> on Windows)
+	- Type: "Install Package Control" and press enter
+	- Open the Command Palette again
+	- Type: "Package Control: Install Package" and press enter.
+	- Find the package named "JSON Reindent" and press enter to install it.
 
 
 ## Scrummy Class
