@@ -40,20 +40,9 @@ Write a python script that:
 
 ## CSV/TSV
 
-## Opening a CSV file
+## Opening a CSV file or TSV file
 
-This snippet opens a file in read only mode and uses the csv module to instantiate a [`csv.DictReader`](https://docs.python.org/2/library/csv.html#csv.DictReader). This object will parse the CSV and return a dict for each record where the keys of the dict are the header of the csv.
-
-```python
-import csv
-
-with open('myfile.csv') as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        print(row)
-```
-
-If we wanted to get all of the rows into a single variable, we can run `rows = list(reader)`. `reader` is what is referred to as an `iterable` in python. Running the `list` function exhausts the iterator and just gives us the entire file as a plain old list.
+This snippet opens a file in read only mode and uses the csv module to instantiate a [`csv.DictReader`](https://docs.python.org/2/library/csv.html#csv.DictReader). The DictReader will parse the CSV and return a dictionary for each record where the keys of the dictionary are the header of the csv. Then we take all of those dictionaries and put them into a list with `rows = list(reader)`. If we wanted to get all of the rows into a single variable, we can run `rows = list(reader)`. `reader` is what is referred to as an `iterable` in python. Running the `list` function exhausts the iterator and just gives us the contents of the reader as a list.
 
 ```python
 import csv
