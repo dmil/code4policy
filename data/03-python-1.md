@@ -100,7 +100,15 @@ vegetables = [
 ]
 ```
 
-Loop through each vegetable and write it to a CSV called `vegetables.csv` with two columns, `name` and `length`. The first column is the name of the vegetable and the second column is the length of the string name. To get the length of any string use the builtin `len` method. For example, `len('dhrumil')` is 7.
+Write a python program that 
+
+1. Loops through each vegetable
+2. In the loop, writes the name of each vegetable and the length of its name into a CSV
+
+hints: 
+
+* Don't forget to first write a header row to the CSV
+* To get the length of any string use the builtin `len` method. For example, `len('dhrumil')` is 7.
 
 ## JSON
 
@@ -144,13 +152,24 @@ with open('testwrite.json', 'w') as f:
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Read `superheroes.json` (in this folder) and output a unique list of powers. To get the unique elements in a list use the `set` method. For example, try running `list(set([1, 1, 2, 3]))` in your python console.
+Write a python program that outputs a unique list of superhero powers
+1. Reads `superheroes.json` (in this folder) 
+2. Creates an empty array called `powers`
+3. Loops thorough the members of the squad, and appends the powers of each to the `powers` array.
+4. Prints those powers to the terminal
+
+hint: To get the unique elements in a list use the `set` method. For example, try running `list(set([1, 1, 2, 3]))` in your python console. Alternatively you can  use an if statement to only add the powers to the list if they are not already in there.
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Powers should be comma separted. Any column that is top level, such as `squadName` should just be repeated for every row.
+Lets Read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Any column that is top level, such as `squadName` should just be repeated for every row.
 
-HINT: to comma separate a list of strings use `', '.join(['str1', 'str2', 'str3'])`
+Here is an example set of steps:
+1. Read `superheroes.json`
+2. Write a header to the CSV file
+3. Loop over the members, and for each member write a row to the csv file
+
+HINT: Powers will need to be transformed from a list to a string. You could use `str(powers)` to do this, or you could use `', '.join(['str1', 'str2', 'str3'])` to make it a comma separated list.
 
 ## Datetime
 
