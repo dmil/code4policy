@@ -92,18 +92,14 @@ file| description
 ----|------------
 [opensource.md](opensource.md) | Open Source Readings
 
-<!--
 # Day 5
 file| description
 ----|------------
 [day5.md](day5.md) | Getting Started
 ---| Guest: Open Source (Seamus Kraft)
----| Cryptography, Security & SSH
----| AWS - Dynamic Web Apps in the Cloud
+[encryption.md](encryption.md)| Encryption and Security
 ---| Speaker: Security (Max Whitney)
 [feedback](https://goo.gl/forms/8JnxKPVNomI6T0WH3) | Feedback & Course Evals
-    
--->
 
 ## FINAL PROJECT
 file | description
