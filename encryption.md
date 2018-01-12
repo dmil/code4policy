@@ -115,7 +115,7 @@ Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 4. Encrypt a message with their public key
 
 	```
-	openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f partners-key.pub -m PKCS8) -in secret.key -out secret.key.enc
+	openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f dhrumilskey.pub -m PKCS8) -in secretmessage.txt -out secretmessage.text.enc
 	```
 
 5. Send them the encrypted file, and have them decrypt it with their private key.
