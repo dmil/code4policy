@@ -93,7 +93,6 @@ file| description
 [opensource.md](opensource.md) | Open Source Readings
 
 <!--
-
 # Day 5
 file| description
 ----|------------
@@ -105,8 +104,8 @@ file| description
     
 -->
 
-
 ## FINAL PROJECT
 file | description
 -----|------------
 [projectplanning.md](projectplanning.md) | Planning Document
+[project.md](project.md) | Project overview and Submission Guidelines
