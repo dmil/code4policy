@@ -96,11 +96,12 @@ file| description
 # Day 5
 file| description
 ----|------------
+[day5.md](day5.md) | Getting Started
 ---| Guest: Open Source (Seamus Kraft)
----| AWS - Dynamic Web Apps in the Cloud
 ---| Cryptography, Security & SSH
----| Databases (SQL & NoSQL)
+---| AWS - Dynamic Web Apps in the Cloud
 ---| Speaker: Security (Max Whitney)
+[feedback](https://goo.gl/forms/8JnxKPVNomI6T0WH3) | Feedback & Course Evals
     
 -->
 
