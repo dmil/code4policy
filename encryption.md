@@ -94,31 +94,16 @@ Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 	cd ~/Development/encryption
 	touch secretmessage.txt
 	```
-2. Save your secret message inside `secretmessage.txt` (partners no peeking!)
+2. Save your secret message inside `secretmessage.txt`
+	
+3. Grab Dhrumil's public key from slack's #general channel and save it in your folder.
 
-2. Send your public key to the person sitting next to you on slack.
-	
-	```
-	cat ~/.ssh/id_rsa.pub > keydhrumil.pub
-	```
-	
-	and then send that file to the person sitting next to you. 
-	
-	**Bonus** For the bold:
-	
-	```
-	cat ~/.ssh/id_rsa.pub | slackcat -c scratchwork -n keydhrumil.pub
-	```
-	
-3. Grab your partner's public key from slack and save it in your directory. Change the name of that to `partnerkey.pub`
-
-4. Encrypt a message with their public key
+4. Encrypt a message with Dhrumil's public key
 
 	```
 	openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f dhrumilskey.pub -m PKCS8) -in secretmessage.txt -out secretmessage.text.enc
 	```
-
-5. Send them the encrypted file, and have them decrypt it with their private key.
+5. Send your encrpyted file to Dhrumil on Slack, you can use the #scratchwork channel, a public network. Nobody other than Dhrumil will be able to read it anyway!!!
 
 	```
 	openssl rsautl -decrypt -oaep -inkey ~/.ssh/id_rsa -in message.txt.enc -out decoded.txt
