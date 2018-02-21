@@ -106,3 +106,17 @@ file | description
 -----|------------
 [projectplanning.md](projectplanning.md) | Planning Document
 [project.md](project.md) | Project overview and Submission Guidelines
+
+### Your Projects!
+
+Thanks everyone, hope you enjoyed the course! Here are the websites that your classmates made. The projects aren't meant to be super-polished, but hopefully in the course of learning how to make them you gained some valuable skills, learned how to dive into new technologies, and be scrappy with the tools you have to achieve your aim. A special shoutout to group *A3-Criminal Justice* who I felt did a particularly good job.
+
+A1 - Econ Development - https://adm448.github.io/econdev/
+A2 - Energy Group - https://hpeyronnin.github.io/our-website/
+A3 - Criminal Justice - https://jaw547.github.io/a3-criminal-justice/
+A4 - Flight Delays - https://erinstpeter.github.io/A4-flight-delays/
+
+B1 - Hate Crimes - https://joshfergs.github.io/group-project-website/
+B2 - Economics - https://conorsanchez.github.io/moneybegetsmoremoney-anddebt/
+B3 - Fake News - https://oliver-backes.github.io/our-website/
+B4 - Cyber Attacks - https://irenesolaiman.github.io/b4-project/
