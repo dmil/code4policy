@@ -109,7 +109,7 @@ file | description
 
 ### Your Projects!
 
-Thanks everyone, hope you enjoyed the course! Here are the websites that your classmates made. The projects aren't meant to be super-polished, but hopefully in the course of learning how to make them you gained some valuable skills, learned how to dive into new technologies, and be scrappy with the tools you have to achieve your aim. A special shoutout to group *A3-Criminal Justice* who I felt did a particularly good job.
+Thanks everyone, hope you enjoyed the course! Here are the websites that your classmates made. The projects aren't meant to be super-polished, but hopefully in the course of learning how to make them you gained some valuable skills, learned how to dive into new technologies, and be scrappy with the tools you have to achieve your aim. A special shoutout to group **A3-Criminal Justice** who I felt did a particularly good job.
 
 - A1 - Econ Development - https://adm448.github.io/econdev/
 - A2 - Energy Group - https://hpeyronnin.github.io/our-website/
