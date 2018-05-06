@@ -255,7 +255,7 @@ Notice that Ihsaan's script only gets 20 names of Massatchusetts candidates? Tha
 			candidates.append(candidate)
 		
 		page = page+1
-```
+	```
 
 	
 4. Commit and push this file to github
